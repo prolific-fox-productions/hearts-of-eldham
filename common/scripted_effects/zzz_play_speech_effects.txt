@@ -1,0 +1,2 @@
+##scripted effects to play certain speeches, for easier maintenance
+
