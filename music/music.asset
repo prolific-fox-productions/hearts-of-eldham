@@ -1,0 +1,21 @@
+
+# MAIN THEME
+music = {
+	name = "maintheme"
+	file = "hoi4mainthemeallies.ogg"
+	volume = 0.65
+}
+
+# General Peace:
+music = {
+	name = "general_peace_1"
+	file = "general_peace_heartsofmen.ogg"
+	volume = 0.65
+}
+
+# General war:
+music = {
+	name = "general_war_1"
+	file = "general_war_theattack.ogg"
+	volume = 0.65
+}
