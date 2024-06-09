@@ -1,0 +1,11 @@
+state={
+	id=193
+	name="STATE_184"
+	provinces={
+		1843 1844 1845 1846 1847 1848 1850 1851 1852 1853 1854 1857 1858 
+	}
+	manpower=1
+	state_category=rural
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}
