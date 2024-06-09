@@ -1,0 +1,11 @@
+state={
+	id=44
+	name="STATE_40"
+	provinces={
+		168 173 174 190 191 193 194 201 202 203 204 205 206 
+	}
+	manpower=1
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

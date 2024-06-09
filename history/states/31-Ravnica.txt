@@ -1,0 +1,11 @@
+state={
+	id=31
+	name="STATE_30"
+	provinces={
+		241 242 243 244 245 246 247 248 249 250 251 252 253 254 255 256 257 258 259 260 261 262 263 264 267 5753 5758 
+	}
+	manpower=1
+	state_category=rural
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

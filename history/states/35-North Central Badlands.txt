@@ -1,0 +1,11 @@
+state={
+	id=35
+	name="STATE_35"
+	provinces={
+		77 83 84 85 87 88 89 101 102 103 105 106 107 108 109 110 111 112 113 114 115 5747 5748 
+	}
+	manpower=1
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}
