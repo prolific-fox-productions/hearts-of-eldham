@@ -1,0 +1,16 @@
+continents = {
+	onthukhan
+	serrona
+	south_leifmyrr
+	north_leifmyrr
+	phoros
+	valresh
+	stormgova
+	elastra
+	katsura
+	tetrapolis
+	astos
+	staria
+	arsine
+	misc
+}
