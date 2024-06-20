@@ -1,0 +1,11 @@
+state={
+	id=338
+	name="STATE_338"
+	provinces={
+		3481 3507 3574 3615 3763 3812 4097 4284 4287 4336 4754 4774 4777 4780 
+	}
+	manpower=1
+	state_category=rural
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}
