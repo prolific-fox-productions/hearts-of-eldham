@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 275;radar_station;1888.00;10.35;63.00;3.15;0
 270;radar_station;831.00;9.80;270.00;2.04;0
 269;radar_station;666.00;10.43;157.00;5.65;0
 266;radar_station;133.00;9.88;44.00;3.59;0
-=======
-1;radar_station;1974.00;10.43;1626.00;2.10;0
->>>>>>> parent of d256888 (Fixing buildings 1)
