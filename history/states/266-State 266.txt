@@ -1,12 +1,15 @@
-
 state={
 	id=266
 	name="STATE_266"
 	provinces={
+<<<<<<< HEAD
 		3519 3631 4137 4250 4435 
+=======
+		3453 3519 3631 3730 3946 4137 4250 4408 4435 4570 4574 
+>>>>>>> parent of d256888 (Fixing buildings 1)
 	}
 	manpower=1
-	buildings_max_level_factor=1.000
 	state_category=rural
+	buildings_max_level_factor=1.000
 	local_supplies=0.000
 }
