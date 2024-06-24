@@ -1,6 +1,6 @@
 state={
 	id=80
-	name="STATE_76"
+	name="STATE_80"
 	provinces={
 		992 993 994 995 996 997 998 999 1000 
 	}
