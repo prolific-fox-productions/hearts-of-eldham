@@ -2424,7 +2424,7 @@
 2423;217;252;52;land;false;plains;6
 2424;224;245;151;land;false;plains;6
 2425;221;245;144;land;false;plains;6
-2426;233;199;120;land;true;plains;6
+2426;233;199;120;land;false;plains;6
 2427;221;208;150;land;true;plains;6
 2428;249;70;241;land;false;desert;6
 2429;175;121;210;land;false;desert;6
@@ -2465,7 +2465,7 @@
 2464;130;248;225;land;true;plains;6
 2465;218;141;161;land;false;plains;6
 2466;237;162;110;land;true;plains;6
-2467;196;157;222;land;true;plains;6
+2467;196;157;222;land;false;plains;6
 2468;93;243;200;land;true;plains;6
 2469;186;163;248;land;false;plains;6
 2470;254;46;250;land;true;plains;6
