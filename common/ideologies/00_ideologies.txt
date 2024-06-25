@@ -266,7 +266,7 @@ ideologies = {
 			federal = {
 			}
 
-			bandit = {
+			kleptocracy = {
 			}
 		}
 
@@ -324,7 +324,7 @@ ideologies = {
 			sylfaeism = {
 			}
 
-			other = {
+			other_theocracy = {
 			}
 		}
 
