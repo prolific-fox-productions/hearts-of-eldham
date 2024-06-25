@@ -167,7 +167,7 @@ ideologies = {
 
 	}
 
-	nationalism = {
+	nationalism_ideo = {
 
 		types = {
 
