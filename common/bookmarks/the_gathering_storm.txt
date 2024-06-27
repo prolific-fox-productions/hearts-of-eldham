@@ -9,7 +9,7 @@ bookmarks = {
 		
 		"TST"={
 			history = "FRA_GATHERING_STORM_DESC"
-			ideology = democratic
+			ideology = capitalism
 			ideas = {
 				
 			}

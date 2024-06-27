@@ -1053,27 +1053,27 @@ operation_coup_government = { ### 7 1/70
 			}
 			if = {
 				limit = {
-					PREV.ROOT = { has_government = fascism }
+					PREV.ROOT = { has_government = nationalism_ideo }
 				}
-				fascism > 0.2
+				nationalism_ideo > 0.2
 			}
 			if = {
 				limit = {
-					PREV.ROOT = { has_government = communism }
+					PREV.ROOT = { has_government = socialism }
 				}
-				communism > 0.2
+				socialism > 0.2
 			}
 			if = {
 				limit = {
-					PREV.ROOT = { has_government = democratic }
+					PREV.ROOT = { has_government = capitalism }
 				}
-				democratic > 0.2
+				capitalism > 0.2
 			}
 			if = {
 				limit = {
-					PREV.ROOT = { has_government = neutrality }
+					PREV.ROOT = { has_government = monarchism }
 				}
-				neutrality > 0.2
+				monarchism > 0.2
 			}
 				#set_temp_variable = { coup_ideology@ROOT = PREV.ROOT.current_party_ideology_group }
 				#set_temp_variable = { coup_ideology_popularity@ROOT = party_popularity@ROOT.coup_ideology }

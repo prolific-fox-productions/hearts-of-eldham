@@ -110,8 +110,8 @@ ideas = {
 
 			modifier = {
 				trade_opinion_factor = 0.25
-				democratic_acceptance = -300
-				communism_acceptance = 100
+				capitalism_acceptance = -300
+				socialism_acceptance = 100
 				#custom_modifier_tooltip = SOV_shocked_by_surprise_attack_cant_join_factions_tt
 			}
 		}
@@ -128,7 +128,7 @@ ideas = {
 
 			modifier = {
 				operative_slot = 1
-				communism_acceptance = -15
+				socialism_acceptance = -15
 			}
 		}
 		
@@ -139,7 +139,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = fascism
+				has_government = nationalism_ideo
 			}
 
 			removal_cost = -1
@@ -148,7 +148,7 @@ ideas = {
 
 			
 			modifier = {
-				fascism_drift = 0.1
+				nationalism_ideo_drift = 0.1
 			}
 		}
 		MTG_TEST_NAVAL_IDEA = { #MTG_TODO_GABRIEL: remove before shipping
@@ -176,7 +176,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = communism
+				has_government = socialism
 			}
 
 			removal_cost = -1
@@ -185,7 +185,7 @@ ideas = {
 			
 			modifier = {
 				#justify_war_goal_time = -0.25
-				communism_drift = 0.1
+				socialism_drift = 0.1
 			}
 		}
 
@@ -196,7 +196,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = fascism
+				has_government = nationalism_ideo
 			}
 
 			removal_cost = -1
@@ -204,8 +204,8 @@ ideas = {
 			picture = generic_fascism_drift_bonus
 			
 			modifier = {
-				fascism_drift = 0.1
-				fascism_acceptance = 85
+				nationalism_ideo_drift = 0.1
+				nationalism_ideo_acceptance = 85
 			}
 		}
 		
@@ -217,7 +217,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = communism
+				has_government = socialism
 			}
 
 			removal_cost = -1
@@ -225,8 +225,8 @@ ideas = {
 			picture = generic_communism_drift_bonus
 			
 			modifier = {
-				communism_drift = 0.1
-				communism_acceptance = 85
+				socialism_drift = 0.1
+				socialism_acceptance = 85
 			}
 		}
 		democratic_influence = {
@@ -237,7 +237,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = democratic
+				has_government = capitalism
 			}
 
 			removal_cost = -1
@@ -245,8 +245,8 @@ ideas = {
 			picture = generic_democratic_drift_bonus
 			
 			modifier = {
-				democratic_drift = 0.1
-				democratic_acceptance = 85
+				capitalism_drift = 0.1
+				capitalism_acceptance = 85
 			}
 		}
 		neutrality_influence = {
@@ -255,7 +255,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = neutrality
+				has_government = monarchism
 			}
 
 			removal_cost = -1
@@ -263,8 +263,8 @@ ideas = {
 			picture = generic_pp_unity_bonus
 			
 			modifier = {
-				neutrality_drift = 0.1
-				neutrality_acceptance = 85
+				monarchism_drift = 0.1
+				monarchism_acceptance = 85
 			}
 		}
 
@@ -277,7 +277,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = fascism
+				has_government = nationalism_ideo
 			}
 
 			removal_cost = -1
@@ -285,8 +285,8 @@ ideas = {
 			picture = generic_fascism_drift_bonus
 			
 			modifier = {
-				fascism_drift = 0.1
-				fascism_acceptance = 35
+				nationalism_ideo_drift = 0.1
+				nationalism_ideo_acceptance = 35
 			}
 		}
 		
@@ -298,7 +298,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = communism
+				has_government = socialism
 			}
 
 			removal_cost = -1
@@ -306,8 +306,8 @@ ideas = {
 			picture = generic_communism_drift_bonus
 			
 			modifier = {
-				communism_drift = 0.1
-				communism_acceptance = 35
+				socialism_drift = 0.1
+				socialism_acceptance = 35
 			}
 		}
 
@@ -319,7 +319,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = democratic
+				has_government = capitalism
 			}
 
 			removal_cost = -1
@@ -327,8 +327,8 @@ ideas = {
 			picture = generic_democratic_drift_bonus
 			
 			modifier = {
-				democratic_drift = 0.1
-				democratic_acceptance = 35
+				capitalism_drift = 0.1
+				capitalism_acceptance = 35
 			}
 		}
 
@@ -340,7 +340,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = neutrality
+				has_government = monarchism
 			}
 
 			removal_cost = -1
@@ -348,8 +348,8 @@ ideas = {
 			picture = generic_pp_unity_bonus
 			
 			modifier = {
-				neutrality_drift = 0.1
-				neutrality_acceptance = 35
+				monarchism_drift = 0.1
+				monarchism_acceptance = 35
 			}
 		}
 		
@@ -361,7 +361,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = communism
+				has_government = socialism
 			}
 
 			removal_cost = -1
@@ -369,7 +369,7 @@ ideas = {
 			picture = generic_communism_drift_bonus
 			
 			modifier = {
-				communism_drift = 0.1
+				socialism_drift = 0.1
 			}
 		}
 		# from decision
@@ -381,7 +381,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = communism
+				has_government = socialism
 			}
 
 			removal_cost = -1
@@ -389,7 +389,7 @@ ideas = {
 			picture = generic_communism_drift_bonus
 			
 			modifier = {
-				communism_drift = 0.1
+				socialism_drift = 0.1
 				research_speed_factor = 0.035
 			}
 		}
@@ -401,7 +401,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = fascism
+				has_government = nationalism_ideo
 			}
 
 			removal_cost = -1
@@ -409,7 +409,7 @@ ideas = {
 			picture = generic_fascism_drift_bonus
 			
 			modifier = {
-				fascism_drift = 0.1
+				nationalism_ideo_drift = 0.1
 				experience_gain_army = 0.1
 			}
 		}
@@ -422,7 +422,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = democratic
+				has_government = capitalism
 			}
 
 			removal_cost = -1
@@ -430,7 +430,7 @@ ideas = {
 			picture = generic_democratic_drift_bonus
 			
 			modifier = {
-				democratic_drift = 0.1
+				capitalism_drift = 0.1
 				stability_factor = 0.1
 			}
 		}
@@ -441,7 +441,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = neutrality
+				has_government = monarchism
 			}
 
 			removal_cost = -1
@@ -449,7 +449,7 @@ ideas = {
 			picture = generic_pp_unity_bonus
 			
 			modifier = {
-				neutrality_drift = 0.1
+				monarchism_drift = 0.1
 				mobilization_speed = 0.15
 			}
 		}
@@ -481,7 +481,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = communism
+				has_government = socialism
 			}
 		
 			removal_cost = -1
@@ -489,7 +489,7 @@ ideas = {
 			picture = generic_pp_unity_bonus
 
 			modifier = {
-				democratic_drift = -0.02
+				capitalism_drift = -0.02
 			}
 		}
 	
@@ -501,7 +501,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = democratic
+				has_government = capitalism
 			}
 			
 			removal_cost = -1
@@ -521,7 +521,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = fascism
+				has_government = nationalism_ideo
 			}
 			
 			removal_cost = -1
@@ -543,8 +543,8 @@ ideas = {
 
 			allowed_civil_war = {
 				OR = {
-					has_government = communism
-					has_government = fascism
+					has_government = socialism
+					has_government = nationalism_ideo
 				}
 			}
 			
@@ -566,8 +566,8 @@ ideas = {
 
 			allowed_civil_war = {
 				OR = {
-					has_government = communism
-					has_government = fascism
+					has_government = socialism
+					has_government = nationalism_ideo
 				}
 			}
 			
@@ -589,8 +589,8 @@ ideas = {
 
 			allowed_civil_war = {
 				OR = {
-					has_government = communism
-					has_government = fascism
+					has_government = socialism
+					has_government = nationalism_ideo
 				}
 			}
 			
@@ -637,7 +637,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = communism
+				has_government = socialism
 			}
 			
 			removal_cost = -1
@@ -657,7 +657,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = neutrality
+				has_government = monarchism
 			}
 
 			cancel = {
@@ -782,12 +782,12 @@ ideas = {
 
 			allowed_civil_war = {
 				NOT = {
-					has_government = communism
+					has_government = socialism
 				}
 			}
 
 			modifier = {
-				communism_drift = -0.05
+				socialism_drift = -0.05
 			}
 		}
 
@@ -801,12 +801,12 @@ ideas = {
 
 			allowed_civil_war = {
 				NOT = {
-					has_government = fascism
+					has_government = nationalism_ideo
 				}
 			}
 
 			modifier = {
-				fascism_drift = -0.05
+				nationalism_ideo_drift = -0.05
 			}
 		}
 

@@ -50,8 +50,8 @@ autonomy_state = {
 			limit = { has_dlc = "Death or Dishonor" }
 			NOT = {
 				AND = {
-					OVERLORD = { has_government = fascism } 
-					ROOT = { has_government = fascism } 
+					OVERLORD = { has_government = nationalism_ideo } 
+					ROOT = { has_government = nationalism_ideo } 
 				}
 			}
 			

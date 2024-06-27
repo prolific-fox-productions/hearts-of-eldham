@@ -2,29 +2,29 @@
 is_enemy_ideology = {
 	OR = {
 		AND = {
-			has_government = communism
+			has_government = socialism
 			ROOT = {
 				OR = {
-					has_government = fascism
-					has_government = democratic
+					has_government = nationalism_ideo
+					has_government = capitalism
 				}
 			}
 		}
 		AND = {
-			has_government = democratic
+			has_government = capitalism
 			ROOT = {
 				OR = {
-					has_government = communism
-					has_government = fascism
+					has_government = socialism
+					has_government = nationalism_ideo
 				}
 			}
 		}
 		AND = {
-			has_government = fascism
+			has_government = nationalism_ideo
 			ROOT = {
 				OR = {
-					has_government = democratic
-					has_government = communism
+					has_government = capitalism
+					has_government = socialism
 				}
 			}
 		}

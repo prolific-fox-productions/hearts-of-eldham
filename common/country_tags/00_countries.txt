@@ -1,1 +1,9 @@
 TST = "countries/Test.txt"
+
+ENG = "countries/United Kingdom.txt"
+FRA = "countries/France.txt"
+GER = "countries/Germany.txt"
+ITA = "countries/Italy.txt"
+JAP = "countries/Japan.txt"
+SOV = "countries/Soviet Union.txt"
+USA = "countries/USA.txt"
