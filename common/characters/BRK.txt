@@ -1,0 +1,18 @@
+characters={
+    BRK_zacata_felis={
+        name=BRK_zacata_felis
+        portraits={
+            civilian={
+                #large=
+            }
+        }
+        country_leader={
+            ideology=absolute
+            expire=330.1.1.1
+            id=-1
+            #desc=BRK_zacata_felis_desc
+        }
+    }
+
+    #BRK_
+}

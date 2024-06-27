@@ -1,3 +1,9 @@
+BRK = {
+	color = rgb { 0 140 6 }
+	color_ui = rgb { 0 140 6 }
+
+}
+
 TST = {
 	color = rgb { 57 113 228 }
 	color_ui = rgb { 74 147 255 }

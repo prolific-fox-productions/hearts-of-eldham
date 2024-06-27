@@ -1,0 +1,19 @@
+﻿l_english:
+ 
+
+ BRK_nationalism_ideo:0 "Empire of Great Brenra"
+ BRK_nationalism_ideo_DEF:0 "the Empire of Great Brenra"
+ BRK_nationalism_ideo_ADJ:0 "Brenran"
+ BRK_capitalism:0 "Brenran Republic"
+ BRK_capitalism_DEF:0 "the Brenran Republic"
+ BRK_capitalism_ADJ:0 "Brenran"
+ BRK_monarchism:1 "Kingdom of Brenra"
+ BRK_monarchism_DEF:1 "the Kingdom of Brenra"
+ BRK_monarchism_ADJ:0 "Brenran"
+ BRK_socialism:0 "Socialist Republic of Brenra"
+ BRK_socialism_DEF:0 "the Socialist Republic of Brenra"
+ BRK_socialism_ADJ:0 "Brenran"
+ BRK:0 "Brenra"
+ BRK_DEF:0 "Brenra"
+ BRK_ADJ:0 "Brenran"
+ 
