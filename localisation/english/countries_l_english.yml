@@ -1,5 +1,8 @@
 ﻿l_english:
  
+ TST:0 "Anarchy"
+ TST_DEF:0 "Anarchy"
+ TST_ADJ:0 "Anarchist"
 
  BRK_nationalism_ideo:0 "Empire of Great Brenra"
  BRK_nationalism_ideo_DEF:0 "the Empire of Great Brenra"
