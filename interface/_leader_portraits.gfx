@@ -1,0 +1,10 @@
+spriteTypes = {
+	
+	### BRK
+	## BRK Leaders
+	
+	spriteType = {
+		name = "GFX_portrait_BRK_zacata_felis_large"
+		texturefile = "gfx/leaders/BRK/GFX_large_zacata_felis.dds"
+	}
+}

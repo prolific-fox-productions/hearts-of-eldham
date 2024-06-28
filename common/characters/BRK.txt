@@ -3,7 +3,7 @@ characters={
         name=BRK_zacata_felis
         portraits={
             civilian={
-                #large=
+                large="GFX_portrait_BRK_zacata_felis_large"
             }
         }
         country_leader={

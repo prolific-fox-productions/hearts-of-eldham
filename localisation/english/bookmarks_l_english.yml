@@ -1,0 +1,18 @@
+﻿l_english:
+ BM_HISTORY_TITLE:0 "Brief History"
+ 
+ #The Coming War
+ COMING_WAR_NAME:0 "The Coming War"
+ COMING_WAR_DESC:0 "The world of Eldham has recently reeled back from a great war against the Ellysian Empire, managing to cull some of its land away, lessening the imperialistic impact the nation has. However, this peace will not last for long, as rumours come out of bigotry within this Ellysian Empire, the world now sees that war must come again."
+
+ ##Minors
+ BRK_COMING_WAR_DESC:0 "The Kingdom of Brenra for centuries has laid within its own island, believing itself the last bastion of a destroyed world. However, the recent arrival of their now King Zacata Felis has shown them that there is a world beyond. Now Zacata faces a problem in leadership, he must modernise the nation whilst maintaining the balance in leadership."
+
+ ##Other
+ OTHER_COMING_WAR_DESC:0 "Other nations seek to expand their power, gain money, or otherwise survive in the world that is Eldham, how they may do so will depend on their location, culture, religion and people."
+
+ #Prototype
+ PROTO_NAME:0 "To Be Implemented"
+ PROTO_DESC:0 "To Be Implemented"
+ BRK_PROTO_DESC:0 "To Be Implemented"
+ OTHER_PROTO_DESC:0 "To Be Implemented"

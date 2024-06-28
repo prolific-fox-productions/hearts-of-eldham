@@ -1,0 +1,29 @@
+bookmarks = {
+	bookmark = {
+		name = "COMING_WAR_NAME"
+		desc = "COMING_WAR_DESC"
+		date = 32.9.1.12
+		picture = "GFX_select_date_1936"
+		default_country = "BRK"
+		default = yes
+		
+		"BRK"={
+			history = "BRK_COMING_WAR_DESC"
+			ideology = monarchism
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		"---"={
+			history = "OTHER_COMING_WAR_DESC"
+		}
+		
+		effect = {
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}
