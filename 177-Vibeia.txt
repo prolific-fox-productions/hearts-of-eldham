@@ -1,0 +1,11 @@
+state={
+	id=177
+	name="Vibeia"
+	provinces={
+		1883 1884 1885 1886 1887 1888 1889 1890 1891 1892 1893 1894 1895 1896 1897 1898 1899 1900 1901 1902 1904 1910 1911 1912
+	}
+	manpower=1
+	state_category=rural
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}
