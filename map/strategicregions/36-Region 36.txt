@@ -1,6 +1,6 @@
 strategic_region={
 	id=36
-	name="STRATEGICREGION_32"
+	name="STRATEGICREGION_36"
 	provinces={
 		4960 5030 5058 5310 5338 5349 5436 5478 5562 5567 
 	}
