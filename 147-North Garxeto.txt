@@ -1,0 +1,11 @@
+state={
+	id=147
+	name="North Garxeto"
+	provinces={
+		2817 2818 2819 
+	}
+	manpower=1
+	state_category=rural
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}
