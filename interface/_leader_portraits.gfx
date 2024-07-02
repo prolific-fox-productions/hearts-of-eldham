@@ -7,4 +7,12 @@ spriteTypes = {
 		name = "GFX_portrait_BRK_zacata_felis_large"
 		texturefile = "gfx/leaders/BRK/GFX_large_zacata_felis.dds"
 	}
+
+	### USE
+	## USE Leaders
+
+	spriteType = {
+		name = "GFX_portrait_USE_aboniert_omrnidus_large"
+		texturefile = "gfx/leaders/USE/GFX_large_aboniert_ormnidus.dds"
+	}
 }

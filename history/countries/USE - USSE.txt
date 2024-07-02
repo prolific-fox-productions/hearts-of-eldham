@@ -1,0 +1,23 @@
+﻿capital = 57
+
+#oob =
+set_stability = 0.7
+set_war_support = 0.3
+#Starting Tech
+set_technology = {
+
+}
+
+recruit_character = USE_aboniert_ormnidus
+
+set_politics ={
+    ruling_party = socialism
+	last_election = "30.6.15"
+	election_frequency = 36
+	elections_allowed = no
+}
+
+set_popularities = {
+	nationalism_ideo = 20
+	socialism = 80
+}

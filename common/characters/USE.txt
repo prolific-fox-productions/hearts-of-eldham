@@ -1,0 +1,18 @@
+characters={
+    USE_aboniert_ormnidus={
+        name=USE_aboniert_ormnidus
+        portraits={
+            civilian={
+                large="GFX_portrait_USE_aboniert_ormnidus_large"
+            }
+        }
+        country_leader={
+            ideology=xeroism
+            expire=330.1.1.1
+            id=-1
+            #desc=USE_aboniert_ormnidus_desc
+        }
+    }
+
+    #USE_
+}
