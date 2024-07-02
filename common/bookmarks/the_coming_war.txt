@@ -7,9 +7,21 @@ bookmarks = {
 		default_country = "BRK"
 		default = yes
 		
+		#Majors
+
 		"BRK"={
 			history = "BRK_COMING_WAR_DESC"
 			ideology = monarchism
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		"USE"={
+			history = "USE_COMING_WAR_DESC"
+			ideology = socialism
 			ideas = {
 				
 			}

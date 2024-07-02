@@ -12,7 +12,7 @@ spriteTypes = {
 	## USE Leaders
 
 	spriteType = {
-		name = "GFX_portrait_USE_aboniert_omrnidus_large"
+		name = "GFX_portrait_USE_aboniert_ormnidus_large"
 		texturefile = "gfx/leaders/USE/GFX_large_aboniert_ormnidus.dds"
 	}
 }

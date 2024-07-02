@@ -1,4 +1,6 @@
 ﻿l_english:
+ ##Ideologies
+ 
  socialism:0 "Socialist"
  socialism_noun:0 "Socialism"
  capitalism:0 "Capitalist"
@@ -104,5 +106,29 @@
  sylfaeism_desc:0 "In a Sylfaeist theocracy, the leader of the state is a member of the Sylfaeist clergy."
  other_theocracy:0 "Theocracy"
  other_theocracy_desc:0 "Under a theocracy, the state is ruled by one or more members of a particular religion."
- GER_fascism_party:0 "NSDAP"
- GER_fascism_party_long:0 "Nationalsozialistische Deutsche Arbeiterpartei"
+ 
+ ##Parties
+ 
+ #Brenra
+ BRK_nationalism_ideo_party:0 "PdBaFā"
+ BRK_nationalism_ideo_party_long:0 "Fa'Pàti D'Brekta A'Mà'ā"
+ BRK_socialism_party:0 "PaXdB"
+ BRK_socialism_party_long:0 "Fa'Pàti A'Xonaise D'Brekta"
+ BRK_capitalism_party:0 "PaM"
+ BRK_capitalism_party_long:0 "Fa'Pàti A'Mícul"
+ BRK_monarchism_party:0 "Felis"
+ BRK_monarchism_party_long:0 "Felis D'Mantil A'Hermona"
+ BRK_theocratic_party:0 "San'lenx"
+ BRK_theocratic_party_long:0 "Fa'Sovet D'San'lenx"
+ 
+ #USSE
+ USE_nationalism_ideo_party:0 ""
+ USE_nationalism_ideo_party_long:0 ""
+ USE_socialism_party:0 ""
+ USE_socialism_party_long:0 ""
+ USE_capitalism_party:0 ""
+ USE_capitalism_party_long:0 ""
+ USE_monarchism_party:0 ""
+ USE_monarchism_party_long:0 ""
+ USE_theocratic_party:0 ""
+ USE_theocratic_party_long:0 ""

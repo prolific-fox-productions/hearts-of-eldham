@@ -2,21 +2,11 @@ bookmarks = {
 	bookmark = {
 		name = "PROTO_NAME"
 		desc = "PROTO_DESC"
-		date = 32.9.1.12
+		date = 36.9.1.12
 		picture = "GFX_select_date_1936"
-		default_country = "BRK"
+		default_country = "---"
 		default = yes
 		
-		"BRK"={
-			history = "BRK_PROTO_DESC"
-			ideology = monarchism
-			ideas = {
-				
-			}
-			focuses = {
-				
-			}
-		}
 		"---"={
 			history = "OTHER_PROTO_DESC"
 		}
