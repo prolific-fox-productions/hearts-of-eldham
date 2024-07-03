@@ -8,7 +8,7 @@ set_technology = {
 
 }
 
-recruit_character = USE_aboniert_ormnidus
+recruit_character = USE_leo_belgicus
 
 set_politics ={
     ruling_party = socialism

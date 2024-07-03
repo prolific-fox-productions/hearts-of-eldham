@@ -10,7 +10,8 @@ state={
 
 	history={
 		owner = USE
-		#victory_points = { 1 2 }
+		victory_points = { 688 20 }
+		victory_points = { 695 20 }
 		#buildings = {}
 		add_core_of = USE
 	}

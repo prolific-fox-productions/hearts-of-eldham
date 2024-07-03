@@ -1,4 +1,4 @@
-﻿capital = 5
+﻿capital = 194
 
 #oob =
 set_stability = 0.8

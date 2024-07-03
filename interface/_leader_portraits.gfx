@@ -36,7 +36,7 @@ spriteTypes = {
 	## USE Leaders
 
 	spriteType = {
-		name = "GFX_portrait_USE_aboniert_ormnidus_large"
-		texturefile = "gfx/leaders/USE/GFX_large_aboniert_ormnidus.dds"
+		name = "GFX_portrait_USE_leo_belgicus_large"
+		texturefile = "gfx/leaders/USE/GFX_large_leo_belgicus.dds"
 	}
 }

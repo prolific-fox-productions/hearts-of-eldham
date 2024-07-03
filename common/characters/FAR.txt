@@ -14,5 +14,5 @@ characters={
         }
     }
 
-    #USE_
+    #FAR_
 }

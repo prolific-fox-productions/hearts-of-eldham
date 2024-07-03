@@ -1,16 +1,16 @@
 characters={
-    USE_aboniert_ormnidus={
-        name=USE_aboniert_ormnidus
+    USE_leo_belgicus={
+        name=USE_leo_belgicus
         portraits={
             civilian={
-                large="GFX_portrait_USE_aboniert_ormnidus_large"
+                large="GFX_portrait_USE_leo_belgicus_large"
             }
         }
         country_leader={
             ideology=xeroism
             expire=330.1.1.1
             id=-1
-            #desc=USE_aboniert_ormnidus_desc
+            #desc=USE_leo_belgicus_desc
         }
     }
 

@@ -6,12 +6,13 @@
  COMING_WAR_DESC:0 "The world of Eldham has recently reeled back from a great war against the Ellysian Empire, managing to cull some of its land away, lessening the imperialistic impact the nation has. However, this peace will not last for long, as rumours come out of bigotry within this Ellysian Empire, the world now sees that war must come again."
  
  ##Majors
- USE_COMING_WAR_DESC:0 ""
+ USE_COMING_WAR_DESC:0 "The United Socialist States of Eldham though founded recently sw itself has a sizeable population and large piece of land in the south-east of Eldham. With the recent death of Aboniert Ormnidus, Leo Belgicus came out on top following a brief sucession crisis and must now face rising tensions between the USSE and the northern nation of Ellysia."
  ELY_COMING_WAR_DESC:0 ""
  
  ##Minors
  BRK_COMING_WAR_DESC:0 "The Kingdom of Brenra for centuries has laid within its own island, believing itself the last bastion of a destroyed world. However, the recent arrival of their now King Zacata Felis has shown them that there is a world beyond. Now Zacata faces a problem in leadership, he must modernise the nation whilst maintaining the balance in leadership."
  RAZ_COMING_WAR_DESC:0 ""
+ FAR_COMING_WAR_DESC:0 ""
 
  ##Other
  OTHER_COMING_WAR_DESC:0 "Other nations seek to expand their power, gain money, or otherwise survive in the world that is Eldham, how they may do so will depend on their location, culture, religion and people."

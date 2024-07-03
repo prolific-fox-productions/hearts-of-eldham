@@ -29,6 +29,16 @@ bookmarks = {
 				
 			}
 		}
+		"FAR"={
+			history = "FAR_COMING_WAR_DESC"
+			ideology = monarchism
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
 		"RAZ"={
 			history = "RAZ_COMING_WAR_DESC"
 			ideology = monarchism
