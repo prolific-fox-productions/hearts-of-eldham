@@ -25,6 +25,27 @@
  BRK_DEF:0 "Brenra"
  BRK_ADJ:0 "Brenran"
  
+ #Razuni
+ 
+ RAZ_nationalism_ideo:0 "Razuni Empire"
+ RAZ_nationalism_ideo_DEF:0 "the Razuni Empire"
+ RAZ_nationalism_ideo_ADJ:0 "Razuni"
+ RAZ_capitalism:0 "Razuni Republic"
+ RAZ_capitalism_DEF:0 "the Razuni Republic"
+ RAZ_capitalism_ADJ:0 "Razuni"
+ RAZ_monarchism:0 "Razuni Sultanate"
+ RAZ_monarchism_DEF:0 "the Razuni Sultanate"
+ RAZ_monarchism_ADJ:0 "Razuni"
+ RAZ_socialism:0 "Democratic Razuni Republic"
+ RAZ_socialism_DEF:0 "the Democratic Razuni Republic"
+ RAZ_socialism_ADJ:0 "Razuni"
+ RAZ_theocratic:0 "Salranist Sultanate of Razuni"
+ RAZ_theocratic_DEF:0 "the Salranist Sultanate of Razuni"
+ RAZ_theocratic_ADJ:0 "Razuni"
+ RAZ:0 "Razuni"
+ RAZ_DEF:0 "Razuni"
+ RAZ_ADJ:0 "Razuni"
+ 
  #USSE
  
  USE_nationalism_ideo:0 "Lausán Empire"

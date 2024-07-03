@@ -19,6 +19,16 @@ bookmarks = {
 				
 			}
 		}
+		"RAZ"={
+			history = "RAZ_COMING_WAR_DESC"
+			ideology = monarchism
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
 		"USE"={
 			history = "USE_COMING_WAR_DESC"
 			ideology = socialism

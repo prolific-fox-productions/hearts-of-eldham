@@ -1,0 +1,24 @@
+﻿capital = 5
+
+#oob =
+set_stability = 0.7
+set_war_support = 0.5
+#Starting Tech
+set_technology = {
+
+}
+
+recruit_character = RAZ_bashar_razud
+
+set_politics ={
+    ruling_party = monarchism
+	last_election = "30.1.1"
+	election_frequency = 36
+	elections_allowed = no
+}
+
+set_popularities = {
+	capitalism = 10
+	theocratic = 10
+    monarchism = 80
+}

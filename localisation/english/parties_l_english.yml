@@ -121,6 +121,19 @@
  BRK_theocratic_party:0 "San'lenx"
  BRK_theocratic_party_long:0 "Fa'Sovet D'San'lenx"
  
+ #Razuni
+ 
+ RAZ_nationalism_ideo_party:0 "?ON"
+ RAZ_nationalism_ideo_party_long:0 "?'s One Nation Party"
+ RAZ_socialism_party:0 "ASPR"
+ RAZ_socialism_party_long:0 "Alaina's Socialist Party of Razuni"
+ RAZ_capitalism_party:0 "BKB"
+ RAZ_capitalism_party_long:0 "The Big Kahuna Burger"
+ RAZ_monarchism_party:0 "Razud"
+ RAZ_monarchism_party_long:0 "The Razud Royal Family"
+ RAZ_theocratic_party:0 "The Marked"
+ RAZ_theocratic_party_long:0 "The Court of the Marked"
+ 
  #USSE
  USE_nationalism_ideo_party:0 ""
  USE_nationalism_ideo_party_long:0 ""

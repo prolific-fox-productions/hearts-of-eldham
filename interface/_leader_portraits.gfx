@@ -8,6 +8,14 @@ spriteTypes = {
 		texturefile = "gfx/leaders/BRK/GFX_large_zacata_felis.dds"
 	}
 
+	###RAZ
+	## RAZ Leaders
+
+	spriteType = {
+		name = "GFX_portrait_RAZ_bashar_razud_large"
+		texturefile = "gfx/leaders/RAZ/GFX_large_bashar_razud.dds"
+	}
+
 	### USE
 	## USE Leaders
 

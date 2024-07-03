@@ -1,0 +1,18 @@
+characters={
+    RAZ_bashar_razud={
+        name=RAZ_bashar_razud
+        portraits={
+            civilian={
+                large="GFX_portrait_RAZ_bashar_razud_large"
+            }
+        }
+        country_leader={
+            ideology=absolute
+            expire=330.1.1.1
+            id=-1
+            #desc=RAZ_bashar_razud_desc
+        }
+    }
+
+    #RAZ_
+}
