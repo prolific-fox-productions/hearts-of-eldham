@@ -16,6 +16,14 @@ spriteTypes = {
 		texturefile = "gfx/leaders/ELY/GFX_large_thas_ellas.dds"
 	}
 
+	###FAR
+	## FAR Leaders
+
+	spriteType = {
+		name = "GFX_portrait_FAR_tatsumi_large"
+		texturefile = "gfx/leaders/FAR/GFX_large_tatsumi.dds"
+	}
+
 	###RAZ
 	## RAZ Leaders
 

@@ -1,0 +1,18 @@
+characters={
+    FAR_tatsumi={
+        name=FAR_tatsumi
+        portraits={
+            civilian={
+                large="GFX_portrait_FAR_tatsumi_large"
+            }
+        }
+        country_leader={
+            ideology=constitutional
+            expire=330.1.1.1
+            id=-1
+            #desc=FAR_tatsumi_desc
+        }
+    }
+
+    #USE_
+}

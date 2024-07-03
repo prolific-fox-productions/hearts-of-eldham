@@ -46,6 +46,27 @@
  ELY_DEF:0 "Ellysia"
  ELY_ADJ:0 "Ellysian"
  
+ #Farencia-Bellum
+ 
+ FAR_nationalism_ideo:0 ""
+ FAR_nationalism_ideo_DEF:0 ""
+ FAR_nationalism_ideo_ADJ:0 ""
+ FAR_capitalism:0 ""
+ FAR_capitalism_DEF:0 ""
+ FAR_capitalism_ADJ:0 ""
+ FAR_monarchism:0 "Kingdom of Farencia-Bellum"
+ FAR_monarchism_DEF:0 "the Kingdom of Farencia-Bellum"
+ FAR_monarchism_ADJ:0 "Farencian"
+ FAR_socialism:0 ""
+ FAR_socialism_DEF:0 ""
+ FAR_socialism_ADJ:0 ""
+ FAR_theocratic:0 ""
+ FAR_theocratic_DEF:0 ""
+ FAR_theocratic_ADJ:0 ""
+ FAR:0 "Farencia-Bellum"
+ FAR_DEF:0 "Farencia-Bellum"
+ FAR_ADJ:0 "Farencian"
+ 
  #Razuni
  
  RAZ_nationalism_ideo:0 "Razuni Empire"

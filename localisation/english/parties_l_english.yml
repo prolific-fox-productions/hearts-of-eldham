@@ -150,8 +150,8 @@
  #USSE
  USE_nationalism_ideo_party:0 ""
  USE_nationalism_ideo_party_long:0 ""
- USE_socialism_party:0 ""
- USE_socialism_party_long:0 ""
+ USE_socialism_party:0 "CPUSSE"
+ USE_socialism_party_long:0 "Communist Party of the United Socialist States of Eldham"
  USE_capitalism_party:0 ""
  USE_capitalism_party_long:0 ""
  USE_monarchism_party:0 ""
