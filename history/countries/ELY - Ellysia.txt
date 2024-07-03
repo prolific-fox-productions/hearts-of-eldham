@@ -1,0 +1,23 @@
+capital = 220
+
+#oob =
+set_stability = 0.5
+set_war_support = 0.2
+#Starting Tech
+set_technology = {
+
+}
+
+recruit_character = ELY_thas_ellas
+
+set_politics ={
+    ruling_party = monarchism
+	last_election = "30.1.1"
+	election_frequency = 36
+	elections_allowed = no
+}
+
+set_popularities = {
+	monarchism = 80
+    nationalism_ideo = 20
+}

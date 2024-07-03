@@ -121,6 +121,19 @@
  BRK_theocratic_party:0 "San'lenx"
  BRK_theocratic_party_long:0 "Fa'Sovet D'San'lenx"
  
+ #Ellysian
+
+ ELY_nationalism_ideo_party:0 "RE"
+ ELY_nationalism_ideo_party_long:0 "Radical Ellysians"
+ ELY_socialism_party:0 ""
+ ELY_socialism_party_long:0 ""
+ ELY_capitalism_party:0 ""
+ ELY_capitalism_party_long:0 ""
+ ELY_monarchism_party:0 "Ellas"
+ ELY_monarchism_party_long:0 "House Ellas"
+ ELY_theocratic_party:0 ""
+ ELY_theocratic_party_long:0 ""
+ 
  #Razuni
  
  RAZ_nationalism_ideo_party:0 "?ON"

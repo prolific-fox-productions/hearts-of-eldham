@@ -1,0 +1,18 @@
+characters={
+    ELY_thas_ellas={
+        name=ELY_thas_ellas
+        portraits={
+            civilian={
+                large="GFX_portrait_ELY_thas_ellas_large"
+            }
+        }
+        country_leader={
+            ideology=constitutional
+            expire=330.1.1.1
+            id=-1
+            #desc=ELY_thas_ellas_desc
+        }
+    }
+
+    #ELY_
+}

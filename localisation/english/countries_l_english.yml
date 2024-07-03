@@ -25,6 +25,27 @@
  BRK_DEF:0 "Brenra"
  BRK_ADJ:0 "Brenran"
  
+ #Ellysian
+ 
+ ELY_nationalism_ideo:0 "Greater Ellysian Empire"
+ ELY_nationalism_ideo_DEF:0 "the Greater Ellysian Empire"
+ ELY_nationalism_ideo_ADJ:0 "Ellysian"
+ ELY_capitalism:0 "Ellysian Republic"
+ ELY_capitalism_DEF:0 "the Ellysian Republic"
+ ELY_capitalism_ADJ:0 "Ellysian"
+ ELY_monarchism:0 "Ellysian Empire"
+ ELY_monarchism_DEF:0 "the Ellysian Empire"
+ ELY_monarchism_ADJ:0 "Ellysian"
+ ELY_socialism:0 "Socialist Republics of Valresh"
+ ELY_socialism_DEF:0 "the Socialist Republics of Valresh"
+ ELY_socialism_ADJ:0 "Valreshi"
+ ELY_theocratic:0 "Holy Ellysian Empire"
+ ELY_theocratic_DEF:0 "the Holy Ellysian Empire"
+ ELY_theocratic_ADJ:0 "Ellysian"
+ ELY:0 "Ellysia"
+ ELY_DEF:0 "Ellysia"
+ ELY_ADJ:0 "Ellysian"
+ 
  #Razuni
  
  RAZ_nationalism_ideo:0 "Razuni Empire"

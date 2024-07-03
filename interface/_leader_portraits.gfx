@@ -8,6 +8,14 @@ spriteTypes = {
 		texturefile = "gfx/leaders/BRK/GFX_large_zacata_felis.dds"
 	}
 
+	### ELY
+	## ELY Leaders
+
+	spriteType = {
+		name = "GFX_portrait_ELY_thas_ellas_large"
+		texturefile = "gfx/leaders/ELY/GFX_large_thas_ellas.dds"
+	}
+
 	###RAZ
 	## RAZ Leaders
 

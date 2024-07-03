@@ -4,6 +4,11 @@ BRK = {
 
 }
 
+ELY = {
+	color = rgb { 153 0 204 }
+	color_ui = rgb { 153 0 204 }
+}
+
 RAZ = {
 	color = rgb { 255 251 18 }
 	color_ui = { 255 253 140 }

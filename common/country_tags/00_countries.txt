@@ -1,4 +1,5 @@
 BRK = "countries/Brenra.txt"
+ELY = "countries/Ellysia.txt"
 RAZ = "countries/Razuni.txt"
 USE = "countries/USSE.txt"
 
