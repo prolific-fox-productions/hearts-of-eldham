@@ -3,6 +3,7 @@ ELY = "countries/Ellysia.txt"
 FAR = "countries/Farencia-Bellum.txt"
 RAZ = "countries/Razuni.txt"
 USE = "countries/USSE.txt"
+XEK = "countries/Xeka.txt"
 
 TST = "countries/Test.txt"
 

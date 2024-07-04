@@ -39,4 +39,12 @@ spriteTypes = {
 		name = "GFX_portrait_USE_leo_belgicus_large"
 		texturefile = "gfx/leaders/USE/GFX_large_leo_belgicus.dds"
 	}
+
+	### XEK
+	## XEK Leaders
+
+	spriteType = {
+		name = "GFX_portrait_XEK_diamond_nugget_large"
+		texturefile = "gfx/leaders/XEK/GFX_large_diamond_nugget.dds"
+	}
 }

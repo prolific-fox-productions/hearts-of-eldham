@@ -158,3 +158,15 @@
  USE_monarchism_party_long:0 ""
  USE_theocratic_party:0 ""
  USE_theocratic_party_long:0 ""
+ 
+ #Xeka
+ XEK_nationalism_ideo_party:0 ""
+ XEK_nationalism_ideo_party_long:0 ""
+ XEK_socialism_party:0 ""
+ XEK_socialism_party_long:0 ""
+ XEK_capitalism_party:0 ""
+ XEK_capitalism_party_long:0 ""
+ XEK_monarchism_party:0 "XCA"
+ XEK_monarchism_party_long:0 "Xekan Colonial Autarchy"
+ XEK_theocratic_party:0 ""
+ XEK_theocratic_party_long:0 ""

@@ -59,6 +59,16 @@ bookmarks = {
 				
 			}
 		}
+		"XEK"={
+			history = "XEK_COMING_WAR_DESC"
+			ideology = monarchism
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
 		"---"={
 			history = "OTHER_COMING_WAR_DESC"
 		}

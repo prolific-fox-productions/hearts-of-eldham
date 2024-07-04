@@ -1,0 +1,22 @@
+capital = 2
+
+#oob =
+set_stability = 0.7
+set_war_support = 0.3
+#Starting Tech
+set_technology = {
+
+}
+
+recruit_character = XEK_diamond_nugget
+
+set_politics ={
+    ruling_party = monarchism
+	last_election = "30.1.1"
+	election_frequency = 36
+	elections_allowed = no
+}
+
+set_popularities = {
+	monarchism = 100
+}

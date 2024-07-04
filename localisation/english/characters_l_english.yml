@@ -13,3 +13,6 @@
 
  USE_leo_belgicus:0 "Leo Belgicus"
  #USE_leo_belgicus_desc:0 ""
+ 
+ XEK_diamond_nugget:0 "DiamondNugget"
+ #XEK_diamond_nugget_desc:0 ""

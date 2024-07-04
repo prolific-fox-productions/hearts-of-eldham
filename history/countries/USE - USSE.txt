@@ -12,8 +12,8 @@ recruit_character = USE_leo_belgicus
 
 set_politics ={
     ruling_party = socialism
-	last_election = "30.6.15"
-	election_frequency = 36
+	last_election = "30.6.1"
+	election_frequency = 126
 	elections_allowed = no
 }
 

@@ -7,12 +7,13 @@
  
  ##Majors
  USE_COMING_WAR_DESC:0 "The United Socialist States of Eldham though founded recently sw itself has a sizeable population and large piece of land in the south-east of Eldham. With the recent death of Aboniert Ormnidus, Leo Belgicus came out on top following a brief sucession crisis and must now face rising tensions between the USSE and the northern nation of Ellysia."
- ELY_COMING_WAR_DESC:0 ""
+ ELY_COMING_WAR_DESC:0 "The Ellysian Empire as it stands reels back from the First Coalition-Ellysian War, which had resulted in its isolation to the north-east of Eldham. However though, shocking that first Coalition, the Empire stood merely bruised in ego and reputation, as it remains the single largest nation on Eldham. But that soon will change."
  
  ##Minors
  BRK_COMING_WAR_DESC:0 "The Kingdom of Brenra for centuries has laid within its own island, believing itself the last bastion of a destroyed world. However, the recent arrival of their now King Zacata Felis has shown them that there is a world beyond. Now Zacata faces a problem in leadership, he must modernise the nation whilst maintaining the balance in leadership."
- RAZ_COMING_WAR_DESC:0 ""
- FAR_COMING_WAR_DESC:0 ""
+ RAZ_COMING_WAR_DESC:0 "It was only a few years that the Razuni Sultanate was given its second Sultan by the name of Bashar Razud, and even more recent that they had acquired their native religion of Salranism. This sultanate however wishes still to claim itself a grand nation, even if not by conquest, then by culture."
+ FAR_COMING_WAR_DESC:0 "The Kingdom of Farencia-Bellum was trapped, with the defeat of Ellysia in the First Coalition-Ellysian War, the Empire had moved to surround Farencia-Bellum, locking the Farencians in the mountains around Vultas. The Kingdom thus was poised to liberate itself from this forced surrounding of lands, and would take the first chance it had to do so."
+ XEK_COMING_WAR_DESC:0 ""
 
  ##Other
  OTHER_COMING_WAR_DESC:0 "Other nations seek to expand their power, gain money, or otherwise survive in the world that is Eldham, how they may do so will depend on their location, culture, religion and people."
