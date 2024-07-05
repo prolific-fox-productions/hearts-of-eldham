@@ -9,10 +9,10 @@ state={
 	buildings_max_level_factor=1.000
 
 	history={
-		owner = TST
+		owner = RAV
 		#victory_points = { 1 2 }
 		#buildings = {}
-		add_core_of = TST
+		add_core_of = RAV
 	}
 	
 	local_supplies=0.000

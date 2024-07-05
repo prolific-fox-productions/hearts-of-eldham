@@ -9,10 +9,10 @@ state={
 	state_category=city
 
 	history={
-		owner = TST
+		owner = RAV
 		victory_points = { 296 30 }
 		#buildings = {}
-		add_core_of = TST
+		add_core_of = RAV
 	}
 	
 	local_supplies=0.000

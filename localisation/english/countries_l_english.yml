@@ -67,6 +67,27 @@
  FAR_DEF:0 "Farencia-Bellum"
  FAR_ADJ:0 "Farencian"
  
+ #Ravnica
+ 
+ RAV_nationalism_ideo:0 "Ravnican Empire"
+ RAV_nationalism_ideo_DEF:0 "the Ravnican Empire"
+ RAV_nationalism_ideo_ADJ:0 "Ravnican"
+ RAV_capitalism:0 "Ravnican Republic"
+ RAV_capitalism_DEF:0 "the Ravnican Republic"
+ RAV_capitalism_ADJ:0 "Ravnican"
+ RAV_monarchism:0 "Ravnican Kingdom"
+ RAV_monarchism_DEF:0 "the Ravnican Kingdom"
+ RAV_monarchism_ADJ:0 "Ravnican"
+ RAV_socialism:0 "Ravnican Socialist State"
+ RAV_socialism_DEF:0 "the Ravnican Socialist State"
+ RAV_socialism_ADJ:0 "Ravnican"
+ RAV_theocratic:0 "Holy Ravnica"
+ RAV_theocratic_DEF:0 "Holy Ravnica"
+ RAV_theocratic_ADJ:0 "Ravnican"
+ RAV:0 "Ravnica"
+ RAV_DEF:0 "Ravnica"
+ RAV_ADJ:0 "Ravnican"
+ 
  #Razuni
  
  RAZ_nationalism_ideo:0 "Razuni Empire"
