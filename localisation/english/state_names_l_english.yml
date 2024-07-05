@@ -86,7 +86,7 @@
  STATE_85:0 "East Birdlin"
  STATE_86:0 "South Sabinko"
  STATE_87:0 "East Zatokza"
- STATE_88:0 "West Birdlin"
+ STATE_88:0 "Nordstad"
  STATE_89:0 "Kalnasia"
  STATE_90:0 "North Kjarrlands"
  STATE_91:0 "West Vobaku"
@@ -107,6 +107,7 @@
  STATE_106:0 "New Crosotex"
  STATE_107:0 "Sotan"
  
+ STATE_109:0 "Bwai Airo"
  STATE_110:0 "Srodlas"
  STATE_111:0 "North Vatka"
  STATE_112:0 "Vinoxinda"
