@@ -1,0 +1,19 @@
+state={
+	id=55
+	name="STATE_55"
+	provinces={
+		662 663 664 665 666 667 668 669 5782 
+	}
+	manpower=1
+	state_category=rural
+	buildings_max_level_factor=1.000
+
+	history={
+		owner = USE
+		victory_points = { 666 20 }
+		#buildings = {}
+		add_core_of = USE
+	}
+	
+	local_supplies=0.000
+}

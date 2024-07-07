@@ -1,0 +1,19 @@
+
+state={
+	id=119
+	name="STATE_119"
+
+	history={
+		owner = USE
+		add_core_of = USE
+
+	}
+
+	provinces={
+		1018 1019 1020 1021 1022 1023 1024 1025 1026 1027 1034 1042 1043 1044 1045 1046 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

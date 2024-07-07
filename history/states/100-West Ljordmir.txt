@@ -1,0 +1,19 @@
+state={
+	id=100
+	name="STATE_100"
+	provinces={
+		806 807 808 809 810 811 812 813 818 819 820 821 822 823 824 
+	}
+	manpower=1
+	state_category=rural
+	buildings_max_level_factor=1.000
+
+	history={
+		owner = USE
+		#victory_points = { 1 2 }
+		#buildings = {}
+		add_core_of = USE
+	}
+	
+	local_supplies=0.000
+}

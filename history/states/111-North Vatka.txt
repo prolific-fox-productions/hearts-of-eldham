@@ -1,0 +1,19 @@
+state={
+	id=111
+	name="STATE_111"
+	provinces={
+		1409 1410 1411 1412 1413 1414 1415 1416 1417 1418 1419 1420 1421 1422 1423 1424 1432 1433 1434 5768 
+	}
+	manpower=1
+	state_category=rural
+	buildings_max_level_factor=1.000
+
+	history={
+		owner = XEK
+		#victory_points = { 1 2 }
+		#buildings = {}
+		add_core_of = XEK
+	}
+	
+	local_supplies=0.000
+}

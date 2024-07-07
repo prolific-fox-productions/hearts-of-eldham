@@ -1,0 +1,19 @@
+state={
+	id=157
+	name="STATE_157"
+	provinces={
+		2906 2907 2908 2909 2910 
+	}
+	manpower=1
+	state_category=rural
+	buildings_max_level_factor=1.000
+
+	history={
+		owner = ELY
+		#victory_points = { 1 2 }
+		#buildings = {}
+		add_core_of = ELY
+	}
+	
+	local_supplies=0.000
+}

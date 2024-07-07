@@ -1,0 +1,20 @@
+state={
+	id=76
+	name="STATE_76"
+	provinces={
+		684 685 687 688 689 690 691 692 693 694 695 696 698 699 700 701 702 5780 
+	}
+	manpower=1
+	state_category=rural
+	buildings_max_level_factor=1.000
+
+	history={
+		owner = USE
+		victory_points = { 688 20 }
+		victory_points = { 695 20 }
+		#buildings = {}
+		add_core_of = USE
+	}
+	
+	local_supplies=0.000
+}

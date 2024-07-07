@@ -114,7 +114,6 @@
  STATE_113:0 "East Granaxi"
  STATE_114:0 "Liberum"
  STATE_115:0 "Amicitia"
- 
  STATE_116:0 "West Granaxi"
  STATE_117:0 "Vatka"
  STATE_118:0 "Krasomar"
@@ -149,17 +148,23 @@
  STATE_157:0 "West Pancioni"
  STATE_158:0 "Altryae"
  STATE_159:0 "Kiel's Landing"
+ 
  STATE_161:0 "Pancioni Highlands"
+ 
  STATE_170:0 "South Korosochev"
  STATE_171:0 "North Korosochev"
+ 
  STATE_175:0 "Faria"
+ 
  STATE_177:0 "Vibeia"
  STATE_178:0 "Akarechi"
  STATE_179:0 "Salisbury"
  STATE_180:0 "West Akarechi"
+ 
  STATE_192:0 "North Curu"
  STATE_193:0 "North Stultum"
  STATE_194:0 "Farencia"
+ 
  STATE_206:0 "Majulah"
  
  STATE_273:0 "Dejuria"
