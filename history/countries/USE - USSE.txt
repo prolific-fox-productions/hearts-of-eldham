@@ -9,6 +9,8 @@ set_technology = {
 }
 
 recruit_character = USE_leo_belgicus
+recruit_character = USE_egor_tsukanov
+recruit_character = USE_henrich_pierre
 
 set_politics ={
     ruling_party = socialism

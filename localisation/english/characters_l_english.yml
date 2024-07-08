@@ -13,6 +13,10 @@
 
  USE_leo_belgicus:0 "Leo Belgicus"
  #USE_leo_belgicus_desc:0 ""
+ USE_egor_tsukanov:0 "Egór Tsukanov"
+ #USE_egor_tsukanov_desc:0 ""
+ USE_henrich_pierre:0 "Henrich B Pierre"
+ #USE_henrich_pierre_desc:0 ""
  
  XEK_diamond_nugget:0 "DiamondNugget"
  #XEK_diamond_nugget_desc:0 ""

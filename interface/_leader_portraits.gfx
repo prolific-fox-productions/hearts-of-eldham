@@ -40,6 +40,16 @@ spriteTypes = {
 		texturefile = "gfx/leaders/USE/GFX_large_leo_belgicus.dds"
 	}
 
+	spriteType = {
+		name = "GFX_portrait_USE_egor_tsukanov_large"
+		texturefile = "gfx/leaders/USE/GFX_large_egor_tsukanov.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_USE_henrich_pierre_large"
+		texturefile = "gfx/leaders/USE/GFX_large_henrich_pierre.dds"
+	}
+
 	### XEK
 	## XEK Leaders
 

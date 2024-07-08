@@ -14,5 +14,33 @@ characters={
         }
     }
 
-    #USE_
+    USE_egor_tsukanov={
+        name=USE_egor_tsukanov
+        portraits={
+            civilian={
+                large=GFX_portrait_USE_egor_tsukanov_large
+            }
+        }
+        country_leader={
+            ideology=liberalism
+            expire=330.1.1.1
+            id=-1
+            #desc=USE_egor_tsukanov_desc
+        }
+    }
+
+    USE_henrich_pierre={
+        name=USE_henrich_pierre
+        portraits={
+            civilian={
+                large=GFX_portrait_USE_henrich_pierre_large
+            }
+        }
+        country_leader={
+            ideology=anti-imperialist
+            expire=330.1.1.1
+            id=-1
+            #desc=USE_henrich_pierre_desc
+        }
+    }
 }
