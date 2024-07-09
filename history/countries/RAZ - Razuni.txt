@@ -9,6 +9,7 @@ set_technology = {
 }
 
 recruit_character = RAZ_bashar_razud
+recruit_character = RAZ_alaina_arianhrod
 
 set_politics ={
     ruling_party = monarchism

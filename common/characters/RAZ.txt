@@ -14,5 +14,18 @@ characters={
         }
     }
 
-    #RAZ_
+    RAZ_alaina_arianhrod={
+        name=RAZ_alaina_arianhrod
+        portraits={
+            civilian={
+                large="GFX_portrait_RAZ_alaina_arianhrod_large"
+            }
+        }
+        country_leader={
+            ideology=xeroism
+            expire=330.1.1.1
+            id=-1
+            #desc=RAZ_alaina_arianhrod_desc
+        }
+    }
 }

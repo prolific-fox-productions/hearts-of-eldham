@@ -10,7 +10,7 @@ state={
 
 	history={
 		owner = ELY
-		#victory_points = { 1 2 }
+		victory_points = { 2264 30 }
 		#buildings = {}
 		add_core_of = ELY
 	}

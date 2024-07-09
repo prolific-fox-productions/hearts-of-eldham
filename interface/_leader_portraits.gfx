@@ -32,6 +32,11 @@ spriteTypes = {
 		texturefile = "gfx/leaders/RAZ/GFX_large_bashar_razud.dds"
 	}
 
+	spriteType = {
+		name = "GFX_portrait_RAZ_alaina_arianhrod_large"
+		texturefile = "gfx/leaders/RAZ/GFX_large_alaina_arianhrod.dds"
+	}
+
 	### USE
 	## USE Leaders
 
