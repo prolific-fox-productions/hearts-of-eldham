@@ -14,5 +14,18 @@ characters={
         }
     }
 
-    #BRK_
+    BRK_proph_zacata_felis={
+        name=BRK_zacata_felis
+        portraits={
+            civilian={
+                large="GFX_portrait_BRK_zacata_felis_large"
+            }
+        }
+        country_leader={
+            ideology=floristanism
+            expire=330.1.1.1
+            id=-1
+            #desc=BRK_proph_zacata_felis_desc
+        }
+    }
 }

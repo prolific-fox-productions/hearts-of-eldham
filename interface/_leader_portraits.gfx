@@ -37,6 +37,16 @@ spriteTypes = {
 		texturefile = "gfx/leaders/RAZ/GFX_large_alaina_arianhrod.dds"
 	}
 
+	spriteType = {
+		name = "GFX_portrait_RAZ_kahuna_bacardi_large"
+		texturefile = "gfx/leaders/RAZ/GFX_large_kahuna_bacardi.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_RAZ_saya-orin_kollisyaid_large"
+		texturefile = "gfx/leaders/RAZ/GFX_large_saya-orin_kollisyaid.dds"
+	}
+
 	### USE
 	## USE Leaders
 

@@ -28,4 +28,34 @@ characters={
             #desc=RAZ_alaina_arianhrod_desc
         }
     }
+
+    RAZ_kahuna_bacardi={
+        name=RAZ_kahuna_bacardi
+        portraits={
+            civilian={
+                large="GFX_portrait_RAZ_kahuna_bacardi_large"
+            }
+        }
+        country_leader={
+            ideology=mercantilism
+            expire=330.1.1.1
+            id=-1
+            #desc=RAZ_kahuna_bacardi_desc
+        }
+    }
+
+    RAZ_saya-orin_kollisyaid={
+        name=RAZ_saya-orin_kollisyaid
+        portraits={
+            civilian={
+                large="GFX_portrait_RAZ_saya-orin_kollisyaid_large"
+            }
+        }
+        country_leader={
+            ideology=salranism
+            expire=330.1.1.1
+            id=-1
+            #desc=RAZ_saya-orin_kollisyaid_desc
+        }
+    }
 }
