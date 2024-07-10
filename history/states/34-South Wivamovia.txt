@@ -9,10 +9,10 @@ state={
 	state_category=rural
 
 	history={
-		owner = TST
+		owner = WIV
 		#victory_points = { 1 2 }
 		#buildings = {}
-		add_core_of = TST
+		add_core_of = WIV
 	}
 	
 	local_supplies=0.000

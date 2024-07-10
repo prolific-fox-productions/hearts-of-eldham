@@ -29,6 +29,11 @@ USE = {
 	color_ui = rgb { 163 17 31 }
 }
 
+WIV = { 
+	color = rgb { 255 0 255 }
+	color_ui = rgb { 255 0 255 }
+}
+
 XEK = { 
 	color = rgb { 153 102 255 }
 	color_ui = rgb { 153 102 255 }

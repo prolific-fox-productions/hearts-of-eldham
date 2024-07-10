@@ -1,0 +1,23 @@
+capital = 57
+
+#oob =
+set_stability = 0.7
+set_war_support = 0.3
+#Starting Tech
+set_technology = {
+
+}
+
+#recruit_character = WIV_
+
+
+set_politics ={
+    ruling_party = monarchism
+	last_election = "30.6.1"
+	election_frequency = 126
+	elections_allowed = no
+}
+
+set_popularities = {
+	monarchism = 100
+}

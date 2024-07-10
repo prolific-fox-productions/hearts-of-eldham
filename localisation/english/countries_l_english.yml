@@ -129,6 +129,27 @@
  USE:0 "United Socialist States of Eldham"
  USE_DEF:0 "the United Socialist States of Eldham"
  USE_ADJ:0 "Lausán"
+  
+ #Wivamovia
+ 
+ WIV_nationalism_ideo:0 "Wivamovian Empire"
+ WIV_nationalism_ideo_DEF:0 "the Wivamovian Empire"
+ WIV_nationalism_ideo_ADJ:0 "Wivamovian"
+ WIV_capitalism:0 "Wivamovian Republic"
+ WIV_capitalism_DEF:0 "the Wivamovian Republic"
+ WIV_capitalism_ADJ:0 "Wivamovian"
+ WIV_monarchism:0 "Wivamovian Kingdom"
+ WIV_monarchism_DEF:0 "the Wivamovian Kingdom"
+ WIV_monarchism_ADJ:0 "Wivamovian"
+ WIV_socialism:0 "Wivamovian Socialist State"
+ WIV_socialism_DEF:0 "the Wivamovian Socialist State"
+ WIV_socialism_ADJ:0 "Wivamovian"
+ WIV_theocratic:0 "Holy Wivamovia"
+ WIV_theocratic_DEF:0 "Holy Wivamovian"
+ WIV_theocratic_ADJ:0 "Wivamovian"
+ WIV:0 "Wivamovia"
+ WIV_DEF:0 "Wivamovia"
+ WIV_ADJ:0 "Wivamovian"
  
  #Xeka
 
