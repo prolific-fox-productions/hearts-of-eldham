@@ -23,16 +23,74 @@ idea_categories = {
 		ledger = hidden
 	}
 	
-	government = {
-		slot = mobilization_laws
-		slot = trade_laws
-		slot = economy
-		character_slot = political_advisor
-		character_slot = political_advisor
-		character_slot = political_advisor
+	nation_state = {
+		slot = tech_nation
+		#slot = industry_nation
+		#slot = religion_nation
+		#slot = culture_nation
+		#slot = poverty_nation
+		#slot = literacy_nation
 		
 		ledger = civilian
 		
+		cost = 150
+		removal_cost = 0
+	}
+
+	government_state = {
+		#slot = head_of_state
+		#slot = state_religion
+		slot = mobilization_laws
+		#slot = government_app
+		#slot = local_gov_power
+		#slot = internal_structure
+
+		ledger = civilian
+
+		cost = 150
+		removal_cost = 0
+	}
+
+	internal_budget = {
+		character_slot = political_advisor
+		#slot = army_budget
+		#slot = healthcare_budget
+		#slot = police_budget
+		#slot = public_service_budget
+		#slot = education_budget
+		#slot = service_budget
+
+		ledger = civilian
+
+		cost = 150
+		removal_cost = 0
+	}
+
+	economic_policy = {
+		slot = trade_laws
+		#slot = property_law
+		#slot = tax_law
+		#slot = work_day
+		#slot = labour_unions
+		slot = economy
+
+		ledger = civilian
+
+		cost = 150
+		removal_cost = 0
+	}
+
+	civil_liberties = {
+		character_slot = political_advisor
+		#slot = voting_rights
+		#slot = racial_rights
+		#slot = sex_rights
+		#slot = assembly_rights
+		#slot = party_rights
+		#slot = information_rights
+
+		ledger = civilian
+
 		cost = 150
 		removal_cost = 0
 	}
@@ -61,6 +119,20 @@ idea_categories = {
 		
 		ledger = invalid # must be overridden
 		
+		cost = 150
+		removal_cost = 0
+	}
+
+	state_advisors = {
+		character_slot = political_advisor
+		character_slot = political_advisor
+		character_slot = political_advisor
+		character_slot = political_advisor
+		character_slot = political_advisor
+		character_slot = political_advisor
+
+		ledger = civilian
+
 		cost = 150
 		removal_cost = 0
 	}

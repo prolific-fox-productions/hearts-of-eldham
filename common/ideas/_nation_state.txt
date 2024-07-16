@@ -1,0 +1,67 @@
+ideas = {
+
+    tech_nation = {
+        law = yes
+        use_list_view = yes
+
+        tech_modern = {
+
+            cost = -1
+            removal_cost = -1
+
+            #available = {}
+
+            #modifier = {}
+
+            cancel_if_invalid = no
+        }
+
+        tech_pre_modern = {
+
+            cost = -1
+            removal_cost = -1
+
+            #available = {}
+
+            #modifier = {}
+
+            cancel_if_invalid = no
+        }
+
+        tech_small = {
+
+            cost = -1
+            removal_cost = -1
+
+            #available = {}
+
+            #modifier = {}
+
+            cancel_if_invalid = no
+        }
+
+        tech_poor = {
+
+            cost = -1
+            removal_cost = -1
+
+            #available = {}
+
+            #modifier = {}
+
+            cancel_if_invalid = no
+        }
+
+        tech_tribal = {
+
+            cost = -1
+            removal_cost = -1
+
+            #available = {}
+
+            #modifier = {}
+
+            cancel_if_invalid = no
+        }
+    }
+}
