@@ -15,15 +15,15 @@
  #HoE Laws
  
  tech_modern:0 "Modern Technological Base"
- 
+ #tech_modern_desc:0 ""
  tech_pre_modern:0 "Pre-Modern Technological Base"
- 
+ #tech_pre_modern_desc:0 ""
  tech_small:0 "Small Technological Base"
- 
+ #tech_small_desc:0 ""
  tech_poor:0 "Poor Technological Base"
-
+ #tech_poor_desc:0 ""
  tech_tribal:0 "Tribal Technological Base"
- 
+ #tech_tribal_desc:0 ""
  
  #Unedited Laws and Categories
  isolation:0 "Isolation"
