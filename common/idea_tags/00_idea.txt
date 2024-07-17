@@ -67,10 +67,10 @@ idea_categories = {
 
 	economic_policy = {
 		slot = trade_laws
-		#slot = property_law
-		#slot = tax_law
-		#slot = work_day
-		#slot = labour_unions
+		slot = property_law
+		slot = tax_law
+		slot = work_day
+		slot = labour_laws
 		slot = economy
 
 		ledger = civilian

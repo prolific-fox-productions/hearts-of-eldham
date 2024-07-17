@@ -47,6 +47,20 @@
  #education_budget_desc:0 ?
  expansion_budget:0 "Service Expansion Budget"
  
+ 
+ trade_laws:0 "Trade Law"
+ #trade_laws_desc:0 ?
+ property_law:0 "Property Law"
+ #property_law_desc:0 ?
+ tax_law:0 "Taxes"
+ #tax_law_desc:0 ?
+ work_day:0 "Work Day Laws"
+ #work_day_desc:0 ?
+ labour_laws:0 "Union Laws"
+ #labour_laws_desc:0 ?
+ economy:0 "Economy Law"
+ #economy_desc:0 ?
+ 
  #HoE Laws
  
  tech_modern:0 "Modern Technological Base"
@@ -285,25 +299,77 @@
  expansion_rapid:0 "Rapid Expansion"
  #expansion_rapid_desc:0 ""
  
- #Unedited Laws and Categories
- isolation:0 "Isolation"
+ free_trade:0 "Free Trade"
+ #free_trade_desc:0 ""
+ export_focus:0 "Export Focus"
+ #export_focus_desc:0 ""
+ limited_exports:0 "Limited Exports"
+ #limited_exports_desc:0 ""
+ closed_economy:0 "Closed Economy"
+ #closed_economy_desc:0 ""
+ 
+ property_communal:0 "Communal Property"
+ #property_communal_desc:0 ""
+ property_purchased:0 "Owned Property"
+ #property_purchased_desc:0 ""
+ property_rented:0 "Rented Property"
+ #property_rented_desc:0 ""
+ property_serfdom:0 "Serfdom"
+ #property_serfdom_desc:0 ""
+ 
+ tax_vhigh:0 "Very High Taxes"
+ #tax_vhigh_desc:0 ""
+ tax_high:0 "High Taxes"
+ #tax_high_desc:0 ""
+ tax_moderate:0 "Moderate Taxes"
+ #tax_moderate_desc:0 ""
+ tax_low:0 "Low Taxes"
+ #tax_low_desc:0 ""
+ tax_vlow:0 "Very Low Taxes"
+ #tax_vlow_desc:0 ""
+ tax_no:0 "No Taxes"
+ #tax_no_desc:0 ""
+ 
+ work_no_limit:0 "No Hour Limit"
+ #work_no_limit_desc:0 ""
+ work_long:0 "Long Work Day"
+ #work_long_desc:0 ""
+ work_moderate:0 "Moderate Work Day"
+ #work_moderate_desc:0 ""
+ work_short:0 "Short Work Day"
+ #work_short_desc:0 ""
+ work_voluntary:0 "Voluntary Only Work Day"
+ #work_voluntary_desc:0 ""
+ 
+ union_banned:0 "Unions Banned"
+ #union_banned_desc:0 ""
+ union_limited:0 "Limited Union Power"
+ #union_limited_desc:0 ""
+ union_moderate:0 "Moderate Union Power"
+ #union_moderate_desc:0 ""
+ union_high:0 "High Union Power"
+ #union_high_desc:0 ""
+ union_manager:0 "Unions Replace Managers"
+ #union_manager_desc:0 ""
+ 
  civilian_economy:0 "Civilian Economy"
+ #civilian_economy_desc:0 ""
  low_economic_mobilisation:0 "Early Mobilization"
+ #low_economic_mobilisation_desc:0 ""
  partial_economic_mobilisation:0 "Partial Mobilization"
+ #partial_economic_mobilisation_desc:0
  war_economy:0 "War Economy"
+ #war_economy_desc:0 ""
  tot_economic_mobilisation:0 "Total Mobilization"
+ #tot_economic_mobilisation_desc:0 ""
+ 
+ #Unedited Laws and Categories
  idea_group_mobilization_laws:0 "Conscription Laws"
  research_production:0 "Research & Production"
  military_staff:0 "Military Staff"
  political_advisor:0 "Political Advisor"
- trade_laws:0 "Trade Law"
- economy:0 "Economy Law"
  idea_group_trade_laws:0 "Trade Laws"
  idea_group_trade_laws_desc:0 "Chose a Trade Law for our nation"
- free_trade:0 "Free Trade"
- export_focus:0 "Export Focus"
- limited_exports:0 "Limited Exports"
- closed_economy:0 "Closed Economy"
  aircraft_manufacturer:0 "Aircraft Designer"
  materiel_manufacturer:0 "Materiel Designer"
  industry_concern:0 "Industry Concern"
