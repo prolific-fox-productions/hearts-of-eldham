@@ -80,13 +80,12 @@ idea_categories = {
 	}
 
 	civil_liberties = {
-		character_slot = political_advisor
-		#slot = voting_rights
-		#slot = racial_rights
-		#slot = sex_rights
-		#slot = assembly_rights
-		#slot = party_rights
-		#slot = information_rights
+		slot = voting_rights
+		slot = racial_rights
+		slot = sex_rights
+		slot = assembly_rights
+		slot = party_rights
+		slot = information_rights
 
 		ledger = civilian
 

@@ -47,7 +47,6 @@
  #education_budget_desc:0 ?
  expansion_budget:0 "Service Expansion Budget"
  
- 
  trade_laws:0 "Trade Law"
  #trade_laws_desc:0 ?
  property_law:0 "Property Law"
@@ -60,6 +59,19 @@
  #labour_laws_desc:0 ?
  economy:0 "Economy Law"
  #economy_desc:0 ?
+ 
+ voting_rights:0 "Voting Rights"
+ #voting_rights_desc:0 ?
+ racial_rights:0 "Racial Rights"
+ #racial_rights_desc:0 ?
+ sex_rights:0 "Sex Laws"
+ #sex_rights_desc:0 ?
+ assembly_rights:0 "Right to Assembly"
+ #assembly_rights_desc:0 ?
+ party_rights:0 "Political Freedom"
+ #party_rights_desc:0 ?
+ information_rights:0 "Press Freedom"
+ #information_rights_desc:0 ""
  
  #HoE Laws
  
@@ -84,6 +96,8 @@
  #industry_agrarian_desc:0 ""
  industry_primitive:0 "Primitive Industrial Base"
  #industry_primitive_desc:0 ""
+ industry_collective:0 "Collective Industry"
+ #industry_collective_desc:0 ""
  
  religion_none:0 "No Religions"
  #religion_none_desc:0 ""
@@ -363,6 +377,72 @@
  tot_economic_mobilisation:0 "Total Mobilization"
  #tot_economic_mobilisation_desc:0 ""
  
+ voting_no:0 "Voting Banned"
+ #voting_no_desc:0 ""
+ voting_oligarch:0 "Oligarchic Suffrage"
+ #voting_oligarch_desc:0 ""
+ voting_parliament:0 "Parliamentary Suffrage"
+ #voting_parliament_desc:0 ""
+ voting_rich:0 "Rich Suffrage"
+ #voting_rich_desc:0 ""
+ voting_one:0 "Suffrage of One Sex"
+ #voting_one_desc:0 ""
+ voting_yes:0 "Universal Suffrage"
+ #voting_yes_desc:0 ""
+ 
+ race_slave:0 "Slavery Allowed"
+ #race_slave_desc:0 ""
+ race_slave_maybe:0 "Slavery Banned in All But Name"
+ #race_slave_maybe_desc:0 ""
+ race_discrim_laws:0 "Discriminatory Laws"
+ #race_discrim_laws_desc:0 ""
+ race_segregation:0 "Racial Segregation"
+ #race_segregation_desc:0 ""
+ race_limited:0 "Limited Racial Equality"
+ #race_limited_desc:0 ""
+ race_universal:0 "Universal Equality"
+ #race_universal_desc:0 ""
+ 
+ sex_men_yes:0 "Dominance of Men"
+ #sex_men_yes_desc:0 ""
+ sex_men_limited:0 "Preference of Men"
+ #sex_men_limited_desc:0 ""
+ sex_equality:0 "Equality of the Sexes"
+ #sex_equality_desc:0 ""
+ sex_women_limited:0 "Preference of Women"
+ #sex_women_limited_desc:0 ""
+ sex_women_yes:0 "Dominance of Women"
+ #sex_women_yes_desc:0 ""
+ 
+ protest_banned:0 "Banned Assembly"
+ #protest_banned_desc:0 ""
+ protest_state:0 "State-Approved Only"
+ #protest_state_desc:0 ""
+ protest_not_fascom:0 "Non-Extremist Only"
+ #protest_not_fascom_desc:0 ""
+ protest_allowed:0 "Freedom of Assembly"
+ #protest_allowed_desc:0 ""
+ 
+ party_allowed:0 "Political Parties Allowed"
+ #party_allowed_desc:0 ""
+ party_no_fascom:0 "Non-Extremist Only"
+ #party_no_fascom_desc:0 ""
+ party_limited:0 "Limited Party Freedom"
+ #party_limited_desc:0 ""
+ party_banned:0 "Political Parties Banned"
+ #party_banned_desc:0 ""
+ 
+ press_state:0 "State-Controlled Press"
+ #press_state_desc:0 ""
+ press_censored:0 "Censored Press"
+ #press_censored_desc:0 ""
+ press_corporate:0 "Tabloid Press"
+ #press_corporate_desc:0 ""
+ press_free:0 "Free Press"
+ #press_free_desc:0 ""
+ press_no:0 "No Press"
+ #press_no_desc:0 ""
+ 
  #Unedited Laws and Categories
  idea_group_mobilization_laws:0 "Conscription Laws"
  research_production:0 "Research & Production"
@@ -395,7 +475,6 @@
  idea_category_economic_desc:0 "Adopt ideas/hire ministers to help steer your economy"
  idea_category_technology:0 "Technology & Research"
  idea_category_technology_desc:0 "Adopt ideas/hire ministers and companies to help steer your technological developments"
-
 
  #Misc
  nationalism_ideo_influence:0 "Fascist Influence"

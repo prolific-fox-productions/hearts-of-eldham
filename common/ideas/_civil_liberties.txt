@@ -1,0 +1,362 @@
+ideas = {
+
+    voting_rights = {
+        law = yes
+        use_list_view = yes
+
+        voting_no = {
+            cost = -1
+            removal_cost = -1
+
+            #available = {}
+
+            #modifier = {}
+
+            cancel_if_invalid = no
+        }
+
+        voting_oligarch = {
+            cost = -1
+            removal_cost = -1
+
+            #available = {}
+
+            #modifier = {}
+
+            cancel_if_invalid = no
+        }
+
+        voting_parliament = {
+            cost = -1
+            removal_cost = -1
+
+            #available = {}
+
+            #modifier = {}
+
+            cancel_if_invalid = no
+        }
+
+        voting_rich = {
+            cost = -1
+            removal_cost = -1
+
+            #available = {}
+
+            #modifier = {}
+
+            cancel_if_invalid = no
+        }
+
+        voting_one = {
+            cost = -1
+            removal_cost = -1
+
+            #available = {}
+
+            #modifier = {}
+
+            cancel_if_invalid = no
+        }
+
+        voting_yes = {
+            cost = -1
+            removal_cost = -1
+
+            #available = {}
+
+            #modifier = {}
+
+            cancel_if_invalid = no
+        }
+    }
+
+    racial_rights = {
+        law = yes
+        use_list_view = yes
+
+        race_slave = {
+            cost = -1
+            removal_cost = -1
+
+            #available = {}
+
+            #modifier = {}
+
+            cancel_if_invalid = no
+        }
+
+        race_slave_maybe = {
+            cost = -1
+            removal_cost = -1
+
+            #available = {}
+
+            #modifier = {}
+
+            cancel_if_invalid = no
+        }
+
+        race_discrim_laws = {
+            cost = -1
+            removal_cost = -1
+
+            #available = {}
+
+            #modifier = {}
+
+            cancel_if_invalid = no
+        }
+
+        race_segregation = {
+            cost = -1
+            removal_cost = -1
+
+            #available = {}
+
+            #modifier = {}
+
+            cancel_if_invalid = no
+        }
+
+        race_limited = {
+            cost = -1
+            removal_cost = -1
+
+            #available = {}
+
+            #modifier = {}
+
+            cancel_if_invalid = no
+        }
+
+        race_universal = {
+            cost = -1
+            removal_cost = -1
+
+            #available = {}
+
+            #modifier = {}
+
+            cancel_if_invalid = no
+        }
+    }
+
+    sex_rights = {
+        law = yes
+        use_list_view = yes
+
+        sex_men_yes = {
+            cost = -1
+            removal_cost = -1
+
+            #available = {}
+
+            #modifier = {}
+
+            cancel_if_invalid = no
+        }
+
+        sex_men_limited = {
+            cost = -1
+            removal_cost = -1
+
+            #available = {}
+
+            #modifier = {}
+
+            cancel_if_invalid = no
+        }
+
+        sex_equality = {
+            cost = -1
+            removal_cost = -1
+
+            #available = {}
+
+            #modifier = {}
+
+            cancel_if_invalid = no
+        }
+
+        sex_women_limited = {
+            cost = -1
+            removal_cost = -1
+
+            #available = {}
+
+            #modifier = {}
+
+            cancel_if_invalid = no
+        }
+
+        sex_women_yes = {
+            cost = -1
+            removal_cost = -1
+
+            #available = {}
+
+            #modifier = {}
+
+            cancel_if_invalid = no
+        }
+    }
+
+    assembly_rights = {
+        law = yes
+        use_list_view = yes
+
+        protest_banned = {
+            cost = -1
+            removal_cost = -1
+
+            #available = {}
+
+            #modifier = {}
+            
+            cancel_if_invalid = no
+        }
+
+        protest_state = {
+            cost = -1
+            removal_cost = -1
+
+            #available = {}
+
+            #modifier = {}
+            
+            cancel_if_invalid = no
+        }
+
+        protest_not_fascom = {
+            cost = -1
+            removal_cost = -1
+
+            #available = {}
+
+            #modifier = {}
+            
+            cancel_if_invalid = no
+        }
+
+        protest_allowed = {
+            cost = -1
+            removal_cost = -1
+
+            #available = {}
+
+            #modifier = {}
+            
+            cancel_if_invalid = no
+        }
+    }
+
+    party_rights = {
+        law = yes
+        use_list_view = yes
+
+        party_allowed = {
+            cost = -1
+            removal_cost = -1
+
+            #available = {}
+
+            #modifier = {}
+            
+            cancel_if_invalid = no
+        }
+
+        party_no_fascom = {
+            cost = -1
+            removal_cost = -1
+
+            #available = {}
+
+            #modifier = {}
+            
+            cancel_if_invalid = no
+        }
+
+        party_limited = {
+            cost = -1
+            removal_cost = -1
+
+            #available = {}
+
+            #modifier = {}
+            
+            cancel_if_invalid = no
+        }
+
+        party_banned = {
+            cost = -1
+            removal_cost = -1
+
+            #available = {}
+
+            #modifier = {}
+            
+            cancel_if_invalid = no
+        }
+    }
+
+    information_rights = {
+        law = yes
+        use_list_view = yes
+
+        press_state = {
+            cost = -1
+            removal_cost = -1
+
+            #available = {}
+
+            #modifier = {}
+
+            cancel_if_invalid = no
+        }
+
+        press_censored = {
+            cost = -1
+            removal_cost = -1
+
+            #available = {}
+
+            #modifier = {}
+
+            cancel_if_invalid = no
+        }
+
+        press_corporate = {
+            cost = -1
+            removal_cost = -1
+
+            #available = {}
+
+            #modifier = {}
+
+            cancel_if_invalid = no
+        }
+
+        press_free = {
+            cost = -1
+            removal_cost = -1
+
+            #available = {}
+
+            #modifier = {}
+
+            cancel_if_invalid = no
+        }
+
+        press_no = {
+            cost = -1
+            removal_cost = -1
+
+            #available = {}
+
+            #modifier = {}
+
+            cancel_if_invalid = no
+        }
+    }
+}
