@@ -25,11 +25,11 @@ idea_categories = {
 	
 	nation_state = {
 		slot = tech_nation
-		#slot = industry_nation
-		#slot = religion_nation
-		#slot = culture_nation
-		#slot = poverty_nation
-		#slot = literacy_nation
+		slot = industry_nation
+		slot = religion_nation
+		slot = culture_nation
+		slot = poverty_nation
+		slot = literacy_nation
 		
 		ledger = civilian
 		
@@ -38,12 +38,12 @@ idea_categories = {
 	}
 
 	government_state = {
-		#slot = head_of_state
-		#slot = state_religion
+		slot = head_of_government
+		slot = state_religion
 		slot = mobilization_laws
-		#slot = government_app
-		#slot = local_gov_power
-		#slot = internal_structure
+		slot = government_app
+		slot = local_gov_power
+		slot = internal_structure
 
 		ledger = civilian
 
@@ -52,13 +52,12 @@ idea_categories = {
 	}
 
 	internal_budget = {
-		character_slot = political_advisor
-		#slot = army_budget
-		#slot = healthcare_budget
-		#slot = police_budget
-		#slot = public_service_budget
-		#slot = education_budget
-		#slot = service_budget
+		slot = army_budget
+		slot = healthcare_budget
+		slot = police_budget
+		slot = public_service_budget
+		slot = education_budget
+		slot = expansion_budget
 
 		ledger = civilian
 

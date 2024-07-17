@@ -64,4 +64,447 @@ ideas = {
             cancel_if_invalid = no
         }
     }
+    
+    industry_nation = {
+		law = yes
+		use_list_view = yes
+	
+		industry_modern = {
+			cost = -1
+			removal_cost = -1
+			
+			#available = {}
+			
+			#modifier = {}
+			
+			cancel_if_invalid = no
+		}
+	
+		industry_new_dev = {
+			cost = -1
+			removal_cost = -1
+			
+			#available = {}
+			
+			#modifier = {}
+			
+			cancel_if_invalid = no
+		}
+	
+		industry_deving = {
+			cost = -1
+			removal_cost = -1
+			
+			#available = {}
+			
+			#modifier = {}
+			
+			cancel_if_invalid = no
+		}
+		
+		industry_agrarian = {
+			cost = -1
+			removal_cost = -1
+			
+			#available = {}
+			
+			#modifier = {}
+			
+			cancel_if_invalid = no
+		}
+		
+		industry_primitive = {
+			cost = -1
+			removal_cost = -1
+			
+			#available = {}
+			
+			#modifier = {}
+			
+			cancel_if_invalid = no
+		}
+		
+		industry_collective = {
+			cost = -1
+			removal_cost = -1
+			
+			#available = {}
+			
+			#modifier = {}
+			
+			cancel_if_invalid = no
+		}
+    }
+    
+    religion_nation = {
+		law = yes
+		use_list_view = yes
+		
+		religion_none = {
+			cost = -1
+			removal_cost = -1
+			
+			#available = {}
+			
+			#modifier = {}
+			
+			cancel_if_invalid = no
+		}
+		
+		religion_floristanism = {
+			cost = -1
+			removal_cost = -1
+			
+			#available = {}
+			
+			#modifier = {}
+			
+			cancel_if_invalid = no
+		}
+		
+		religion_salranism = {
+			cost = -1
+			removal_cost = -1
+			
+			#available = {}
+			
+			#modifier = {}
+			
+			cancel_if_invalid = no
+		}
+		
+		religion_sylfaeism = {
+			cost = -1
+			removal_cost = -1
+			
+			#available = {}
+			
+			#modifier = {}
+			
+			cancel_if_invalid = no
+		}
+		
+		religion_animism = {
+			cost = -1
+			removal_cost = -1
+			
+			#available = {}
+			
+			#modifier = {}
+			
+			cancel_if_invalid = no
+		}
+		
+		religion_misc = {
+			cost = -1
+			removal_cost = -1
+			
+			#available = {}
+			
+			#modifier = {}
+			
+			cancel_if_invalid = no
+		}
+    }
+    
+    culture_nation = {
+		law = yes
+		use_list_view = yes
+		
+		culture_hermonian = {
+			cost = -1
+			removal_cost = -1
+			
+			#available = {}
+			
+			#modifier = {}
+			
+			cancel_if_invalid = no
+		}
+		
+		culture_razuni_coast = {
+			cost = -1
+			removal_cost = -1
+			
+			#available = {}
+			
+			#modifier = {}
+			
+			cancel_if_invalid = no
+		}
+		
+		culture_razuni_deep = {
+			cost = -1
+			removal_cost = -1
+			
+			#available = {}
+			
+			#modifier = {}
+			
+			cancel_if_invalid = no
+		}
+		
+		culture_myconid = {
+			cost = -1
+			removal_cost = -1
+			
+			#available = {}
+			
+			#modifier = {}
+			
+			cancel_if_invalid = no
+		}
+		
+		culture_nagosi = {
+			cost = -1
+			removal_cost = -1
+			
+			#available = {}
+			
+			#modifier = {}
+			
+			cancel_if_invalid = no
+		}
+		
+		culture_aeran = {
+			cost = -1
+			removal_cost = -1
+			
+			#available = {}
+			
+			#modifier = {}
+			
+			cancel_if_invalid = no
+		}
+		
+		culture_lo_oi = {
+			cost = -1
+			removal_cost = -1
+			
+			#available = {}
+			
+			#modifier = {}
+			
+			cancel_if_invalid = no
+		}
+		
+		culture_ellysian = {
+			cost = -1
+			removal_cost = -1
+			
+			#available = {}
+			
+			#modifier = {}
+			
+			cancel_if_invalid = no
+		}
+		
+		culture_nymph_mushroom = {
+			cost = -1
+			removal_cost = -1
+			
+			#available = {}
+			
+			#modifier = {}
+			
+			cancel_if_invalid = no
+		}
+		
+		culture_farencian = {
+			cost = -1
+			removal_cost = -1
+			
+			#available = {}
+			
+			#modifier = {}
+			
+			cancel_if_invalid = no
+		}
+		
+		culture_medenan = {
+			cost = -1
+			removal_cost = -1
+			
+			#available = {}
+			
+			#modifier = {}
+			
+			cancel_if_invalid = no
+		}
+		
+		culture_misc = {
+			cost = -1
+			removal_cost = -1
+			
+			#available = {}
+			
+			#modifier = {}
+			
+			cancel_if_invalid = no
+		}
+	}
+	
+	poverty_nation = {
+		law = yes
+		use_list_view = yes
+		
+		poverty_communal = {
+			cost = -1
+			removal_cost = -1
+			
+			#available = {}
+			
+			#modifier = {}
+			
+			cancel_if_invalid = no
+		}
+		
+		poverty_negligible = {
+			cost = -1
+			removal_cost = -1
+			
+			#available = {}
+			
+			#modifier = {}
+			
+			cancel_if_invalid = no
+		}
+		
+		poverty_vlow = {
+			cost = -1
+			removal_cost = -1
+			
+			#available = {}
+			
+			#modifier = {}
+			
+			cancel_if_invalid = no
+		}
+		
+		poverty_low = {
+			cost = -1
+			removal_cost = -1
+			
+			#available = {}
+			
+			#modifier = {}
+			
+			cancel_if_invalid = no
+		}
+		
+		poverty_moderate = {
+			cost = -1
+			removal_cost = -1
+			
+			#available = {}
+			
+			#modifier = {}
+			
+			cancel_if_invalid = no
+		}
+		
+		poverty_significant = {
+			cost = -1
+			removal_cost = -1
+			
+			#available = {}
+			
+			#modifier = {}
+			
+			cancel_if_invalid = no
+		}
+		
+		poverty_widespread = {
+			cost = -1
+			removal_cost = -1
+			
+			#available = {}
+			
+			#modifier = {}
+			
+			cancel_if_invalid = no
+		}
+	}
+	
+	literacy_nation = {
+		law = yes
+		use_list_view = yes
+		
+		literacy_widespread = {
+			cost = -1
+			removal_cost = -1
+			
+			#available = {}
+			
+			#modifier = {}
+			
+			cancel_if_invalid = no
+		}
+		
+		literacy_significant = {
+			cost = -1
+			removal_cost = -1
+			
+			#available = {}
+			
+			#modifier = {}
+			
+			cancel_if_invalid = no
+		}
+		
+		literacy_moderate = {
+			cost = -1
+			removal_cost = -1
+			
+			#available = {}
+			
+			#modifier = {}
+			
+			cancel_if_invalid = no
+		}
+		
+		literacy_limited = {
+			cost = -1
+			removal_cost = -1
+			
+			#available = {}
+			
+			#modifier = {}
+			
+			cancel_if_invalid = no
+		}
+		
+		literacy_poor = {
+			cost = -1
+			removal_cost = -1
+			
+			#available = {}
+			
+			#modifier = {}
+			
+			cancel_if_invalid = no
+		}
+		
+		literacy_mass_ilit = {
+			cost = -1
+			removal_cost = -1
+			
+			#available = {}
+			
+			#modifier = {}
+			
+			cancel_if_invalid = no
+		}
+		
+		literacy_negligible = {
+			cost = -1
+			removal_cost = -1
+			
+			#available = {}
+			
+			#modifier = {}
+			
+			cancel_if_invalid = no
+		}
+	}
 }

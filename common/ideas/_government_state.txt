@@ -1,5 +1,92 @@
 ideas = {
-
+	
+	head_of_government = {
+		law = yes
+		use_list_view = yes
+		
+		state_government_head = {
+			cost = -1
+			removal_cost = -1
+			
+			#available = {}
+			
+			#modifier = {}
+			
+			cancel_if_invalid = no
+		}
+		
+		state_placeholder = {
+			cost = -1
+			removal_cost = -1
+			
+			#available = {}
+			
+			#modifier = {}
+			
+			cancel_if_invalid = no
+		}
+	}
+	
+	state_religion = {
+		law = yes
+		use_list_view = yes
+		
+		state_floristanism = {
+			cost = -1
+			removal_cost = -1
+			
+			#available = {}
+			
+			#modifier = {}
+			
+			cancel_if_invalid = no
+		}
+		
+		state_salranism = {
+			cost = -1
+			removal_cost = -1
+			
+			#available = {}
+			
+			#modifier = {}
+			
+			cancel_if_invalid = no
+		}
+		
+		state_sylfaeism = {
+			cost = -1
+			removal_cost = -1
+			
+			#available = {}
+			
+			#modifier = {}
+			
+			cancel_if_invalid = no
+		}
+		
+		state_misc_religion = {
+			cost = -1
+			removal_cost = -1
+			
+			#available = {}
+			
+			#modifier = {}
+			
+			cancel_if_invalid = no
+		}
+		
+		state_secular = {
+			cost = -1
+			removal_cost = -1
+			
+			#available = {}
+			
+			#modifier = {}
+			
+			cancel_if_invalid = no
+		}
+	}
+	
 	mobilization_laws = {
 		law = yes
 		use_list_view = yes
@@ -28,7 +115,6 @@ ideas = {
 			level = 6
 
 			available = {
-				NOT = { has_idea = undisturbed_isolation }
 				NOT = { has_idea = isolation }
 			}
 
@@ -59,7 +145,6 @@ ideas = {
 			available = {
 				#has_manpower_for_recruit_change_to =  { value = 0.025 group = mobilization_laws }
 				has_war_support > 0.1
-				NOT = { has_idea = undisturbed_isolation }
 				NOT = { has_idea = isolation }
 			}
 
@@ -104,7 +189,6 @@ ideas = {
 				has_war_support > 0.2
 				if = {
 					limit = {
-						NOT = { has_idea = undisturbed_isolation }
 						NOT = { has_idea = isolation }
 					}
 				}
@@ -297,6 +381,175 @@ ideas = {
 				training_time_factor = 0.5
 			}
 
+			cancel_if_invalid = no
+		}
+	}
+	
+	government_app = {
+		law = yes
+		use_list_view = yes
+		
+		app_hereditary = {
+			cost = -1
+			removal_cost = -1
+			
+			#available = {}
+			
+			#modifier = {}
+			
+			cancel_if_invalid = no
+		}
+		
+		app_hered_appoint = {
+			cost = -1
+			removal_cost = -1
+			
+			#available = {}
+			
+			#modifier = {}
+			
+			cancel_if_invalid = no
+		}
+		
+		app_vcrown = {
+			cost = -1
+			removal_cost = -1
+			
+			#available = {}
+			
+			#modifier = {}
+			
+			cancel_if_invalid = no
+		}
+		
+		app_vstate = {
+			cost = -1
+			removal_cost = -1
+			
+			#available = {}
+			
+			#modifier = {}
+			
+			cancel_if_invalid = no
+		}
+	}
+	
+	local_gov_power = {
+		law = yes
+		use_list_view = yes
+		
+		gov_unitary = {
+			cost = -1
+			removal_cost = -1
+			
+			#available = {}
+			
+			#modifier = {}
+			
+			cancel_if_invalid = no
+		}
+		
+		gov_federation = {
+			cost = -1
+			removal_cost = -1
+			
+			#available = {}
+			
+			#modifier = {}
+			
+			cancel_if_invalid = no
+		}
+		
+		gov_confederation = {
+			cost = -1
+			removal_cost = -1
+			
+			#available = {}
+			
+			#modifier = {}
+			
+			cancel_if_invalid = no
+		}
+		
+		gov_communal = {
+			cost = -1
+			removal_cost = -1
+			
+			#available = {}
+			
+			#modifier = {}
+			
+			cancel_if_invalid = no
+		}
+	}
+	
+	internal_structure = {
+		law = yes
+		use_list_view = yes
+		
+		structure_despotic = {
+			cost = -1
+			removal_cost = -1
+		
+			#available = {}
+			
+			#modifier = {}
+			
+			cancel_if_invalid = no
+		}
+		
+		structure_presidential = {
+			cost = -1
+			removal_cost = -1
+		
+			#available = {}
+			
+			#modifier = {}
+			
+			cancel_if_invalid = no
+		}
+		
+		structure_westminster = {
+			cost = -1
+			removal_cost = -1
+		
+			#available = {}
+			
+			#modifier = {}
+			
+			cancel_if_invalid = no
+		}
+		
+		structure_felis = {
+			cost = -1
+			removal_cost = -1
+		
+			#available = {}
+			
+			#modifier = {}
+			
+			cancel_if_invalid = no
+		}
+		
+		structure_council = {
+			cost = -1
+			removal_cost = -1
+		
+			#available = {}
+			
+			#modifier = {}
+			
+			cancel_if_invalid = no
+		}
+		
+		structure_none = {
+			cost = -1
+			removal_cost = -1
+		
+			#available = {}
+			
+			#modifier = {}
+			
 			cancel_if_invalid = no
 		}
 	}

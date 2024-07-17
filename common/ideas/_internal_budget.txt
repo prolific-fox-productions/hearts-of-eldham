@@ -1,0 +1,461 @@
+ideas = {
+
+	army_budget = {
+		law = yes
+		use_list_view = yes
+		
+		army_budget_no = {
+			cost = -1
+			removal_cost = -1
+			
+			#available = {}
+			
+			#modifier = {}
+			
+			cancel_if_invalid = no
+		}
+		
+		army_budget_poor = {
+			cost = -1
+			removal_cost = -1
+			
+			#available = {}
+			
+			#modifier = {}
+			
+			cancel_if_invalid = no
+		}
+		
+		army_budget_little = {
+			cost = -1
+			removal_cost = -1
+			
+			#available = {}
+			
+			#modifier = {}
+			
+			cancel_if_invalid = no
+		}
+		
+		army_budget_moderate = {
+			cost = -1
+			removal_cost = -1
+			
+			#available = {}
+			
+			#modifier = {}
+			
+			cancel_if_invalid = no
+		}
+		
+		army_budget_significant = {
+			cost = -1
+			removal_cost = -1
+			
+			#available = {}
+			
+			#modifier = {}
+			
+			cancel_if_invalid = no
+		}
+		
+		army_budget_state = {
+			cost = -1
+			removal_cost = -1
+			
+			#available = {}
+			
+			#modifier = {}
+			
+			cancel_if_invalid = no
+		}
+	}
+	
+	healthcare_budget = {
+		law = yes
+		use_list_view = yes
+		
+		healthcare_no = {
+			cost = -1
+			removal_cost = -1
+			
+			#available = {}
+			
+			#modifier = {}
+			
+			cancel_if_invalid = no
+		}
+		
+		healthcare_poor = {
+			cost = -1
+			removal_cost = -1
+			
+			#available = {}
+			
+			#modifier = {}
+			
+			cancel_if_invalid = no
+		}
+		
+		healthcare_limited = {
+			cost = -1
+			removal_cost = -1
+			
+			#available = {}
+			
+			#modifier = {}
+			
+			cancel_if_invalid = no
+		}
+		
+		healthcare_moderate = {
+			cost = -1
+			removal_cost = -1
+			
+			#available = {}
+			
+			#modifier = {}
+			
+			cancel_if_invalid = no
+		}
+		
+		healthcare_funded = {
+			cost = -1
+			removal_cost = -1
+			
+			#available = {}
+			
+			#modifier = {}
+			
+			cancel_if_invalid = no
+		}
+		
+		healthcare_well_funded = {
+			cost = -1
+			removal_cost = -1
+			
+			#available = {}
+			
+			#modifier = {}
+			
+			cancel_if_invalid = no
+		}
+	}
+	
+	police_budget = {
+		law = yes
+		use_list_view = yes
+		
+		police_no = {
+			cost = -1
+			removal_cost = -1
+			
+			#available = {}
+			
+			#modifier = {}
+			
+			cancel_if_invalid = no
+		}
+		
+		police_under = {
+			cost = -1
+			removal_cost = -1
+			
+			#available = {}
+			
+			#modifier = {}
+			
+			cancel_if_invalid = no
+		}
+		
+		police_limited = {
+			cost = -1
+			removal_cost = -1
+			
+			#available = {}
+			
+			#modifier = {}
+			
+			cancel_if_invalid = no
+		}
+		
+		police_moderate = {
+			cost = -1
+			removal_cost = -1
+			
+			#available = {}
+			
+			#modifier = {}
+			
+			cancel_if_invalid = no
+		}
+		
+		police_funded = {
+			cost = -1
+			removal_cost = -1
+			
+			#available = {}
+			
+			#modifier = {}
+			
+			cancel_if_invalid = no
+		}
+		
+		police_well_funded = {
+			cost = -1
+			removal_cost = -1
+			
+			#available = {}
+			
+			#modifier = {}
+			
+			cancel_if_invalid = no
+		}
+		
+		police_communal = {
+			cost = -1
+			removal_cost = -1
+			
+			#available = {}
+			
+			#modifier = {}
+			
+			cancel_if_invalid = no
+		}
+	}
+	
+	public_service_budget = {
+		law = yes
+		use_list_view = yes
+		
+		service_no = {
+			cost = -1
+			removal_cost = -1
+			
+			#available = {}
+			
+			#modifier {}
+			
+			cancel_if_invalid = no
+		}
+		
+		service_poor = {
+			cost = -1
+			removal_cost = -1
+			
+			#available = {}
+			
+			#modifier {}
+			
+			cancel_if_invalid = no
+		}
+		
+		service_limited = {
+			cost = -1
+			removal_cost = -1
+			
+			#available = {}
+			
+			#modifier {}
+			
+			cancel_if_invalid = no
+		}
+		
+		service_moderate = {
+			cost = -1
+			removal_cost = -1
+			
+			#available = {}
+			
+			#modifier {}
+			
+			cancel_if_invalid = no
+		}
+		
+		service_funded = {
+			cost = -1
+			removal_cost = -1
+			
+			#available = {}
+			
+			#modifier {}
+			
+			cancel_if_invalid = no
+		}
+		
+		service_well_funded = {
+			cost = -1
+			removal_cost = -1
+			
+			#available = {}
+			
+			#modifier {}
+			
+			cancel_if_invalid = no
+		}
+		
+		service_communal = {
+			cost = -1
+			removal_cost = -1
+			
+			#available = {}
+			
+			#modifier {}
+			
+			cancel_if_invalid = no
+		}
+	}
+	
+	education_budget = {
+		law = yes
+		use_list_view = yes
+		
+		education_no = {
+			cost = -1
+			removal_cost = -1
+			
+			#available = {}
+			
+			#modifier {}
+			
+			cancel_if_invalid = no
+		}
+		
+		education_poor = {
+			cost = -1
+			removal_cost = -1
+			
+			#available = {}
+			
+			#modifier {}
+			
+			cancel_if_invalid = no
+		}
+		
+		education_limited = {
+			cost = -1
+			removal_cost = -1
+			
+			#available = {}
+			
+			#modifier {}
+			
+			cancel_if_invalid = no
+		}
+		
+		education_moderate = {
+			cost = -1
+			removal_cost = -1
+			
+			#available = {}
+			
+			#modifier {}
+			
+			cancel_if_invalid = no
+		}
+		
+		education_funded = {
+			cost = -1
+			removal_cost = -1
+			
+			#available = {}
+			
+			#modifier {}
+			
+			cancel_if_invalid = no
+		}
+		
+		education_well_funded = {
+			cost = -1
+			removal_cost = -1
+			
+			#available = {}
+			
+			#modifier {}
+			
+			cancel_if_invalid = no
+		}
+		
+		education_communal = {
+			cost = -1
+			removal_cost = -1
+			
+			#available = {}
+			
+			#modifier {}
+			
+			cancel_if_invalid = no
+		}
+	}
+
+	expansion_budget = {
+		law = yes
+		use_list_view = yes
+		
+		expansion_no = {
+			cost = -1
+			removal_cost = -1
+
+			#available = {}
+
+			#modifier = {}
+
+			cancel_if_invalid = no
+		}
+
+		expansion_poor = {
+			cost = -1
+			removal_cost = -1
+
+			#available = {}
+
+			#modifier = {}
+
+			cancel_if_invalid = no
+		}
+
+		expansion_consistent = {
+			cost = -1
+			removal_cost = -1
+
+			#available = {}
+
+			#modifier = {}
+
+			cancel_if_invalid = no
+		}
+
+		expansion_little = {
+			cost = -1
+			removal_cost = -1
+
+			#available = {}
+
+			#modifier = {}
+
+			cancel_if_invalid = no
+		}
+
+		expansion_moderate = {
+			cost = -1
+			removal_cost = -1
+
+			#available = {}
+
+			#modifier = {}
+
+			cancel_if_invalid = no
+		}
+
+		expansion_rapid = {
+			cost = -1
+			removal_cost = -1
+
+			#available = {}
+
+			#modifier = {}
+
+			cancel_if_invalid = no
+		}
+	}
+}
