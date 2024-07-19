@@ -3,6 +3,26 @@ capital = 2
 #oob =
 set_stability = 0.7
 set_war_support = 0.3
+
+#Ideas
+
+add_ideas = race_limited
+add_ideas = sex_women_limited
+add_ideas = press_no
+add_ideas = closed_economy
+add_ideas = property_communal
+add_ideas = tax_vlow
+add_ideas = state_floristanism
+add_ideas = disarmed_nation
+add_ideas = app_vcrown
+add_ideas = army_budget_no
+add_ideas = healthcare_poor
+add_ideas = police_communal
+add_ideas = industry_primitive
+add_ideas = religion_floristanism
+add_ideas = culture_hermonian
+add_ideas = poverty_communal
+
 #Starting Tech
 set_technology = {
 
