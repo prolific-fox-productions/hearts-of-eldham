@@ -11,7 +11,9 @@ ideas = {
 
             #available = {}
 
-            #modifier = {}
+            modifier = {
+				research_speed_factor = 0.4
+			}
 
             cancel_if_invalid = no
 			allowed_to_remove = {
@@ -26,7 +28,9 @@ ideas = {
 
             #available = {}
 
-            #modifier = {}
+            modifier = {
+				research_speed_factor = 0.2
+			}
 
             cancel_if_invalid = no
 			allowed_to_remove = {
@@ -41,7 +45,9 @@ ideas = {
 
             #available = {}
 
-            #modifier = {}
+            modifier = {
+				research_speed_factor = 0.1
+			}
 
             cancel_if_invalid = no
 			allowed_to_remove = {
@@ -57,7 +63,9 @@ ideas = {
 
             #available = {}
 
-            #modifier = {}
+            modifier = {
+				research_speed_factor = -0.2
+			}
 
             cancel_if_invalid = no
 			allowed_to_remove = {
@@ -72,7 +80,9 @@ ideas = {
 
             #available = {}
 
-            #modifier = {}
+            modifier = {
+				research_speed_factor = -0.4
+			}
 
             cancel_if_invalid = no
 			allowed_to_remove = {
@@ -91,7 +101,9 @@ ideas = {
 			
 			#available = {}
 			
-			#modifier = {}
+			modifier = {
+				production_speed_buildings_factor = 0.5
+			}
 			
 			cancel_if_invalid = no
 			allowed_to_remove = {
@@ -105,7 +117,9 @@ ideas = {
 			
 			#available = {}
 			
-			#modifier = {}
+			modifier = {
+				production_speed_buildings_factor = 0.25
+			}
 			
 			cancel_if_invalid = no
 			allowed_to_remove = {
@@ -119,7 +133,9 @@ ideas = {
 			
 			#available = {}
 			
-			#modifier = {}
+			modifier = {
+				production_speed_buildings_factor = 0.12
+			}
 			
 			cancel_if_invalid = no
 			allowed_to_remove = {
@@ -134,7 +150,9 @@ ideas = {
 			
 			#available = {}
 			
-			#modifier = {}
+			modifier = {
+				production_speed_buildings_factor = -0.12
+			}
 			
 			cancel_if_invalid = no
 			allowed_to_remove = {
@@ -148,7 +166,9 @@ ideas = {
 			
 			#available = {}
 			
-			#modifier = {}
+			modifier = {
+				production_speed_buildings_factor = -0.25
+			}
 			
 			cancel_if_invalid = no
 			allowed_to_remove = {
@@ -162,7 +182,9 @@ ideas = {
 			
 			#available = {}
 			
-			#modifier = {}
+			modifier = {
+				production_speed_buildings_factor = 0.1
+			}
 			
 			cancel_if_invalid = no
 			allowed_to_remove = {
@@ -445,7 +467,10 @@ ideas = {
 			
 			#available = {}
 			
-			#modifier = {}
+			modifier = {
+				research_speed_factor = 0.1
+				industry_repair_factor = -0.1
+			}
 			
 			cancel_if_invalid = no
 			allowed_to_remove = {
@@ -459,7 +484,7 @@ ideas = {
 			
 			#available = {}
 			
-			#modifier = {}
+			modifier = {}
 			
 			cancel_if_invalid = no
 			allowed_to_remove = {
@@ -473,7 +498,11 @@ ideas = {
 			
 			#available = {}
 			
-			#modifier = {}
+			modifier = {
+				monthly_population = -0.07
+				consumer_goods_factor = 0.05
+				industry_repair_factor = -0.05
+			}
 			
 			cancel_if_invalid = no
 			allowed_to_remove = {
@@ -487,7 +516,11 @@ ideas = {
 			
 			#available = {}
 			
-			#modifier = {}
+			modifier = {
+				monthly_population = -0.1
+				consumer_goods_factor = 0.1
+				industry_repair_factor = -0.1
+			}
 			
 			cancel_if_invalid = no
 			allowed_to_remove = {
@@ -502,7 +535,11 @@ ideas = {
 			
 			#available = {}
 			
-			#modifier = {}
+			modifier = {
+				monthly_population = -0.2
+				consumer_goods_factor = 0.2
+				industry_repair_factor = -0.2
+			}
 			
 			cancel_if_invalid = no
 			allowed_to_remove = {
@@ -516,7 +553,11 @@ ideas = {
 			
 			#available = {}
 			
-			#modifier = {}
+			modifier = {
+				monthly_population = -0.3
+				consumer_goods_factor = 0.3
+				industry_repair_factor = -0.3
+			}
 			
 			cancel_if_invalid = no
 			allowed_to_remove = {
@@ -530,7 +571,11 @@ ideas = {
 			
 			#available = {}
 			
-			#modifier = {}
+			modifier = {
+				monthly_population = -0.4
+				consumer_goods_factor = 0.5
+				industry_repair_factor = -0.5
+			}
 			
 			cancel_if_invalid = no
 			allowed_to_remove = {
@@ -549,7 +594,9 @@ ideas = {
 			
 			#available = {}
 			
-			#modifier = {}
+			modifier = {
+				research_speed_factor = 0.1
+			}
 			
 			cancel_if_invalid = no
 			allowed_to_remove = {
@@ -563,7 +610,9 @@ ideas = {
 			
 			#available = {}
 			
-			#modifier = {}
+			modifier = {
+				research_speed_factor = -0.1
+			}
 			
 			cancel_if_invalid = no
 			allowed_to_remove = {
@@ -577,7 +626,9 @@ ideas = {
 			
 			#available = {}
 			
-			#modifier = {}
+			modifier = {
+				research_speed_factor = -0.2
+			}
 			
 			cancel_if_invalid = no
 			allowed_to_remove = {
@@ -591,7 +642,9 @@ ideas = {
 			
 			#available = {}
 			
-			#modifier = {}
+			modifier = {
+				research_speed_factor = -0.3
+			}
 			
 			cancel_if_invalid = no
 			allowed_to_remove = {
@@ -606,7 +659,9 @@ ideas = {
 			
 			#available = {}
 			
-			#modifier = {}
+			modifier = {
+				research_speed_factor = -0.4
+			}
 			
 			cancel_if_invalid = no
 			allowed_to_remove = {
@@ -620,7 +675,9 @@ ideas = {
 			
 			#available = {}
 			
-			#modifier = {}
+			modifier = {
+				research_speed_factor = -0.5
+			}
 			
 			cancel_if_invalid = no
 			allowed_to_remove = {
@@ -634,7 +691,9 @@ ideas = {
 			
 			#available = {}
 			
-			#modifier = {}
+			modifier = {
+				research_speed_factor = -0.6
+			}
 			
 			cancel_if_invalid = no
 			allowed_to_remove = {

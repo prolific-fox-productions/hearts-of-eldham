@@ -373,7 +373,11 @@ ideas = {
 			
 			#available = {}
 			
-			#modifier {}
+			modifier {
+				political_power_gain = 0.5
+				base_fuel_gain_factor = -0.25
+				supply_factor = -0.25
+			}
 			
 			cancel_if_invalid = no
 			allowed_to_remove = {
@@ -387,7 +391,11 @@ ideas = {
 			
 			#available = {}
 			
-			#modifier {}
+			modifier {
+				political_power_gain = 0.25
+				base_fuel_gain_factor = -0.12
+				supply_factor = -0.12
+			}
 			
 			cancel_if_invalid = no
 			allowed_to_remove = {
@@ -401,7 +409,11 @@ ideas = {
 			
 			#available = {}
 			
-			#modifier {}
+			modifier {
+				political_power_gain = 0.12
+				base_fuel_gain_factor = -0.05
+				supply_factor = -0.05
+			}
 			
 			cancel_if_invalid = no
 			allowed_to_remove = {
@@ -416,7 +428,11 @@ ideas = {
 			
 			#available = {}
 			
-			#modifier {}
+			modifier {
+				political_power_gain = -0.12
+				base_fuel_gain_factor = 0.05
+				supply_factor = 0.05
+			}
 			
 			cancel_if_invalid = no
 			allowed_to_remove = {
@@ -430,7 +446,11 @@ ideas = {
 			
 			#available = {}
 			
-			#modifier {}
+			modifier {
+				political_power_gain = -0.25
+				base_fuel_gain_factor = 0.12
+				supply_factor = 0.12
+			}
 			
 			cancel_if_invalid = no
 			allowed_to_remove = {
@@ -444,7 +464,11 @@ ideas = {
 			
 			#available = {}
 			
-			#modifier {}
+			modifier {
+				political_power_gain = -0.5
+				base_fuel_gain_factor = 0.25
+				supply_factor = 0.25
+			}
 			
 			cancel_if_invalid = no
 			allowed_to_remove = {
@@ -458,7 +482,11 @@ ideas = {
 			
 			#available = {}
 			
-			#modifier {}
+			modifier {
+				political_power_gain = -0.2
+				base_fuel_gain_factor = 0.30
+				supply_factor = 0.25
+			}
 			
 			cancel_if_invalid = no
 			allowed_to_remove = {
@@ -478,7 +506,10 @@ ideas = {
 			
 			#available = {}
 			
-			#modifier {}
+			modifier {
+				research_speed_factor = -0.25
+				political_power_gain = 0.5
+			}
 			
 			cancel_if_invalid = no
 			allowed_to_remove = {
@@ -492,7 +523,10 @@ ideas = {
 			
 			#available = {}
 			
-			#modifier {}
+			modifier {
+				research_speed_factor = -0.12
+				political_power_gain = 0.25
+			}
 			
 			cancel_if_invalid = no
 			allowed_to_remove = {
@@ -506,7 +540,10 @@ ideas = {
 			
 			#available = {}
 			
-			#modifier {}
+			modifier {
+				research_speed_factor = -0.05
+				political_power_gain = 0.12
+			}
 			
 			cancel_if_invalid = no
 			allowed_to_remove = {
@@ -520,7 +557,10 @@ ideas = {
 			
 			#available = {}
 			
-			#modifier {}
+			modifier {
+				research_speed_factor = 0.12
+				political_power_gain = -0.05
+			}
 			
 			cancel_if_invalid = no
 			allowed_to_remove = {
@@ -534,7 +574,10 @@ ideas = {
 			
 			#available = {}
 			
-			#modifier {}
+			modifier {
+				research_speed_factor = 0.25
+				political_power_gain = -0.12
+			}
 			
 			cancel_if_invalid = no
 			allowed_to_remove = {
@@ -548,7 +591,10 @@ ideas = {
 			
 			#available = {}
 			
-			#modifier {}
+			modifier {
+				research_speed_factor = 0.5
+				political_power_gain = -0.25
+			}
 			
 			cancel_if_invalid = no
 			allowed_to_remove = {
@@ -562,7 +608,10 @@ ideas = {
 			
 			#available = {}
 			
-			#modifier {}
+			modifier {
+				research_speed_factor = 0.5
+				political_power_gain = -0.15
+			}
 			
 			cancel_if_invalid = no
 			allowed_to_remove = {
@@ -581,7 +630,12 @@ ideas = {
 
 			#available = {}
 
-			#modifier = {}
+			modifier = {
+				industrial_capacity_factory = -0.3
+				industrial_capacity_dockyard = -0.3
+				cic_construction_boost_factor = -0.3
+				political_power_gain = 0.5
+			}
 
 			cancel_if_invalid = no
 			allowed_to_remove = {
@@ -595,7 +649,12 @@ ideas = {
 
 			#available = {}
 
-			#modifier = {}
+			modifier = {
+				industrial_capacity_factory = -0.15
+				industrial_capacity_dockyard = -0.15
+				cic_construction_boost_factor = -0.15
+				political_power_gain = 0.25
+			}
 
 			cancel_if_invalid = no
 			allowed_to_remove = {
@@ -610,7 +669,12 @@ ideas = {
 
 			#available = {}
 
-			#modifier = {}
+			modifier = {
+				industrial_capacity_factory = -0.07
+				industrial_capacity_dockyard = -0.07
+				cic_construction_boost_factor = -0.07
+				political_power_gain = 0.12
+			}
 
 			cancel_if_invalid = no
 			allowed_to_remove = {
@@ -624,7 +688,12 @@ ideas = {
 
 			#available = {}
 
-			#modifier = {}
+			modifier = {
+				industrial_capacity_factory = 0.07
+				industrial_capacity_dockyard = 0.07
+				cic_construction_boost_factor = 0.07
+				political_power_gain = -0.12
+			}
 
 			cancel_if_invalid = no
 			allowed_to_remove = {
@@ -638,7 +707,12 @@ ideas = {
 
 			#available = {}
 
-			#modifier = {}
+			modifier = {
+				industrial_capacity_factory = 0.15
+				industrial_capacity_dockyard = 0.15
+				cic_construction_boost_factor = 0.15
+				political_power_gain = -0.25
+			}
 
 			cancel_if_invalid = no
 			allowed_to_remove = {
@@ -652,7 +726,12 @@ ideas = {
 
 			#available = {}
 
-			#modifier = {}
+			modifier = {
+				industrial_capacity_factory = 0.3
+				industrial_capacity_dockyard = 0.3
+				cic_construction_boost_factor = 0.3
+				political_power_gain = -0.3
+			}
 
 			cancel_if_invalid = no
 			allowed_to_remove = {
