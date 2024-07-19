@@ -42,6 +42,7 @@ ideas = {
 
             cost = -1
             removal_cost = -1
+			default = yes
 
             #available = {}
 
@@ -59,7 +60,6 @@ ideas = {
 
             cost = -1
             removal_cost = -1
-			default = yes
 
             #available = {}
 
@@ -639,6 +639,7 @@ ideas = {
 		literacy_limited = {
 			cost = -1
 			removal_cost = -1
+			default = yes
 			
 			#available = {}
 			
@@ -655,7 +656,6 @@ ideas = {
 		literacy_poor = {
 			cost = -1
 			removal_cost = -1
-			default = yes
 			
 			#available = {}
 			
