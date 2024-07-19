@@ -10,9 +10,19 @@ ideas = {
 			
 			#available = {}
 			
-			#modifier = {}
+			modifier = {
+				offence = -0.5
+				defence = -0.5
+				training_time_factor = 0.5
+				army_speed_factor = -0.5
+				army_org_factor = -0.5
+				political_power_gain = 0.5
+			}
 			
 			cancel_if_invalid = no
+			allowed_to_remove = {
+                always = no
+            }
 		}
 		
 		army_budget_poor = {
@@ -21,9 +31,19 @@ ideas = {
 			
 			#available = {}
 			
-			#modifier = {}
+			modifier = {
+				offence = -0.25
+				defence = -0.25
+				training_time_factor = 0.25
+				army_speed_factor = -0.25
+				army_org_factor = -0.25
+				political_power_gain = 0.25
+			}
 			
 			cancel_if_invalid = no
+			allowed_to_remove = {
+                always = no
+            }
 		}
 		
 		army_budget_little = {
@@ -32,20 +52,40 @@ ideas = {
 			
 			#available = {}
 			
-			#modifier = {}
+			modifier = {
+				offence = -0.12
+				defence = -0.12
+				training_time_factor = 0.12
+				army_speed_factor = -0.12
+				army_org_factor = -0.12
+			}
 			
 			cancel_if_invalid = no
+			allowed_to_remove = {
+                always = no
+            }
 		}
 		
 		army_budget_moderate = {
 			cost = -1
 			removal_cost = -1
+			default = yes
 			
 			#available = {}
 			
-			#modifier = {}
+			modifier = {
+				offence = 0.12
+				defence = 0.12
+				training_time_factor = -0.12
+				army_speed_factor = 0.12
+				army_org_factor = 0.12
+				political_power_gain = -0.12
+			}
 			
 			cancel_if_invalid = no
+			allowed_to_remove = {
+                always = no
+            }
 		}
 		
 		army_budget_significant = {
@@ -54,9 +94,19 @@ ideas = {
 			
 			#available = {}
 			
-			#modifier = {}
+			modifier = {
+				offence = 0.25
+				defence = 0.25
+				training_time_factor = -0.25
+				army_speed_factor = 0.25
+				army_org_factor = 0.25
+				political_power_gain = -0.25
+			}
 			
 			cancel_if_invalid = no
+			allowed_to_remove = {
+                always = no
+            }
 		}
 		
 		army_budget_state = {
@@ -65,9 +115,19 @@ ideas = {
 			
 			#available = {}
 			
-			#modifier = {}
+			modifier = {
+				offence = 0.5
+				defence = 0.5
+				training_time_factor = -0.5
+				army_speed_factor = 0.5
+				army_org_factor = 0.5
+				political_power_gain = -0.5
+			}
 			
 			cancel_if_invalid = no
+			allowed_to_remove = {
+                always = no
+            }
 		}
 	}
 	
@@ -78,12 +138,19 @@ ideas = {
 		healthcare_no = {
 			cost = -1
 			removal_cost = -1
+			default = yes
 			
 			#available = {}
 			
-			#modifier = {}
+			modifier = {
+				monthly_population = -0.5
+				political_power_gain = 0.5
+			}
 			
 			cancel_if_invalid = no
+			allowed_to_remove = {
+                always = no
+            }
 		}
 		
 		healthcare_poor = {
@@ -92,9 +159,15 @@ ideas = {
 			
 			#available = {}
 			
-			#modifier = {}
+			modifier = {
+				monthly_population = -0.25
+				political_power_gain = 0.25
+			}
 			
 			cancel_if_invalid = no
+			allowed_to_remove = {
+                always = no
+            }
 		}
 		
 		healthcare_limited = {
@@ -103,9 +176,14 @@ ideas = {
 			
 			#available = {}
 			
-			#modifier = {}
+			modifier = {
+				monthly_population = -0.12
+			}
 			
 			cancel_if_invalid = no
+			allowed_to_remove = {
+                always = no
+            }
 		}
 		
 		healthcare_moderate = {
@@ -114,9 +192,15 @@ ideas = {
 			
 			#available = {}
 			
-			#modifier = {}
+			modifier = {
+				monthly_population = 0.12
+				political_power_gain = -0.12
+			}
 			
 			cancel_if_invalid = no
+			allowed_to_remove = {
+                always = no
+            }
 		}
 		
 		healthcare_funded = {
@@ -125,9 +209,15 @@ ideas = {
 			
 			#available = {}
 			
-			#modifier = {}
+			modifier = {
+				monthly_population = 0.25
+				political_power_gain = -0.25
+			}
 			
 			cancel_if_invalid = no
+			allowed_to_remove = {
+                always = no
+            }
 		}
 		
 		healthcare_well_funded = {
@@ -136,9 +226,15 @@ ideas = {
 			
 			#available = {}
 			
-			#modifier = {}
+			modifier = {
+				monthly_population = 0.5
+				political_power_gain = -0.5
+			}
 			
 			cancel_if_invalid = no
+			allowed_to_remove = {
+                always = no
+            }
 		}
 	}
 	
@@ -149,12 +245,20 @@ ideas = {
 		police_no = {
 			cost = -1
 			removal_cost = -1
+			default = yes
 			
 			#available = {}
 			
-			#modifier = {}
+			modifier = {
+				no_compliance_gain = 1
+				resistance_activity = 0.25
+				political_power_gain = 0.5
+			}
 			
 			cancel_if_invalid = no
+			allowed_to_remove = {
+                always = no
+            }
 		}
 		
 		police_under = {
@@ -163,9 +267,15 @@ ideas = {
 			
 			#available = {}
 			
-			#modifier = {}
+			modifier = {
+				resistance_activity = 0.12
+				political_power_gain = 0.25
+			}
 			
 			cancel_if_invalid = no
+			allowed_to_remove = {
+                always = no
+            }
 		}
 		
 		police_limited = {
@@ -174,9 +284,15 @@ ideas = {
 			
 			#available = {}
 			
-			#modifier = {}
+			modifier = {
+				resistance_activity = 0.05
+				political_power_gain = 0.12
+			}
 			
 			cancel_if_invalid = no
+			allowed_to_remove = {
+                always = no
+            }
 		}
 		
 		police_moderate = {
@@ -185,9 +301,14 @@ ideas = {
 			
 			#available = {}
 			
-			#modifier = {}
+			modifier = {
+				political_power_gain = -0.12
+			}
 			
 			cancel_if_invalid = no
+			allowed_to_remove = {
+                always = no
+            }
 		}
 		
 		police_funded = {
@@ -196,9 +317,15 @@ ideas = {
 			
 			#available = {}
 			
-			#modifier = {}
+			modifier = {
+				resistance_activity = -0.12
+				political_power_gain = -0.25
+			}
 			
 			cancel_if_invalid = no
+			allowed_to_remove = {
+                always = no
+            }
 		}
 		
 		police_well_funded = {
@@ -207,9 +334,15 @@ ideas = {
 			
 			#available = {}
 			
-			#modifier = {}
+			modifier = {
+				resistance_activity = -0.25
+				political_power_gain = -0.35
+			}
 			
 			cancel_if_invalid = no
+			allowed_to_remove = {
+                always = no
+            }
 		}
 		
 		police_communal = {
@@ -218,9 +351,15 @@ ideas = {
 			
 			#available = {}
 			
-			#modifier = {}
+			modifier = {
+				resistance_activity = 0.35
+				political_power_gain = 0.10
+			}
 			
 			cancel_if_invalid = no
+			allowed_to_remove = {
+                always = no
+            }
 		}
 	}
 	
@@ -237,6 +376,9 @@ ideas = {
 			#modifier {}
 			
 			cancel_if_invalid = no
+			allowed_to_remove = {
+                always = no
+            }
 		}
 		
 		service_poor = {
@@ -248,6 +390,9 @@ ideas = {
 			#modifier {}
 			
 			cancel_if_invalid = no
+			allowed_to_remove = {
+                always = no
+            }
 		}
 		
 		service_limited = {
@@ -259,17 +404,24 @@ ideas = {
 			#modifier {}
 			
 			cancel_if_invalid = no
+			allowed_to_remove = {
+                always = no
+            }
 		}
 		
 		service_moderate = {
 			cost = -1
 			removal_cost = -1
+			default = yes
 			
 			#available = {}
 			
 			#modifier {}
 			
 			cancel_if_invalid = no
+			allowed_to_remove = {
+                always = no
+            }
 		}
 		
 		service_funded = {
@@ -281,6 +433,9 @@ ideas = {
 			#modifier {}
 			
 			cancel_if_invalid = no
+			allowed_to_remove = {
+                always = no
+            }
 		}
 		
 		service_well_funded = {
@@ -292,6 +447,9 @@ ideas = {
 			#modifier {}
 			
 			cancel_if_invalid = no
+			allowed_to_remove = {
+                always = no
+            }
 		}
 		
 		service_communal = {
@@ -303,6 +461,9 @@ ideas = {
 			#modifier {}
 			
 			cancel_if_invalid = no
+			allowed_to_remove = {
+                always = no
+            }
 		}
 	}
 	
@@ -313,12 +474,16 @@ ideas = {
 		education_no = {
 			cost = -1
 			removal_cost = -1
+			default = yes
 			
 			#available = {}
 			
 			#modifier {}
 			
 			cancel_if_invalid = no
+			allowed_to_remove = {
+                always = no
+            }
 		}
 		
 		education_poor = {
@@ -330,6 +495,9 @@ ideas = {
 			#modifier {}
 			
 			cancel_if_invalid = no
+			allowed_to_remove = {
+                always = no
+            }
 		}
 		
 		education_limited = {
@@ -341,6 +509,9 @@ ideas = {
 			#modifier {}
 			
 			cancel_if_invalid = no
+			allowed_to_remove = {
+                always = no
+            }
 		}
 		
 		education_moderate = {
@@ -352,6 +523,9 @@ ideas = {
 			#modifier {}
 			
 			cancel_if_invalid = no
+			allowed_to_remove = {
+                always = no
+            }
 		}
 		
 		education_funded = {
@@ -363,6 +537,9 @@ ideas = {
 			#modifier {}
 			
 			cancel_if_invalid = no
+			allowed_to_remove = {
+                always = no
+            }
 		}
 		
 		education_well_funded = {
@@ -374,6 +551,9 @@ ideas = {
 			#modifier {}
 			
 			cancel_if_invalid = no
+			allowed_to_remove = {
+                always = no
+            }
 		}
 		
 		education_communal = {
@@ -385,6 +565,9 @@ ideas = {
 			#modifier {}
 			
 			cancel_if_invalid = no
+			allowed_to_remove = {
+                always = no
+            }
 		}
 	}
 
@@ -401,6 +584,9 @@ ideas = {
 			#modifier = {}
 
 			cancel_if_invalid = no
+			allowed_to_remove = {
+                always = no
+            }
 		}
 
 		expansion_poor = {
@@ -412,17 +598,24 @@ ideas = {
 			#modifier = {}
 
 			cancel_if_invalid = no
+			allowed_to_remove = {
+                always = no
+            }
 		}
 
 		expansion_consistent = {
 			cost = -1
 			removal_cost = -1
+			default = yes
 
 			#available = {}
 
 			#modifier = {}
 
 			cancel_if_invalid = no
+			allowed_to_remove = {
+                always = no
+            }
 		}
 
 		expansion_little = {
@@ -434,6 +627,9 @@ ideas = {
 			#modifier = {}
 
 			cancel_if_invalid = no
+			allowed_to_remove = {
+                always = no
+            }
 		}
 
 		expansion_moderate = {
@@ -445,6 +641,9 @@ ideas = {
 			#modifier = {}
 
 			cancel_if_invalid = no
+			allowed_to_remove = {
+                always = no
+            }
 		}
 
 		expansion_rapid = {
@@ -456,6 +655,9 @@ ideas = {
 			#modifier = {}
 
 			cancel_if_invalid = no
+			allowed_to_remove = {
+                always = no
+            }
 		}
 	}
 }

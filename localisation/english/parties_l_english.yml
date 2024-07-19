@@ -110,16 +110,16 @@
  ##Parties
  
  #Brenra
- BRK_nationalism_ideo_party:0 "PdBaFā"
- BRK_nationalism_ideo_party_long:0 "Fa'Pàti D'Brekta A'Mà'ā"
- BRK_socialism_party:0 "PaXdB"
- BRK_socialism_party_long:0 "Fa'Pàti A'Xonaise D'Brekta"
+ BRK_nationalism_ideo_party:0 "BFP"
+ BRK_nationalism_ideo_party_long:0 "Brenra First Party"
+ BRK_socialism_party:0 "CPB"
+ BRK_socialism_party_long:0 "Communist Party of Brenra"
  BRK_capitalism_party:0 "PaM"
- BRK_capitalism_party_long:0 "Fa'Pàti A'Mícul"
+ BRK_capitalism_party_long:0 "The Purple Party"
  BRK_monarchism_party:0 "Felis"
- BRK_monarchism_party_long:0 "Felis D'Mantil A'Hermona"
- BRK_theocratic_party:0 "San'lenx"
- BRK_theocratic_party_long:0 "Fa'Sovet D'San'lenx"
+ BRK_monarchism_party_long:0 "Felis of House Hermonia"
+ BRK_theocratic_party:0 "Prophets"
+ BRK_theocratic_party_long:0 "Prophet Council"
  
  #Ellysian
 
@@ -141,11 +141,11 @@
  RAZ_socialism_party:0 "ASPR"
  RAZ_socialism_party_long:0 "Alaina's Socialist Party of Razuni"
  RAZ_capitalism_party:0 "BKB"
- RAZ_capitalism_party_long:0 "The Big Kahuna Burger"
+ RAZ_capitalism_party_long:0 "Big Kahuna Burger"
  RAZ_monarchism_party:0 "Razud"
  RAZ_monarchism_party_long:0 "The Razud Royal Family"
  RAZ_theocratic_party:0 "The Marked"
- RAZ_theocratic_party_long:0 "The Court of the Marked"
+ RAZ_theocratic_party_long:0 "Court of the Marked"
  
  #USSE
  USE_nationalism_ideo_party:0 ""

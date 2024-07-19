@@ -7,12 +7,19 @@ ideas = {
         voting_no = {
             cost = -1
             removal_cost = -1
+            default = yes
 
             #available = {}
 
-            #modifier = {}
+            modifier = {
+                political_advisor_cost_factor = 0.5
+                political_power_factor = -0.4
+            }
 
             cancel_if_invalid = no
+            allowed_to_remove = {
+                always = no
+            }
         }
 
         voting_oligarch = {
@@ -21,9 +28,15 @@ ideas = {
 
             #available = {}
 
-            #modifier = {}
+            modifier = {
+                political_advisor_cost_factor = 0.25
+                political_power_factor = -0.2
+            }
 
             cancel_if_invalid = no
+            allowed_to_remove = {
+                always = no
+            }
         }
 
         voting_parliament = {
@@ -32,9 +45,15 @@ ideas = {
 
             #available = {}
 
-            #modifier = {}
+            modifier = {
+                political_advisor_cost_factor = 0.15
+                political_power_factor = -0.1
+            }
 
             cancel_if_invalid = no
+            allowed_to_remove = {
+                always = no
+            }
         }
 
         voting_rich = {
@@ -43,9 +62,14 @@ ideas = {
 
             #available = {}
 
-            #modifier = {}
+            modifier = {
+                political_power_factor = 0.1
+            }
 
             cancel_if_invalid = no
+            allowed_to_remove = {
+                always = no
+            }
         }
 
         voting_one = {
@@ -54,9 +78,15 @@ ideas = {
 
             #available = {}
 
-            #modifier = {}
+            modifier = {
+                political_advisor_cost_factor = -0.15
+                political_power_factor = 0.2
+            }
 
             cancel_if_invalid = no
+            allowed_to_remove = {
+                always = no
+            }
         }
 
         voting_yes = {
@@ -65,9 +95,15 @@ ideas = {
 
             #available = {}
 
-            #modifier = {}
+            modifier = {
+                political_advisor_cost_factor = -0.25
+                political_power_factor = 0.4
+            }
 
             cancel_if_invalid = no
+            allowed_to_remove = {
+                always = no
+            }
         }
     }
 
@@ -81,9 +117,15 @@ ideas = {
 
             #available = {}
 
-            #modifier = {}
+            modifier = {
+                industrial_capacity_factory = 0.5
+                stability_factor = -0.30
+            }
 
             cancel_if_invalid = no
+            allowed_to_remove = {
+                always = no
+            }
         }
 
         race_slave_maybe = {
@@ -92,9 +134,15 @@ ideas = {
 
             #available = {}
 
-            #modifier = {}
+            modifier = {
+                industrial_capacity_factory = 0.25
+                stability_factor = -0.25
+            }
 
             cancel_if_invalid = no
+            allowed_to_remove = {
+                always = no
+            }
         }
 
         race_discrim_laws = {
@@ -103,9 +151,14 @@ ideas = {
 
             #available = {}
 
-            #modifier = {}
+            modifier = {
+                stability_factor = -0.2
+            }
 
             cancel_if_invalid = no
+            allowed_to_remove = {
+                always = no
+            }
         }
 
         race_segregation = {
@@ -114,9 +167,15 @@ ideas = {
 
             #available = {}
 
-            #modifier = {}
+            modifier = {
+                industrial_capacity_factory = -0.2
+                stability_factor = -0.1
+            }
 
             cancel_if_invalid = no
+            allowed_to_remove = {
+                always = no
+            }
         }
 
         race_limited = {
@@ -125,20 +184,32 @@ ideas = {
 
             #available = {}
 
-            #modifier = {}
+            modifier = {
+                stability_factor = -0.05
+            }
 
             cancel_if_invalid = no
+            allowed_to_remove = {
+                always = no
+            }
         }
 
         race_universal = {
             cost = -1
             removal_cost = -1
+            default = yes
 
             #available = {}
 
-            #modifier = {}
+            modifier = {
+                industrial_capacity_factory = 0.25
+                stability_factor = 0.1
+            }
 
             cancel_if_invalid = no
+            allowed_to_remove = {
+                always = no
+            }
         }
     }
 
@@ -152,9 +223,19 @@ ideas = {
 
             #available = {}
 
-            #modifier = {}
+            rule = {
+                can_generate_female_aces = no
+                can_generate_female_country_leaders = no
+                can_generate_female_unit_leaders = no
+            }
+            modifier = {
+                stability_factor = -0.1
+            }
 
             cancel_if_invalid = no
+            allowed_to_remove = {
+                always = no
+            }
         }
 
         sex_men_limited = {
@@ -163,20 +244,43 @@ ideas = {
 
             #available = {}
 
-            #modifier = {}
+            rule = {
+                can_generate_female_aces = yes
+                can_generate_female_country_leaders = yes
+                can_generate_female_unit_leaders = yes
+            }
+            modifier = {
+                stability_factor = 0.1
+                female_random_country_leader_chance = 0.1
+            }
 
             cancel_if_invalid = no
+            allowed_to_remove = {
+                always = no
+            }
         }
 
         sex_equality = {
             cost = -1
             removal_cost = -1
+            default = yes
 
             #available = {}
 
-            #modifier = {}
+            rule = {
+                can_generate_female_aces = yes
+                can_generate_female_country_leaders = yes
+                can_generate_female_unit_leaders = yes
+            }
+            modifier = {
+                stability_factor = 0.2
+                female_random_country_leader_chance = 0.5
+            }
 
             cancel_if_invalid = no
+            allowed_to_remove = {
+                always = no
+            }
         }
 
         sex_women_limited = {
@@ -185,9 +289,20 @@ ideas = {
 
             #available = {}
 
-            #modifier = {}
+            rule = {
+                can_generate_female_aces = yes
+                can_generate_female_country_leaders = yes
+                can_generate_female_unit_leaders = yes
+            }
+            modifier = {
+                stability_factor = 0.1
+                female_random_country_leader_chance = 0.75
+            }
 
             cancel_if_invalid = no
+            allowed_to_remove = {
+                always = no
+            }
         }
 
         sex_women_yes = {
@@ -196,9 +311,20 @@ ideas = {
 
             #available = {}
 
-            #modifier = {}
+            rule = {
+                can_generate_female_aces = yes
+                can_generate_female_country_leaders = yes
+                can_generate_female_unit_leaders = yes
+            }
+            modifier = {
+                stability_factor = -0.1
+                female_random_country_leader_chance = 1
+            }
 
             cancel_if_invalid = no
+            allowed_to_remove = {
+                always = no
+            }
         }
     }
 
@@ -212,20 +338,33 @@ ideas = {
 
             #available = {}
 
-            #modifier = {}
+            modifier = {
+                drift_defence_factor = 0.3
+                stability_factor = -0.2
+            }
             
             cancel_if_invalid = no
+            allowed_to_remove = {
+                always = no
+            }
         }
 
         protest_state = {
             cost = -1
             removal_cost = -1
+            default = yes
 
             #available = {}
 
-            #modifier = {}
+            modifier = {
+                drift_defence_factor = 0.15
+                stability_factor = -0.1
+            }
             
             cancel_if_invalid = no
+            allowed_to_remove = {
+                always = no
+            }
         }
 
         protest_not_fascom = {
@@ -234,9 +373,14 @@ ideas = {
 
             #available = {}
 
-            #modifier = {}
+            modifier = {
+                drift_defence_factor = 0.1
+            }
             
             cancel_if_invalid = no
+            allowed_to_remove = {
+                always = no
+            }
         }
 
         protest_allowed = {
@@ -245,9 +389,15 @@ ideas = {
 
             #available = {}
 
-            #modifier = {}
+            modifier = {
+                drift_defence_factor = -0.1
+                stability_factor = 0.1
+            }
             
             cancel_if_invalid = no
+            allowed_to_remove = {
+                always = no
+            }
         }
     }
 
@@ -258,12 +408,18 @@ ideas = {
         party_allowed = {
             cost = -1
             removal_cost = -1
+            default = yes
 
             #available = {}
 
-            #modifier = {}
+            modifier = {
+                drift_defence_factor = -0.2
+            }
             
             cancel_if_invalid = no
+            allowed_to_remove = {
+                always = no
+            }
         }
 
         party_no_fascom = {
@@ -272,9 +428,14 @@ ideas = {
 
             #available = {}
 
-            #modifier = {}
+            modifier = {
+                drift_defence_factor = -0.1
+            }
             
             cancel_if_invalid = no
+            allowed_to_remove = {
+                always = no
+            }
         }
 
         party_limited = {
@@ -283,9 +444,14 @@ ideas = {
 
             #available = {}
 
-            #modifier = {}
+            modifier = {
+                drift_defence_factor = 0.1
+            }
             
             cancel_if_invalid = no
+            allowed_to_remove = {
+                always = no
+            }
         }
 
         party_banned = {
@@ -294,9 +460,14 @@ ideas = {
 
             #available = {}
 
-            #modifier = {}
+            modifier = {
+                drift_defence_factor = 0.2
+            }
             
             cancel_if_invalid = no
+            allowed_to_remove = {
+                always = no
+            }
         }
     }
 
@@ -310,9 +481,15 @@ ideas = {
 
             #available = {}
 
-            #modifier = {}
+            modifier = {
+                stability_factor = 0.1
+                research_speed_factor = -0.1
+            }
 
             cancel_if_invalid = no
+            allowed_to_remove = {
+                always = no
+            }
         }
 
         press_censored = {
@@ -321,9 +498,14 @@ ideas = {
 
             #available = {}
 
-            #modifier = {}
+            modifier = {
+                research_speed_factor = -0.05
+            }
 
             cancel_if_invalid = no
+            allowed_to_remove = {
+                always = no
+            }
         }
 
         press_corporate = {
@@ -332,9 +514,15 @@ ideas = {
 
             #available = {}
 
-            #modifier = {}
+            modifier = {
+                stability_factor = -0.1
+                research_speed_factor = 0.1
+            }
 
             cancel_if_invalid = no
+            allowed_to_remove = {
+                always = no
+            }
         }
 
         press_free = {
@@ -343,20 +531,30 @@ ideas = {
 
             #available = {}
 
-            #modifier = {}
+            modifier = {
+                stability_factor = -0.2
+                research_speed_factor = 0.2
+            }
 
             cancel_if_invalid = no
+            allowed_to_remove = {
+                always = no
+            }
         }
 
         press_no = {
             cost = -1
             removal_cost = -1
+            default = yes
 
             #available = {}
 
             #modifier = {}
 
             cancel_if_invalid = no
+            allowed_to_remove = {
+                always = no
+            }
         }
     }
 }

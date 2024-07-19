@@ -14,6 +14,9 @@ ideas = {
             #modifier = {}
 
             cancel_if_invalid = no
+			allowed_to_remove = {
+                always = no
+            }
         }
 
         tech_pre_modern = {
@@ -26,6 +29,9 @@ ideas = {
             #modifier = {}
 
             cancel_if_invalid = no
+			allowed_to_remove = {
+                always = no
+            }
         }
 
         tech_small = {
@@ -38,18 +44,25 @@ ideas = {
             #modifier = {}
 
             cancel_if_invalid = no
+			allowed_to_remove = {
+                always = no
+            }
         }
 
         tech_poor = {
 
             cost = -1
             removal_cost = -1
+			default = yes
 
             #available = {}
 
             #modifier = {}
 
             cancel_if_invalid = no
+			allowed_to_remove = {
+                always = no
+            }
         }
 
         tech_tribal = {
@@ -62,6 +75,9 @@ ideas = {
             #modifier = {}
 
             cancel_if_invalid = no
+			allowed_to_remove = {
+                always = no
+            }
         }
     }
     
@@ -78,6 +94,9 @@ ideas = {
 			#modifier = {}
 			
 			cancel_if_invalid = no
+			allowed_to_remove = {
+                always = no
+            }
 		}
 	
 		industry_new_dev = {
@@ -89,6 +108,9 @@ ideas = {
 			#modifier = {}
 			
 			cancel_if_invalid = no
+			allowed_to_remove = {
+                always = no
+            }
 		}
 	
 		industry_deving = {
@@ -100,17 +122,24 @@ ideas = {
 			#modifier = {}
 			
 			cancel_if_invalid = no
+			allowed_to_remove = {
+                always = no
+            }
 		}
 		
 		industry_agrarian = {
 			cost = -1
 			removal_cost = -1
+			default = yes
 			
 			#available = {}
 			
 			#modifier = {}
 			
 			cancel_if_invalid = no
+			allowed_to_remove = {
+                always = no
+            }
 		}
 		
 		industry_primitive = {
@@ -122,6 +151,9 @@ ideas = {
 			#modifier = {}
 			
 			cancel_if_invalid = no
+			allowed_to_remove = {
+                always = no
+            }
 		}
 		
 		industry_collective = {
@@ -133,6 +165,9 @@ ideas = {
 			#modifier = {}
 			
 			cancel_if_invalid = no
+			allowed_to_remove = {
+                always = no
+            }
 		}
     }
     
@@ -149,6 +184,9 @@ ideas = {
 			#modifier = {}
 			
 			cancel_if_invalid = no
+			allowed_to_remove = {
+                always = no
+            }
 		}
 		
 		religion_floristanism = {
@@ -160,6 +198,9 @@ ideas = {
 			#modifier = {}
 			
 			cancel_if_invalid = no
+			allowed_to_remove = {
+                always = no
+            }
 		}
 		
 		religion_salranism = {
@@ -171,6 +212,9 @@ ideas = {
 			#modifier = {}
 			
 			cancel_if_invalid = no
+			allowed_to_remove = {
+                always = no
+            }
 		}
 		
 		religion_sylfaeism = {
@@ -182,6 +226,9 @@ ideas = {
 			#modifier = {}
 			
 			cancel_if_invalid = no
+			allowed_to_remove = {
+                always = no
+            }
 		}
 		
 		religion_animism = {
@@ -193,17 +240,24 @@ ideas = {
 			#modifier = {}
 			
 			cancel_if_invalid = no
+			allowed_to_remove = {
+                always = no
+            }
 		}
 		
 		religion_misc = {
 			cost = -1
 			removal_cost = -1
+			default = yes
 			
 			#available = {}
 			
 			#modifier = {}
 			
 			cancel_if_invalid = no
+			allowed_to_remove = {
+                always = no
+            }
 		}
     }
     
@@ -220,6 +274,9 @@ ideas = {
 			#modifier = {}
 			
 			cancel_if_invalid = no
+			allowed_to_remove = {
+                always = no
+            }
 		}
 		
 		culture_razuni_coast = {
@@ -231,6 +288,9 @@ ideas = {
 			#modifier = {}
 			
 			cancel_if_invalid = no
+			allowed_to_remove = {
+                always = no
+            }
 		}
 		
 		culture_razuni_deep = {
@@ -242,6 +302,9 @@ ideas = {
 			#modifier = {}
 			
 			cancel_if_invalid = no
+			allowed_to_remove = {
+                always = no
+            }
 		}
 		
 		culture_myconid = {
@@ -253,6 +316,9 @@ ideas = {
 			#modifier = {}
 			
 			cancel_if_invalid = no
+			allowed_to_remove = {
+                always = no
+            }
 		}
 		
 		culture_nagosi = {
@@ -264,6 +330,9 @@ ideas = {
 			#modifier = {}
 			
 			cancel_if_invalid = no
+			allowed_to_remove = {
+                always = no
+            }
 		}
 		
 		culture_aeran = {
@@ -275,6 +344,9 @@ ideas = {
 			#modifier = {}
 			
 			cancel_if_invalid = no
+			allowed_to_remove = {
+                always = no
+            }
 		}
 		
 		culture_lo_oi = {
@@ -286,6 +358,9 @@ ideas = {
 			#modifier = {}
 			
 			cancel_if_invalid = no
+			allowed_to_remove = {
+                always = no
+            }
 		}
 		
 		culture_ellysian = {
@@ -297,6 +372,9 @@ ideas = {
 			#modifier = {}
 			
 			cancel_if_invalid = no
+			allowed_to_remove = {
+                always = no
+            }
 		}
 		
 		culture_nymph_mushroom = {
@@ -308,6 +386,9 @@ ideas = {
 			#modifier = {}
 			
 			cancel_if_invalid = no
+			allowed_to_remove = {
+                always = no
+            }
 		}
 		
 		culture_farencian = {
@@ -319,6 +400,9 @@ ideas = {
 			#modifier = {}
 			
 			cancel_if_invalid = no
+			allowed_to_remove = {
+                always = no
+            }
 		}
 		
 		culture_medenan = {
@@ -330,17 +414,24 @@ ideas = {
 			#modifier = {}
 			
 			cancel_if_invalid = no
+			allowed_to_remove = {
+                always = no
+            }
 		}
 		
 		culture_misc = {
 			cost = -1
 			removal_cost = -1
+			default = yes
 			
 			#available = {}
 			
 			#modifier = {}
 			
 			cancel_if_invalid = no
+			allowed_to_remove = {
+                always = no
+            }
 		}
 	}
 	
@@ -357,6 +448,9 @@ ideas = {
 			#modifier = {}
 			
 			cancel_if_invalid = no
+			allowed_to_remove = {
+                always = no
+            }
 		}
 		
 		poverty_negligible = {
@@ -368,6 +462,9 @@ ideas = {
 			#modifier = {}
 			
 			cancel_if_invalid = no
+			allowed_to_remove = {
+                always = no
+            }
 		}
 		
 		poverty_vlow = {
@@ -379,6 +476,9 @@ ideas = {
 			#modifier = {}
 			
 			cancel_if_invalid = no
+			allowed_to_remove = {
+                always = no
+            }
 		}
 		
 		poverty_low = {
@@ -390,17 +490,24 @@ ideas = {
 			#modifier = {}
 			
 			cancel_if_invalid = no
+			allowed_to_remove = {
+                always = no
+            }
 		}
 		
 		poverty_moderate = {
 			cost = -1
 			removal_cost = -1
+			default = yes
 			
 			#available = {}
 			
 			#modifier = {}
 			
 			cancel_if_invalid = no
+			allowed_to_remove = {
+                always = no
+            }
 		}
 		
 		poverty_significant = {
@@ -412,6 +519,9 @@ ideas = {
 			#modifier = {}
 			
 			cancel_if_invalid = no
+			allowed_to_remove = {
+                always = no
+            }
 		}
 		
 		poverty_widespread = {
@@ -423,6 +533,9 @@ ideas = {
 			#modifier = {}
 			
 			cancel_if_invalid = no
+			allowed_to_remove = {
+                always = no
+            }
 		}
 	}
 	
@@ -439,6 +552,9 @@ ideas = {
 			#modifier = {}
 			
 			cancel_if_invalid = no
+			allowed_to_remove = {
+                always = no
+            }
 		}
 		
 		literacy_significant = {
@@ -450,6 +566,9 @@ ideas = {
 			#modifier = {}
 			
 			cancel_if_invalid = no
+			allowed_to_remove = {
+                always = no
+            }
 		}
 		
 		literacy_moderate = {
@@ -461,6 +580,9 @@ ideas = {
 			#modifier = {}
 			
 			cancel_if_invalid = no
+			allowed_to_remove = {
+                always = no
+            }
 		}
 		
 		literacy_limited = {
@@ -472,17 +594,24 @@ ideas = {
 			#modifier = {}
 			
 			cancel_if_invalid = no
+			allowed_to_remove = {
+                always = no
+            }
 		}
 		
 		literacy_poor = {
 			cost = -1
 			removal_cost = -1
+			default = yes
 			
 			#available = {}
 			
 			#modifier = {}
 			
 			cancel_if_invalid = no
+			allowed_to_remove = {
+                always = no
+            }
 		}
 		
 		literacy_mass_ilit = {
@@ -494,6 +623,9 @@ ideas = {
 			#modifier = {}
 			
 			cancel_if_invalid = no
+			allowed_to_remove = {
+                always = no
+            }
 		}
 		
 		literacy_negligible = {
@@ -505,6 +637,9 @@ ideas = {
 			#modifier = {}
 			
 			cancel_if_invalid = no
+			allowed_to_remove = {
+                always = no
+            }
 		}
 	}
 }
