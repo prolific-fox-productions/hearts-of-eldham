@@ -8,6 +8,20 @@ set_technology = {
 
 }
 
+#Starting Ideas
+
+add_ideas = religion_salranism
+add_ideas = culture_razuni_coast
+add_ideas = poverty_low
+add_ideas = literacy_significant
+add_ideas = state_salranism
+add_ideas = app_hered_appoint
+add_ideas = army_budget_moderate
+add_ideas = police_limited
+add_ideas = limited_exports
+add_ideas = tax_vlow
+add_ideas = press_no
+
 recruit_character = RAZ_bashar_razud
 recruit_character = RAZ_alaina_arianhrod
 recruit_character = RAZ_kahuna_bacardi
