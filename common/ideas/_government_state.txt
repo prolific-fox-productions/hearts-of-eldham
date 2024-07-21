@@ -46,6 +46,9 @@ ideas = {
 			
 			#modifier = {}
 			
+			visible = {
+				tag = BRK
+			}
 			cancel_if_invalid = no
 			allowed_to_remove = {
                 always = no
@@ -60,6 +63,9 @@ ideas = {
 			
 			#modifier = {}
 			
+			visible = {
+				tag = RAZ
+			}
 			cancel_if_invalid = no
 			allowed_to_remove = {
                 always = no
@@ -74,6 +80,9 @@ ideas = {
 			
 			#modifier = {}
 			
+			visible = {
+				always = no
+			}
 			cancel_if_invalid = no
 			allowed_to_remove = {
                 always = no
@@ -88,6 +97,13 @@ ideas = {
 			
 			#modifier = {}
 			
+			visible = {
+				NOT = {
+					tag = BRK
+					tag = RAZ
+					tag = USE
+				}
+			}
 			cancel_if_invalid = no
 			allowed_to_remove = {
                 always = no
@@ -103,6 +119,9 @@ ideas = {
 			
 			#modifier = {}
 			
+			visible = {
+				tag = USE
+			}
 			cancel_if_invalid = no
 			allowed_to_remove = {
                 always = no

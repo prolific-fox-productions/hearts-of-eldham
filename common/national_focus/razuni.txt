@@ -1,0 +1,18 @@
+focus_tree = {
+    id = razuni_focus
+
+    country = {
+        factor = 0
+        modifier = {
+            add = 20
+            original_tag = RAZ
+        }
+    }
+
+    focus = {
+        id = RAZ_placeholder
+        x = 1
+        y = 1
+        cost = 1
+    }
+}

@@ -1,0 +1,18 @@
+focus_tree = {
+    id = brenra_focus
+
+    country = {
+        factor = 0
+        modifier = {
+            add = 20
+            original_tag = BRK
+        }
+    }
+
+    focus = {
+        id = BRK_placeholder
+        x = 1
+        y = 1
+        cost = 1
+    }
+}

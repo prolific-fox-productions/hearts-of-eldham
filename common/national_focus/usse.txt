@@ -1,0 +1,18 @@
+focus_tree = {
+    id = usse_focus
+
+    country = {
+        factor = 0
+        modifier = {
+            add = 20
+            original_tag = USE
+        }
+    }
+
+    focus = {
+        id = USE_placeholder
+        x = 1
+        y = 1
+        cost = 1
+    }
+}

@@ -1,0 +1,18 @@
+focus_tree = {
+    id = ravnica_focus
+
+    country = {
+        factor = 0
+        modifier = {
+            add = 20
+            original_tag = RAV
+        }
+    }
+
+    focus = {
+        id = RAV_placeholder
+        x = 1
+        y = 1
+        cost = 1
+    }
+}

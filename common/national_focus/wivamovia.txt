@@ -1,0 +1,18 @@
+focus_tree = {
+    id = wivamovia_focus
+
+    country = {
+        factor = 0
+        modifier = {
+            add = 20
+            original_tag = WIV
+        }
+    }
+
+    focus = {
+        id = WIV_placeholder
+        x = 1
+        y = 1
+        cost = 1
+    }
+}

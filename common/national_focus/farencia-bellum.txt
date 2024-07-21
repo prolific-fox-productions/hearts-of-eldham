@@ -1,0 +1,18 @@
+focus_tree = {
+    id = farencia_focus
+
+    country = {
+        factor = 0
+        modifier = {
+            add = 20
+            original_tag = FAR
+        }
+    }
+
+    focus = {
+        id = FAR_placeholder
+        x = 1
+        y = 1
+        cost = 1
+    }
+}
