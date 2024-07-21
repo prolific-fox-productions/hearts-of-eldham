@@ -8,6 +8,33 @@ set_technology = {
 
 }
 
+#Starting Ideas
+
+add_ideas = tech_pre_modern
+add_ideas = industry_collective
+add_ideas = culture_lo_oi
+add_ideas = poverty_communal
+add_ideas = literacy_widespread
+add_ideas = state_secular
+add_ideas = app_vstate
+add_ideas = structure_council
+add_ideas = army_budget_little
+add_ideas = healthcare_well_funded
+add_ideas = service_communal
+add_ideas = education_communal
+add_ideas = limited_exports
+add_ideas = property_communal
+add_ideas = tax_no
+add_ideas = work_short
+add_ideas = union_manager
+add_ideas = war_economy
+add_ideas = voting_yes
+add_ideas = race_universal
+add_ideas = sex_equality
+add_ideas = protest_not_fascom
+add_ideas = party_banned
+add_ideas = press_free
+
 recruit_character = USE_leo_belgicus
 recruit_character = USE_egor_tsukanov
 recruit_character = USE_henrich_pierre
