@@ -1,19 +1,19 @@
+
 state={
 	id=169
-	name="STATE_169"
-	provinces={
-		3008 3009 3010 3011 3012 
-	}
-	manpower=1
-	state_category=rural
-	buildings_max_level_factor=1.000
+	name="STATE_276"
 
 	history={
-		owner = ELY
-		#victory_points = { 1 2 }
-		#buildings = {}
-		add_core_of = ELY
+		owner = TST
+		add_core_of = TST
+
 	}
-	
+
+	provinces={
+		3513 3538 3550 3551 3749 3780 3791 3884 4030 4078 4123 4255 4369 4401 4429 4565 4566 4915 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=rural
 	local_supplies=0.000
 }

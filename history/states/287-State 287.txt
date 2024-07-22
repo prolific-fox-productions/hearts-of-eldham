@@ -1,12 +1,13 @@
+
 state={
 	id=287
-	name="STATE_287"
+	name="STATE_394"
 	provinces={
-		3467 3515 3633 3733 3840 3859 3876 3965 3986 4004 4020 4028 4172 4310 4397 4448 4556 4558 4869 4881 4893 4898 
+		3525 3674 3676 3845 4509 4756 
 	}
 	manpower=1
-	state_category=rural
 	buildings_max_level_factor=1.000
+	state_category=rural
 
 	history={
 		owner = TST

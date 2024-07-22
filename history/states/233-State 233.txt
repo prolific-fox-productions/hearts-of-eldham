@@ -1,18 +1,18 @@
 state={
 	id=233
-	name="STATE_232"
+	name="STATE_340"
 	provinces={
-		2375 2396 2400 2401 2402 
+		3536 3601 3646 3716 3824 4363 4485 4487 4679 4689 4693 4696 4702 
 	}
 	manpower=1
 	state_category=rural
 	buildings_max_level_factor=1.000
 
 	history={
-		owner = ELY
+		owner = TST
 		#victory_points = { 1 2 }
 		#buildings = {}
-		add_core_of = ELY
+		add_core_of = TST
 	}
 	
 	local_supplies=0.000

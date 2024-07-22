@@ -1,18 +1,18 @@
 state={
 	id=225
-	name="STATE_225"
+	name="STATE_332"
 	provinces={
-		3267 3269 3272 3273 3274 3275 3276 3279 3280 3281 3282 3283 3284 3285 3286 3287 3288 
+		3535 3556 3613 3649 3656 3773 3803 3851 3880 4003 4012 4216 4298 4304 4342 4421 4503 4511 4750 4764 4772 
 	}
 	manpower=1
 	state_category=rural
 	buildings_max_level_factor=1.000
 
 	history={
-		owner = ELY
+		owner = TST
 		#victory_points = { 1 2 }
 		#buildings = {}
-		add_core_of = ELY
+		add_core_of = TST
 	}
 	
 	local_supplies=0.000

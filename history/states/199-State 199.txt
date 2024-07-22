@@ -1,16 +1,16 @@
 
 state={
 	id=199
-	name="STATE_194"
+	name="STATE_306"
 
 	history={
-		owner = FAR
-		add_core_of = FAR
+		owner = TST
+		add_core_of = TST
 
 	}
 
 	provinces={
-		3154 3155 3156 3178 3179 3180 3181 3183 3184 3187 3188 3189 3190 3191 3192 3193 3194 3195 3196 3197 3198 3199 3203 
+		3484 3777 3805 3888 3909 3912 3966 4051 4274 4350 4532 4543 4545 4830 4837 4838 
 	}
 	manpower=1
 	buildings_max_level_factor=1.000

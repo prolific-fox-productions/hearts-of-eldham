@@ -1,0 +1,19 @@
+state={
+	id=179
+	name="STATE_286"
+	provinces={
+		3471 3554 3745 3769 3797 3916 3958 3973 3979 4002 4261 4267 4276 4449 4563 4910 4913 
+	}
+	manpower=1
+	state_category=rural
+	buildings_max_level_factor=1.000
+
+	history={
+		owner = TST
+		#victory_points = { 1 2 }
+		#buildings = {}
+		add_core_of = TST
+	}
+	
+	local_supplies=0.000
+}
