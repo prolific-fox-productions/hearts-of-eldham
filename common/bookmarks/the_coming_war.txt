@@ -4,43 +4,13 @@ bookmarks = {
 		desc = "COMING_WAR_DESC"
 		date = 32.9.1.12
 		picture = "GFX_select_date_1936"
-		default_country = "BRK"
+		default_country = "USE"
 		default = yes
 		
 		#Majors
 
-		"BRK"={
-			history = "BRK_COMING_WAR_DESC"
-			ideology = monarchism
-			ideas = {
-				
-			}
-			focuses = {
-				
-			}
-		}
 		"ELY"={
 			history = "ELY_COMING_WAR_DESC"
-			ideology = monarchism
-			ideas = {
-				
-			}
-			focuses = {
-				
-			}
-		}
-		"FAR"={
-			history = "FAR_COMING_WAR_DESC"
-			ideology = monarchism
-			ideas = {
-				
-			}
-			focuses = {
-				
-			}
-		}
-		"RAZ"={
-			history = "RAZ_COMING_WAR_DESC"
 			ideology = monarchism
 			ideas = {
 				
@@ -59,9 +29,13 @@ bookmarks = {
 				
 			}
 		}
-		"XEK"={
-			history = "XEK_COMING_WAR_DESC"
+
+		#Minors
+
+		"BRK"={
+			history = "BRK_COMING_WAR_DESC"
 			ideology = monarchism
+			minor = yes
 			ideas = {
 				
 			}
@@ -69,6 +43,42 @@ bookmarks = {
 				
 			}
 		}
+		"FAR"={
+			history = "FAR_COMING_WAR_DESC"
+			ideology = monarchism
+			minor = yes
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		"RAZ"={
+			history = "RAZ_COMING_WAR_DESC"
+			ideology = monarchism
+			minor = yes
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		"XEK"={
+			history = "XEK_COMING_WAR_DESC"
+			ideology = monarchism
+			minor = yes
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+
+		#Other
+
 		"---"={
 			history = "OTHER_COMING_WAR_DESC"
 		}

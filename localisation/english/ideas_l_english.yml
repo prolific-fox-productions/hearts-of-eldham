@@ -10,132 +10,103 @@
  #HoE Laws Slots
  
  tech_nation:0 "Technological Base"
- #tech_nation_desc:0 ?
  industry_nation:0 "Industrial Base"
- #industry_nation_desc:0 ?
  religion_nation:0 "Religions"
- #religion_nation_desc:0 ?
  culture_nation:0 "Accepted Cultures"
- #culture_nation_desc:0 ?
  poverty_nation:0 "Poverty"
- #poverty_nation_desc:0 ""
  literacy_nation:0 "Literacy"
- #literacy_nation_desc:0 ?
  
  head_of_government:0 "Head of Government"
- #head_of_government_desc:0 ?
  state_religion:0 "State Religion"
- #state_religion_desc:0 ?
  mobilization_laws:0 "Conscription Law"
- #mobilization_laws_desc:0 ?
  government_app:0 "Government Application"
- #government_app_desc:0 ?
  local_gov_power:0 "Government Power"
- #local_gov_power_desc:0 ?
  internal_structure:0 "Internal Structure"
- #internal_structure_desc:0 ""
  
  army_budget:0 "Army Budget"
- #army_budget_desc:0 ?
  healthcare_budget:0 "Healthcare Budget"
- #healthcare_budget_desc:0 ?
  police_budget:0 "Police Force"
- #police_budget_desc:0 ?
  public_service_budget:0 "Public Services"
- #public_service_budget_desc:0 ?
  education_budget:0 "Education Budget"
- #education_budget_desc:0 ?
  expansion_budget:0 "Service Expansion Budget"
  
  trade_laws:0 "Trade Law"
- #trade_laws_desc:0 ?
  property_law:0 "Property Law"
- #property_law_desc:0 ?
  tax_law:0 "Taxes"
- #tax_law_desc:0 ?
  work_day:0 "Work Day Laws"
- #work_day_desc:0 ?
  labour_laws:0 "Union Laws"
- #labour_laws_desc:0 ?
  economy:0 "Economy Law"
- #economy_desc:0 ?
  
  voting_rights:0 "Voting Rights"
- #voting_rights_desc:0 ?
  racial_rights:0 "Racial Rights"
- #racial_rights_desc:0 ?
  sex_rights:0 "Sex Laws"
- #sex_rights_desc:0 ?
  assembly_rights:0 "Right to Assembly"
- #assembly_rights_desc:0 ?
  party_rights:0 "Political Freedom"
- #party_rights_desc:0 ?
  information_rights:0 "Press Freedom"
- #information_rights_desc:0 ""
  
  #HoE Laws
  
  tech_modern:0 "Modern Technological Base"
- #tech_modern_desc:0 ""
+ tech_modern_desc:0 "This nation has a strong technological base in which the wonders of modern-day are merely every-day items. This nation is also seen as forefront in the research of items magical and scientific."
  tech_pre_modern:0 "Pre-Modern Technological Base"
- #tech_pre_modern_desc:0 ""
+ tech_pre_modern_desc:0 "This nation though holding a strong technological base does not grasp it as much as the most fore-front nations, modern technologies are rare but not as rare as in other nations."
  tech_small:0 "Small Technological Base"
- #tech_small_desc:0 ""
+ tech_small_desc:0 "This nation has is not well-developed, it is either in the process of industrialising technologically or it is just losing the superstitions and beliefs of old."
  tech_poor:0 "Poor Technological Base"
- #tech_poor_desc:0 ""
+ tech_poor_desc:0 "Superstitions and old belief plague this nation, its technological base is only slightly out of that of antiquity, or even still in it due to stagnation or strong resistence."
  tech_tribal:0 "Tribal Technological Base"
- #tech_tribal_desc:0 ""
+ tech_tribal_desc:0 "This nation is in technology vastly backwards, whether in stone age or in the time of tribes and clans, it is outmatched by even city-states of moderate technological advancement."
  
  industry_modern:0 "Modern Industrial Base"
- #industry_modern_desc:0 ""
+ industry_modern_desc:0 "This nation has a strong industrial base, within its domain are large manufactories, and agricultural centers powerful enough that most of the population work not in farmsteads but in the urban centers."
  industry_new_dev:0 "Newly Developed Industrial Base"
- #industry_new_dev_desc:0 ""
+ industry_new_dev_desc:0 "While the nation has industrialised fully, it has only done so recently, and the not much over half of the population has gone to urban centers to work in industrial jobs."
  industry_deving:0 "Developing Industrial Base"
- #industry_deving_desc:0 ""
+ industry_deving_desc:0 "The nation as it stands is developing an industrial base, albeit it is only in the middle of such a development, a majority of the population still work on agriculture."
  industry_agrarian:0 "Agrarian Industrial Base"
- #industry_agrarian_desc:0 ""
+ industry_agrarian_desc:0 "This nation is still within an agrarian industrial base, most of the population live agricultural lifestyles, and there are very little functioning manufactories."
  industry_primitive:0 "Primitive Industrial Base"
- #industry_primitive_desc:0 ""
+ industry_primitive_desc:0 "This nation has no industrial base, all members of the common society of their borders live as hunter-gatherers with only a few taking part in non-agricultural jobs."
  industry_collective:0 "Collective Industry"
- #industry_collective_desc:0 ""
+ industry_collective_desc:0 "The industrial base of this nation is collective owned and developed, owned not by individuals but by the community, represented most likely as state-ownership."
  
  religion_none:0 "No Religions"
- #religion_none_desc:0 ""
+ religion_none_desc:0 "There are no religious people in this nation, whether they do not get the concept of divine beings, or do but reject their existence is dependent on the nation."
  religion_floristanism:0 "Floristanism"
- #religion_floristanism_desc:0 ""
+ religion_floristanism_desc:0 "Floristanism is a religion originating within the island of Hermonia that believes in an assortment of deities, the spritual leaders of Floristanism is a High Prophet, accompanied by a council of Prophets."
  religion_salranism:0 "Salranism"
- #religion_salranism_desc:0 ""
+ religion_salranism_desc:0 "Salranism is a religion originating from the Razuni Sultanate that believes that the world compromises of seven aspects collectively know as the Balance, its leaders a council known the Court of the Marked."
  religion_sylfaeism:0 "Sylfaeism"
- #religion_sylfaeism_desc:0 ""
+ religion_sylfaeism_desc:0 "Sylfaeism is a religion originating from Eldia that believes that there is a being known as Sylfae that had led a chosen people to Eldia as a part of an exodus. It is thought of to be a subset of either Cubism or Salranism."
  religion_animism:0 "Animist Faiths"
- #religion_animism_desc:0 ""
+ religion_animism_desc:0 "There are faiths that put sentient life into objects, animals and phenomena, these are often referred to as Animists, whether that is what they call their religion or not."
  religion_misc:0 "Miscellaneous Religions"
- #religion_misc_desc:0 ""
+ religion_misc_desc:0 "There are plenty of other religions that exist within Eldham, some of them not known by much of the world."
  
  culture_hermonian:0 "Hermonian"
- #culture_hermonian_desc:0 ""
+ culture_hermonian_desc:0 "Hermonians are a culture of humans with mid-brown skin that live on the island of Hermonia, the culture is said to have started when the original refugees came to the island thousands of years ago."
  culture_razuni_coast:0 "Coastal Razuni"
- #culture_razuni_coast_desc:0 ""
+ culture_razuni_coast_desc:0 "Coastal Razunis are a culture of Razunis that live in the urban centers of the Razuni Sultanate's east and south, they are the dominant culture in the Sultanate and came from the tribes united by Salan Razud."
  culture_razuni_deep:0 "Deep Razuni"
- #culture_razuni_deep_desc:0 ""
+ culture_razuni_deep_desc:0 "Deep Razunis are a culture of Razunis that live in isolated tribes within the deserts of the Razuni Sultanate, they came from the humans not united by Salan Razud, and do not interact with many other cultures."
  culture_myconid:0 "Myconid"
- #culture_myconid_desc:0 ""
+ culture_myconid_desc:0 "Myconids are a race of mushroom people created from dead humans by Hyitlia. They mainly live to serve the people of Hermonia, and to a degree are treated as such."
  culture_nagosi:0 "Nagosi"
- #culture_nagosi_desc:0 ""
+ culture_nagosi_desc:0 "The Nagosi are a people of vaguely fish-like people that mainly dwell around the island of Agon-Shar."
  culture_aeran:0 "Aeran"
- #culture_aeran_desc:0 ""
- culture_lo_oi:0 "Lo'oi"
- #culture_lo_oi_desc:0 ""
+ culture_aeran_desc:0 "Aerans are a people that live on Aera, having come to there likely from Razuni or even Hermonia if some rumours hold true."
+ culture_lo_oi:0 "Lo'Oix"
+ culture_lo_oi_desc:0 "Lo'Oix are near-human ethnic group that dominate eastern Eldham, more specifically in Serrona. Most Lo'Oix have red and/or orange eyes, but some can have pink or yellow eyes."
  culture_ellysian:0 "Ellysian"
- #culture_ellysian_desc:0 ""
+ culture_ellysian_desc:0 "Ellysians are a people that live within the Ellysian Empire."
  culture_nymph_mushroom:0 "Mushroom Nymph"
- #culture_nymph_mushroom_desc:0 ""
+ culture_nymph_mushroom_desc:0 "Mushroom Nymphs are a race of nymph that resemble women made of mushroom, they live on the island of Hermonia and were created from injured people by Hyitlia when they first lived on the island. Hermonian queens have been mushroom nymphs, and they are seen as equal to humans."
  culture_farencian:0 "Farencian"
- #culture_farencian_desc:0
+ culture_farencian_desc:0 "Farencians are a people that live within the Kingdom of Farencia-Bellum and a little ways out of it."
  culture_medenan:0 "Medenan"
- #culture_medenan_desc:0 ""
+ culture_medenan_desc:0 "Medenans are a people that live within what is now Bell Nation and Wivamovia, and later Medena, they would become a controversial people."
  culture_misc:0 "Miscellaneous Cultures"
- #culture_misc_desc:0 ""
+ culture_misc_desc:0 "There are countless other cultures within Eldham, some large, some small, but not many are well-known."
  
  poverty_communal:0 "Communal Poverty"
  #poverty_communal_desc:0 ""

@@ -6,7 +6,7 @@ state={
 	history={
 		owner = FAR
 		add_core_of = FAR
-
+		victory_points = { 3194 40 }
 	}
 
 	provinces={
