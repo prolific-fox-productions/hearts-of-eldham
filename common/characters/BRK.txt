@@ -1,6 +1,7 @@
 characters={
     BRK_zacata_felis={
         name=BRK_zacata_felis
+        gender = male
         portraits={
             civilian={
                 large="GFX_portrait_BRK_zacata_felis_large"
@@ -16,6 +17,7 @@ characters={
 
     BRK_proph_zacata_felis={
         name=BRK_zacata_felis
+        gender = male
         portraits={
             civilian={
                 large="GFX_portrait_BRK_zacata_felis_large"

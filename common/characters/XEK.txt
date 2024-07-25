@@ -1,6 +1,7 @@
 characters={
     XEK_diamond_nugget={
         name=XEK_diamond_nugget
+        gender = male
         portraits={
             civilian={
                 large="GFX_portrait_XEK_diamond_nugget_large"

@@ -1,6 +1,7 @@
 characters={
     FAR_tatsumi={
         name=FAR_tatsumi
+        gender = male
         portraits={
             civilian={
                 large="GFX_portrait_FAR_tatsumi_large"

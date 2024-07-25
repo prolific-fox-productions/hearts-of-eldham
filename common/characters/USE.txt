@@ -1,6 +1,7 @@
 characters={
     USE_leo_belgicus={
         name=USE_leo_belgicus
+        gender = male
         portraits={
             civilian={
                 large="GFX_portrait_USE_leo_belgicus_large"
@@ -16,6 +17,7 @@ characters={
 
     USE_egor_tsukanov={
         name=USE_egor_tsukanov
+        gender = male
         portraits={
             civilian={
                 large=GFX_portrait_USE_egor_tsukanov_large
@@ -31,6 +33,7 @@ characters={
 
     USE_henrich_pierre={
         name=USE_henrich_pierre
+        gender = male
         portraits={
             civilian={
                 large=GFX_portrait_USE_henrich_pierre_large

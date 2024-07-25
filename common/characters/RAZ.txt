@@ -1,6 +1,7 @@
 characters={
     RAZ_bashar_razud={
         name=RAZ_bashar_razud
+        gender = male
         portraits={
             civilian={
                 large="GFX_portrait_RAZ_bashar_razud_large"
@@ -16,6 +17,7 @@ characters={
 
     RAZ_alaina_arianhrod={
         name=RAZ_alaina_arianhrod
+        gender = female
         portraits={
             civilian={
                 large="GFX_portrait_RAZ_alaina_arianhrod_large"
@@ -31,6 +33,7 @@ characters={
 
     RAZ_kahuna_bacardi={
         name=RAZ_kahuna_bacardi
+        gender = male
         portraits={
             civilian={
                 large="GFX_portrait_RAZ_kahuna_bacardi_large"
@@ -46,6 +49,7 @@ characters={
 
     RAZ_saya-orin_kollisyaid={
         name=RAZ_saya-orin_kollisyaid
+        gender = female
         portraits={
             civilian={
                 large="GFX_portrait_RAZ_saya-orin_kollisyaid_large"

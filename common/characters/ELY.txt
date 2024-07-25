@@ -1,6 +1,7 @@
 characters={
     ELY_thas_ellas={
         name=ELY_thas_ellas
+        gender = male
         portraits={
             civilian={
                 large="GFX_portrait_ELY_thas_ellas_large"
