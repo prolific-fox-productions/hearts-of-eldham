@@ -57,7 +57,7 @@ USE = {
 		callsigns = {  }
 	}
 	surnames = { "Aleksandrov" "Bogdanov" "Dmitrieva" "Fedoroa" "Ivanov" "Kiseleva" "Korolev" "Kovalev" "Kuzmina" "Nikitin" "Nikitina" "Nikolaeva" "Petrova" "Popoa" "Semenov" "Sergeev" "Sorokin" "Vasiliev" "Vinogradova" "Vlasov" "Volkov" "Vorobev" "Zaytseva" }
-	callsigns = { "Easy Kill" "The Lightning" "The Devil" "Grasshopper" "Handsome" "Moose" "Mouse" "Pebbles" "Sunshine" Demon}
+	callsigns = {  }
 	
 	
 	#Operations - treat these as keys, not strings.
@@ -84,8 +84,68 @@ ELY = {
 		surnames = { }
 		callsigns = {  }
 	}
-	surnames = { "Agelastus" "Augur" "Bucco" "Buteo" "Canina" "Capitolinus" "Caudex" "Cicero" "Corvinus" "Crassinus" "Crassus" "Falto" "Glicia" "Helenus" "Imbrex" "Lactuca" "Maximus" "Merenda" "Murena" "Sanga" "Senator" "Servilianus "Triarius" "Vibulanus" }
-	callsigns = { "Easy Kill" "The Lightning" "The Devil" "Grasshopper" "Handsome" "Moose" "Mouse" "Pebbles" "Sunshine" Demon}
+	surnames = { "Agelastus" "Augur" "Bucco" "Buteo" "Canina" "Capitolinus" "Caudex" "Cicero" "Corvinus" "Crassinus" "Crassus" "Falto" "Glicia" "Helenus" "Imbrex" "Lactuca" "Maximus" "Merenda" "Murena" "Sanga" "Senator" "Servilianus" "Triarius" "Vibulanus" }
+	callsigns = {  }
+	
+	
+	#Operations - treat these as keys, not strings.
+	prefix = o_operation
+	
+	operation = {
+		0 = { o_default_operation }
+	}
+	
+	use_geographical_default_operation_names = yes
+	offensive_operation_suffix = o_strat_offensive_default
+	defensive_operation_suffix = o_strat_defensive_default
+	naval_operation_suffix = o_strat_naval_default
+}
+
+###############################################################
+# The Minors
+###############################################################
+
+BRK = {
+	male = {
+		names = { "Aeqalo" "Austin" "Aurico" "Calogero" "Consus" "Egidio" "Elia" "Hippocrates" "Kemp" "Marco" "Níco" "Pasio" "Vulxan" "Wilelm" "Winton" }
+		surnames = { }
+		callsigns = { }
+	}
+	female = {
+		names = { "Abigail" "Alexandra" "Aqa'la" "Aurico" "Aurzuia" "Isabella" "Katharine" "Mileana" "Sasha" "Petaya" "Píka" "Veronnica" "Victoria" "Wilelmina" }
+		surnames = { }
+		callsigns = {  }
+	}
+	surnames = { "Aq'zhi" "Atsaza" "Breku" "Butsa" "Cà'say" "Cup'mel" "D'Aurter" "Fayn-tsa" "Fyt-tsa" "Hermona" "Lifon" "Litaya" "Lybala" "Mona" "Reril-tsa" "Rit-tsa" "Rivera" "Santic" "Sían" "Xona" "Ven-tsa" "Verlo" "Zhotsa" "Zhaynin-tsa" }
+	callsigns = {  }
+	
+	
+	#Operations - treat these as keys, not strings.
+	prefix = o_operation
+	
+	operation = {
+		0 = { o_default_operation }
+	}
+	
+	use_geographical_default_operation_names = yes
+	offensive_operation_suffix = o_strat_offensive_default
+	defensive_operation_suffix = o_strat_defensive_default
+	naval_operation_suffix = o_strat_naval_default
+}
+
+RAZ = {
+	male = {
+		names = { "Aladdin" "Dekel" "Hassan" "Ibrahim" "Indo" "Jabbar" "Jamaine" "Kayden" "Khoury" "Malar" "Nusair" "Shunnar" "Siraj" "Taymullah" "Wakil" "Zero" }
+		surnames = { }
+		callsigns = { }
+	}
+	female = {
+		names = { "Afya" "Amina" "Aqdas" "Ghasna" "Hafifah" "Ibadat" "Jahdaa" "Laiha" "Khabira" "Kifah" "Nazila" "Rawhiyah" "Sakeeza" "Waqeea" "Uwaisah" "Zaheen" }
+		surnames = { }
+		callsigns = {  }
+	}
+	surnames = { "Afzal" "Agha" "Bilal" "Can" "Darwish" "Daoud" "Din" "Eid" "Fadel" "Hamed" "Hashem" "Husain" "Kamara" "Majeed" "Mostafa" "Mowad" "Muhammad" "Nasir" "Omer" "Radi" "Rahaman" "Sadiq" "Salam" "Salame" "Shabazz" "Tariq" }
+	callsigns = {  }
 	
 	
 	#Operations - treat these as keys, not strings.
