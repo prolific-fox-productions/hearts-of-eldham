@@ -8,11 +8,124 @@ focus_tree = {
             original_tag = BRK
         }
     }
+    initial_show_position = { focus = BRK_start_outward }
 
     focus = {
-        id = BRK_placeholder
-        x = 1
+        id = BRK_start_outward
+        x = 10
+        y = 0
+        cost = 5
+        
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = BRK_amora_lean
+        x = -7
         y = 1
         cost = 1
+        relative_position_id = BRK_start_outward
+        prerequisite = { focus = BRK_start_outward }
+        mutually_exclusive = { focus = BRK_no_lean }
+        mutually_exclusive = { focus = BRK_mileana_lean }
+        mutually_exclusive = { focus = BRK_elizabeth_lean }
+        available = {
+			custom_trigger_tooltip = {
+				tooltip = future_update_tt
+				always = no
+			}
+		}
+        
+        completion_reward = {
+            
+        }
+    }
+
+    focus = {
+        id = BRK_mileana_lean
+        x = -3
+        y = 1
+        cost = 1
+        relative_position_id = BRK_start_outward
+        prerequisite = { focus = BRK_start_outward }
+        mutually_exclusive = { focus = BRK_amora_lean }
+        mutually_exclusive = { focus = BRK_no_lean }
+        mutually_exclusive = { focus = BRK_elizabeth_lean }
+        available = {
+			custom_trigger_tooltip = {
+				tooltip = future_update_tt
+				always = no
+			}
+		}
+        
+        completion_reward = {
+            
+        }
+    }
+
+    focus = {
+        id = BRK_no_lean
+        x = 3
+        y = 1
+        cost = 5
+        relative_position_id = BRK_start_outward
+        prerequisite = { focus = BRK_start_outward }
+        mutually_exclusive = { focus = BRK_amora_lean }
+        mutually_exclusive = { focus = BRK_mileana_lean }
+        mutually_exclusive = { focus = BRK_elizabeth_lean }
+        
+        completion_reward = {
+            
+        }
+    }
+
+    focus = {
+        id = BRK_establish_titles
+        x = -1
+        y = 1
+        cost = 5
+        relative_position_id = BRK_no_lean
+        prerequisite = { focus = BRK_no_lean }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = BRK_establish_police
+        x = 1
+        y = 1
+        cost = 5
+        relative_position_id = BRK_no_lean
+        prerequisite = { focus = BRK_no_lean }
+
+        completion_reward = {
+            
+        }
+    }
+
+    focus = {
+        id = BRK_elizabeth_lean
+        x = 7
+        y = 1
+        cost = 1
+        relative_position_id = BRK_start_outward
+        prerequisite = { focus = BRK_start_outward }
+        mutually_exclusive = { focus = BRK_amora_lean }
+        mutually_exclusive = { focus = BRK_mileana_lean }
+        mutually_exclusive = { focus = BRK_no_lean }
+        available = {
+			custom_trigger_tooltip = {
+				tooltip = future_update_tt
+				always = no
+			}
+		}
+        
+        completion_reward = {
+            
+        }
     }
 }
