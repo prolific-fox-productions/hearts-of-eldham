@@ -1,0 +1,41 @@
+﻿l_english:
+ 
+ #Generic Focus Tree (if there is one)
+ 
+ 
+ 
+ #Brenra
+ 
+ BRK_start_outward:0 "Look Outward"
+ #BRK_start_outward_desc:0 ""
+ BRK_amora_lean:0 "Turn to Amora"
+ #BRK_amora_lean_desc:0 ""
+ BRK_mileana_lean:0 "Turn to Mileana"
+ #BRK_mileana_lean_desc:0 ""
+ BRK_no_lean:0 "Turn to the Crown"
+ #BRK_no_lean_desc:0 ""
+ BRK_establish_titles:0 "Establish Titles"
+ #BRK_established_titles_desc:0 ""
+ BRK_establish_police:0 "Establish a Police"
+ #BRK_establish_police_desc:0 ""
+ BRK_open_fa:0 "Open Foreign Affairs"
+ #BRK_open_fa_desc:0 ""
+ BRK_see_tension_ellysia:0 "Observe the Coming Tension"
+ #BRK_see_tension_ellysia_desc:0 ""
+ BRK_pick_coalition:0 "Pick the Syndicate"
+ #BRK_pick_coalition_desc:0 ""
+ BRK_pick_none:0 "Stay Neutral"
+ #BRK_pick_none_desc:0 ""
+ BRK_pick_ellysia:0 "Pick the Empire"
+ #BRK_pick_ellysia_desc:0 ""
+ BRK_elizabeth_lean:0 "Turn to Elizabeth"
+ #BRK_elizabeth_lean_desc:0 ""
+ 
+ #Imporant Basegame stuff
+ 
+ WHILE_FOCUSING:0 "While focusing on this, there will be the following effects:\n$EFF$"
+ generic_focus:0 "National Focus"
+ NATIONAL_FOCUS_MUTUALLY_EXCLUSIVE_TREE:0 "The branches are mutually exclusive."
+ NATIONAL_FOCUS_EXCLUSIVE_INFO_DESC:0 "Mutually exclusive with"
+ NATIONAL_FOCUS_EXCLUSIVE_INFO_ENTRY:0 "$FOCUS|Y$"
+ NATIONAL_FOCUS_NO_CURRENT_EFFECT:0 "This focus currently has no effect. Changes in the world situation may affect this."

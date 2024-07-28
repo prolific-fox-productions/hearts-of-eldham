@@ -77,7 +77,7 @@ focus_tree = {
         mutually_exclusive = { focus = BRK_elizabeth_lean }
         
         completion_reward = {
-            
+            custom_effect_tooltip = historical_tt
         }
     }
 
@@ -101,6 +101,78 @@ focus_tree = {
         cost = 5
         relative_position_id = BRK_no_lean
         prerequisite = { focus = BRK_no_lean }
+
+        completion_reward = {
+            
+        }
+    }
+
+    focus = {
+        id = BRK_open_fa
+        x = 1
+        y = 1
+        cost = 5
+        relative_position_id = BRK_establish_titles
+        prerequisite = { focus = BRK_establish_titles }
+        prerequisite = { focus = BRK_establish_police }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = BRK_see_tension_ellysia
+        x = 0
+        y = 1
+        cost = 10
+        relative_position_id = BRK_open_fa
+        prerequisite = { focus = BRK_open_fa }
+
+        completion_reward = {
+            
+        }
+    }
+
+    focus = {
+        id = BRK_pick_coalition
+        x = -2
+        y = 1
+        cost = 10
+        relative_position_id = BRK_see_tension_ellysia
+        prerequisite = { focus = BRK_see_tension_ellysia }
+        mutually_exclusive = { focus = BRK_pick_none }
+        mutually_exclusive = { focus = BRK_pick_ellysia }
+
+        completion_reward = {
+            
+        }
+    }
+
+    focus = {
+        id = BRK_pick_none
+        x = 0
+        y = 1
+        cost = 10
+        relative_position_id = BRK_see_tension_ellysia
+        prerequisite = { focus = BRK_see_tension_ellysia }
+        mutually_exclusive = { focus = BRK_pick_coalition }
+        mutually_exclusive = { focus = BRK_pick_ellysia }
+
+        completion_reward = {
+            custom_effect_tooltip = historical_tt
+        }
+    }
+
+    focus = {
+        id = BRK_pick_ellysia
+        x = 2
+        y = 1
+        cost = 10
+        relative_position_id = BRK_see_tension_ellysia
+        prerequisite = { focus = BRK_see_tension_ellysia }
+        mutually_exclusive = { focus = BRK_pick_none }
+        mutually_exclusive = { focus = BRK_pick_coalition }
 
         completion_reward = {
             

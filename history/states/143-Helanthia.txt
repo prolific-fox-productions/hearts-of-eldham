@@ -12,7 +12,7 @@ state={
 	provinces={
 		2778 2779 2780 2781 2782 2783 2784 2785 2786 2787 2790 2791 2792 2793 
 	}
-	manpower=1
+	manpower=100000
 	buildings_max_level_factor=1.000
 	state_category=rural
 	local_supplies=0.000
