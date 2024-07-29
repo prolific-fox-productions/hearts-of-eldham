@@ -12,6 +12,7 @@ characters={
             expire=330.1.1.1
             id=-1
             #desc=ELY_thas_ellas_desc
+            traits = { trait_bigot }
         }
     }
 
