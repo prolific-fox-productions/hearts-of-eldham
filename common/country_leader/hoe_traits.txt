@@ -1,0 +1,26 @@
+leader_traits = {
+    trait_floristanism = {
+        random = no
+
+    }
+    trait_salranism = {
+        random = no
+        
+    }
+    trait_arrogant = {
+        random = no
+        
+    }
+    trait_bigot = {
+        random = no
+        
+    }
+    trait_male_in_female_role = {
+        random = no
+        
+    }
+    trait_ = {
+        random = no
+        
+    }
+}

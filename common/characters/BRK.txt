@@ -12,6 +12,7 @@ characters={
             expire=330.1.1.1
             id=-1
             desc=BRK_zacata_felis_desc
+            traits = { trait_floristanism trait_arrogant trait_male_in_female_role }
         }
     }
 
@@ -28,6 +29,7 @@ characters={
             expire=330.1.1.1
             id=-1
             desc=BRK_proph_zacata_felis_desc
+            traits = { trait_floristanism trait_arrogant trait_male_in_female_role }
         }
     }
 }
