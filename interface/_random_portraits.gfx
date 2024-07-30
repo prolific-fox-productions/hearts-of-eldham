@@ -1,0 +1,25 @@
+spriteTypes = {
+	
+	##USSE##
+	
+	spriteType = {
+		name = "GFX_Portrait_USE_Generic_Male_1"
+		texturefile = "gfx/leaders/USE/Portrait_USE_male_1.dds"
+	}
+
+	spriteType = {
+		name = "GFX_Portrait_USE_Generic_Male_2"
+		texturefile = "gfx/leaders/USE/Portrait_USE_male_2.dds"
+	}
+
+	spriteType = {
+		name = "GFX_Portrait_USE_Generic_Male_3"
+		texturefile = "gfx/leaders/USE/Portrait_USE_male_3.dds"
+	}
+
+	spriteType = {
+		name = "GFX_Portrait_USE_Generic_Male_4"
+		texturefile = "gfx/leaders/USE/Portrait_USE_male_4.dds"
+	}
+	
+}

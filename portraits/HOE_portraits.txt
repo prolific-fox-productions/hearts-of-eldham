@@ -1,0 +1,16 @@
+default = {
+    male = {
+        "GFX_Portrait_USE_Generic_Male_1"
+        "GFX_Portrait_USE_Generic_Male_2"
+        "GFX_Portrait_USE_Generic_Male_3"
+        "GFX_Portrait_USE_Generic_Male_4"
+    }
+}
+USE = {
+    male = {
+        "GFX_Portrait_USE_Generic_Male_1"
+        "GFX_Portrait_USE_Generic_Male_2"
+        "GFX_Portrait_USE_Generic_Male_3"
+        "GFX_Portrait_USE_Generic_Male_4"
+    }
+}
