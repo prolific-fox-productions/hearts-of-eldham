@@ -1,15 +1,10 @@
 ﻿l_english:
  #HoE
  trait_floristanism:0 "Floristanite"
- #trait_floristanism_desc:0 ""
  trait_salranism:0 "Salranist"
- #trait_salranism_desc:0 ""
  trait_arrogant:0 "Arrogant"
- #trait_arrogant_desc:0 ""
  trait_bigot:0 "Bigot"
- trait_bigot_desc:0 "Whichever opinion of bigotry this leader has, it is one that they hold, leading to tension between most other groups."
  trait_male_in_female_role:0 "A Man in a Woman's Role"
- trait_male_in_female_role_desc:0 "The leader is a man, and holds a leadership position. While this on its own isn't inherently bad, the culture of the nation gravitates towards a woman holding that position."
  
  #Base Game
  cc_leader:0 "General"
