@@ -13,13 +13,14 @@ leader_traits = {
     }
     trait_bigot = {
         random = no
-        
+        stability_factor = -0.05
     }
     trait_male_in_female_role = {
         random = no
-        
+        stability_factor = -0.05
+        political_power_factor = -0.05
     }
-    trait_ = {
+    trait_iron_general = {
         random = no
         
     }
