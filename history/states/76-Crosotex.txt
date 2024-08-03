@@ -12,7 +12,9 @@ state={
 		owner = USE
 		victory_points = { 688 20 }
 		victory_points = { 695 20 }
-		#buildings = {}
+		buildings = {
+			industrial_complex = 1
+		}
 		add_core_of = USE
 	}
 	

@@ -7,6 +7,9 @@ state={
 		owner = ELY
 		add_core_of = ELY
 		victory_points = { 2264 35 }
+		buildings = {
+			industrial_complex = 1
+		}
 	}
 
 	provinces={

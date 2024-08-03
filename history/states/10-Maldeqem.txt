@@ -11,7 +11,10 @@ state={
 	history={
 		owner = RAV
 		victory_points = { 296 30 }
-		#buildings = {}
+		buildings = {
+			industrial_complex = 3
+			arms_factory = 2
+		}
 		add_core_of = RAV
 	}
 	

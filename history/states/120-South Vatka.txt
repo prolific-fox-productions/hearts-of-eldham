@@ -6,7 +6,9 @@ state={
 	history={
 		owner = XEK
 		add_core_of = XEK
-
+		buildings = {
+			industrial_complex = 1
+		}
 	}
 
 	provinces={

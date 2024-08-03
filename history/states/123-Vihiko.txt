@@ -6,7 +6,9 @@ state={
 	history={
 		owner = USE
 		add_core_of = USE
-
+		buildings = {
+			industrial_complex = 1
+		}
 	}
 
 	provinces={
