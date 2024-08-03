@@ -10,9 +10,105 @@ focus_tree = {
     }
 
     focus = {
-        id = USE_placeholder
-        x = 1
+        id = USE_open_diplo
+        x = 10
+        y = 0
+        cost = 5
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = USE_diplo_with_xeka
+        x = 0
         y = 1
-        cost = 1
+        cost = 5
+        relative_position_id = USE_open_diplo
+        prerequisite = { focus = USE_open_diplo }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = USE_diplo_with_vulp
+        x = 0
+        y = 1
+        cost = 5
+        relative_position_id = USE_diplo_with_xeka
+        prerequisite = { focus = USE_diplo_with_xeka }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = USE_diplo_with_drakaesland
+        x = 0
+        y = 1
+        cost = 5
+        relative_position_id = USE_diplo_with_vulp
+        prerequisite = { focus = USE_diplo_with_vulp }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = USE_develop_garkogorod
+        x = 2
+        y = 1
+        cost = 5
+        relative_position_id = USE_open_diplo
+        prerequisite = { focus = USE_open_diplo }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = USE_develop_crelov
+        x = 0
+        y = 1
+        cost = 5
+        relative_position_id = USE_develop_garkogorod
+        prerequisite = { focus = USE_develop_garkogorod }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = USE_develop_crosotex
+        x = 0
+        y = 1
+        cost = 5
+        relative_position_id = USE_develop_crelov
+        prerequisite = { focus = USE_develop_crelov }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = USE_antagonise_ellysia
+        x = -1
+        y = 1
+        cost = 5
+        relative_position_id = USE_develop_crosotex
+        prerequisite = { focus = USE_diplo_with_drakaesland }
+        prerequisite = { focus = USE_develop_crosotex }
+
+        completion_reward = {
+
+        }
     }
 }
