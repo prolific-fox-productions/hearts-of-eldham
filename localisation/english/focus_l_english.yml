@@ -31,6 +31,25 @@
  BRK_elizabeth_lean:0 "Turn to Elizabeth"
  BRK_elizabeth_lean_desc:0 "Zacata will turn to Amora for aid in running the nation, shaping Brenra up to being more hierarchical, more nationalist in nature and design."
  
+ #USSE
+ 
+ USE_open_diplo:0 "Open Up Diplomacy"
+ USE_open_diplo_desc:0 "Since the revolution overthrowing the prior kingdom, we have been quite isolated in diplomacy. This must change, and we must develop diplomatic connections with other nations."
+ USE_diplo_with_xeka:0 "Improve Connections with Xeka"
+ USE_diplo_with_xeka_desc:0 "As a bordering nation, though Xeka is a colony of Sorligste, it is a nation we can develop a diplomatic connection to."
+ USE_diplo_with_vulp:0 "Improve Connections with Vulpinia"
+ USE_diplo_with_vulp_desc:0 "As a fellow nation within Serrona (and not currently existing as of this update), we should develop a diplomatic connection with Vulpinia."
+ USE_diplo_with_drakaesland:0 "Improve Connections with Drakaesland"
+ USE_diplo_with_drakaesland_desc:0 "Up north, the nation of Regnum Drakaes (though non-existent as of this update) has a tense relationship with Ellyisa, perhaps we can develop a connection with them diplomatically."
+ USE_develop_garkogorod:0 "Develop Garkogorod"
+ USE_develop_garkogorod_desc:0 "As our capital, Garkogorod must be developed to catch up with this ever-developing world."
+ USE_develop_crelov:0 "Develop Crelov"
+ USE_develop_crelov_desc:0 "Crelov must be developed alongside other pieces of land that exist within our liberating union."
+ USE_develop_crosotex:0 "Develop Crosotex"
+ USE_develop_crosotex_desc:0 "Crosotex must be developed alongside other pieces of land that exist within out liberating union."
+ USE_antagonise_ellysia:0 "Antagonise Ellysia"
+ USE_antagonise_ellysia_desc:0 "These tensing times between us and Ellyisa have come to a head with the discovery of the bigotry within the latter. And now Ellysia must die!"
+ 
  #Imporant Basegame stuff
  
  WHILE_FOCUSING:0 "While focusing on this, there will be the following effects:\n$EFF$"
