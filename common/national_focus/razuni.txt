@@ -14,6 +14,7 @@ focus_tree = {
         x = 10
         y = 0
         cost = 5
+        icon = GFX_goal_no_image
         
         completion_reward = {
             
@@ -25,6 +26,7 @@ focus_tree = {
         x = -1
         y = 1
         cost = 10
+        icon = GFX_goal_no_image
         relative_position_id = RAZ_look_outward
         prerequisite = { focus = RAZ_look_outward }
         
@@ -38,6 +40,7 @@ focus_tree = {
         x = 1
         y = 1
         cost = 10
+        icon = GFX_goal_no_image
         relative_position_id = RAZ_look_outward
         prerequisite = { focus = RAZ_look_outward }
         
@@ -51,6 +54,7 @@ focus_tree = {
         x = 1
         y = 1
         cost = 10
+        icon = GFX_goal_no_image
         relative_position_id = RAZ_establish_titles
         prerequisite = { focus = RAZ_establish_titles }
         prerequisite = { focus = RAZ_establish_salranism }
@@ -65,6 +69,7 @@ focus_tree = {
         x = -2
         y = 1
         cost = 5
+        icon = GFX_goal_no_image
         relative_position_id = RAZ_see_ellysia_tension
         prerequisite = { focus = RAZ_see_ellysia_tension }
         mutually_exclusive = { focus = RAZ_stay_neutral }
@@ -80,6 +85,7 @@ focus_tree = {
         x = 0
         y = 1
         cost = 5
+        icon = GFX_goal_no_image
         relative_position_id = RAZ_see_ellysia_tension
         prerequisite = { focus = RAZ_see_ellysia_tension }
         mutually_exclusive = { focus = RAZ_join_coalition }
@@ -95,6 +101,7 @@ focus_tree = {
         x = 2
         y = 1
         cost = 5
+        icon = GFX_goal_no_image
         relative_position_id = RAZ_see_ellysia_tension
         prerequisite = { focus = RAZ_see_ellysia_tension }
         mutually_exclusive = { focus = RAZ_stay_neutral }

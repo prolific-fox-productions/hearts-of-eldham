@@ -15,6 +15,7 @@ focus_tree = {
         x = 10
         y = 0
         cost = 5
+        icon = GFX_goal_no_image
         
         completion_reward = {
 
@@ -26,6 +27,7 @@ focus_tree = {
         x = -7
         y = 1
         cost = 1
+        icon = GFX_goal_no_image
         relative_position_id = BRK_start_outward
         prerequisite = { focus = BRK_start_outward }
         mutually_exclusive = { focus = BRK_no_lean }
@@ -48,6 +50,7 @@ focus_tree = {
         x = -3
         y = 1
         cost = 1
+        icon = GFX_goal_no_image
         relative_position_id = BRK_start_outward
         prerequisite = { focus = BRK_start_outward }
         mutually_exclusive = { focus = BRK_amora_lean }
@@ -70,6 +73,7 @@ focus_tree = {
         x = 3
         y = 1
         cost = 5
+        icon = GFX_goal_no_image
         relative_position_id = BRK_start_outward
         prerequisite = { focus = BRK_start_outward }
         mutually_exclusive = { focus = BRK_amora_lean }
@@ -86,6 +90,7 @@ focus_tree = {
         x = -1
         y = 1
         cost = 5
+        icon = GFX_goal_no_image
         relative_position_id = BRK_no_lean
         prerequisite = { focus = BRK_no_lean }
 
@@ -99,6 +104,7 @@ focus_tree = {
         x = 1
         y = 1
         cost = 5
+        icon = GFX_goal_no_image
         relative_position_id = BRK_no_lean
         prerequisite = { focus = BRK_no_lean }
 
@@ -112,6 +118,7 @@ focus_tree = {
         x = 1
         y = 1
         cost = 5
+        icon = GFX_goal_no_image
         relative_position_id = BRK_establish_titles
         prerequisite = { focus = BRK_establish_titles }
         prerequisite = { focus = BRK_establish_police }
@@ -126,6 +133,7 @@ focus_tree = {
         x = 0
         y = 1
         cost = 10
+        icon = GFX_goal_no_image
         relative_position_id = BRK_open_fa
         prerequisite = { focus = BRK_open_fa }
 
@@ -139,6 +147,7 @@ focus_tree = {
         x = -2
         y = 1
         cost = 10
+        icon = GFX_goal_no_image
         relative_position_id = BRK_see_tension_ellysia
         prerequisite = { focus = BRK_see_tension_ellysia }
         mutually_exclusive = { focus = BRK_pick_none }
@@ -154,6 +163,7 @@ focus_tree = {
         x = 0
         y = 1
         cost = 10
+        icon = GFX_goal_no_image
         relative_position_id = BRK_see_tension_ellysia
         prerequisite = { focus = BRK_see_tension_ellysia }
         mutually_exclusive = { focus = BRK_pick_coalition }
@@ -169,6 +179,7 @@ focus_tree = {
         x = 2
         y = 1
         cost = 10
+        icon = GFX_goal_no_image
         relative_position_id = BRK_see_tension_ellysia
         prerequisite = { focus = BRK_see_tension_ellysia }
         mutually_exclusive = { focus = BRK_pick_none }
@@ -184,6 +195,7 @@ focus_tree = {
         x = 7
         y = 1
         cost = 1
+        icon = GFX_goal_no_image
         relative_position_id = BRK_start_outward
         prerequisite = { focus = BRK_start_outward }
         mutually_exclusive = { focus = BRK_amora_lean }
