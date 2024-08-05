@@ -10,9 +10,98 @@ focus_tree = {
     }
 
     focus = {
-        id = RAZ_placeholder
+        id = RAZ_look_outward
+        x = 10
+        y = 0
+        cost = 5
+        
+        completion_reward = {
+            
+        }
+    }
+
+    focus = {
+        id = RAZ_establish_titles
+        x = -1
+        y = 1
+        cost = 10
+        relative_position_id = RAZ_look_outward
+        prerequisite = { focus = RAZ_look_outward }
+        
+        completion_reward = {
+            
+        }
+    }
+
+    focus = {
+        id = RAZ_establish_salranism
         x = 1
         y = 1
-        cost = 1
+        cost = 10
+        relative_position_id = RAZ_look_outward
+        prerequisite = { focus = RAZ_look_outward }
+        
+        completion_reward = {
+            
+        }
+    }
+
+    focus = {
+        id = RAZ_see_ellysia_tension
+        x = 1
+        y = 1
+        cost = 10
+        relative_position_id = RAZ_establish_titles
+        prerequisite = { focus = RAZ_establish_titles }
+        prerequisite = { focus = RAZ_establish_salranism }
+        
+        completion_reward = {
+            
+        }
+    }
+
+    focus = {
+        id = RAZ_join_coalition
+        x = -2
+        y = 1
+        cost = 5
+        relative_position_id = RAZ_see_ellysia_tension
+        prerequisite = { focus = RAZ_see_ellysia_tension }
+        mutually_exclusive = { focus = RAZ_stay_neutral }
+        mutually_exclusive = { focus = RAZ_join_ellysia }
+        
+        completion_reward = {
+            
+        }
+    }
+
+    focus = {
+        id = RAZ_stay_neutral
+        x = 0
+        y = 1
+        cost = 5
+        relative_position_id = RAZ_see_ellysia_tension
+        prerequisite = { focus = RAZ_see_ellysia_tension }
+        mutually_exclusive = { focus = RAZ_join_coalition }
+        mutually_exclusive = { focus = RAZ_join_ellysia }
+        
+        completion_reward = {
+            custom_effect_tooltip = historical_tt
+        }
+    }
+
+    focus = {
+        id = RAZ_join_ellysia
+        x = 2
+        y = 1
+        cost = 5
+        relative_position_id = RAZ_see_ellysia_tension
+        prerequisite = { focus = RAZ_see_ellysia_tension }
+        mutually_exclusive = { focus = RAZ_stay_neutral }
+        mutually_exclusive = { focus = RAZ_join_coalition }
+        
+        completion_reward = {
+            
+        }
     }
 }

@@ -30,6 +30,23 @@
  BRK_pick_ellysia_desc:0 "Even if the accusations of the Syndicate ring true, why should that justify any sort of violence? This should have been done peacefully, but the violence of the Syndicate pushes our hand into defending the Empire."
  BRK_elizabeth_lean:0 "Turn to Elizabeth"
  BRK_elizabeth_lean_desc:0 "Zacata will turn to Amora for aid in running the nation, shaping Brenra up to being more hierarchical, more nationalist in nature and design."
+
+ #Razuni
+
+ RAZ_look_outward:0 "Look Outwards"
+ RAZ_look_outward_desc:0 "Though it is still recent that Razuni had unified, it is still important that we remain out of isolation."
+ RAZ_establish_titles:0 "Establish Emirs and Sayidis"
+ RAZ_establish_titles_desc:0 "In addition to the Sultan, we must have those under him to make sure the country is managed well."
+ RAZ_establish_salranism:0 "Establish Salranism"
+ RAZ_establish_salranism_desc:0 "As it used to be practiced in this area, now revived by Saya-Orin Kollisyaid, we shall establish it as a prominent religion."
+ RAZ_see_ellysia_tension:0 "See the Second Tension"
+ RAZ_see_ellysia_tension_desc:0 "There now appears tension between the Ellysian Empire and a new coalition of nations, a Second Coalition in fact. We should choose whether or not to get involved with the tension."
+ RAZ_join_coalition:0 "Join the Second Coalition"
+ RAZ_join_coalition_desc:0 "Ellysia has shown itself to be a curse upon Eldham, only to live in death. We shall join the coalition and show them that no bigots shall live unimpeded."
+ RAZ_stay_neutral:0 "Stay Neutral"
+ RAZ_stay_neutral_desc:0 "We are yet an undeveloped nation, we shouldn't get into any wars prematurely."
+ RAZ_join_ellysia:0 "Join Ellysia"
+ RAZ_join_ellysia_desc:0 "The Second Coalition has formed not for any justice but solely for the genocide of a people, that which we will not tolerate, even if those people are bigoted in opinion."
  
  #USSE
  
