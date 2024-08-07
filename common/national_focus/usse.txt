@@ -23,7 +23,7 @@ focus_tree = {
 
     focus = {
         id = USE_diplo_with_xeka
-        x = 0
+        x = -1
         y = 1
         cost = 5
         icon = GFX_goal_no_image
@@ -65,7 +65,7 @@ focus_tree = {
 
     focus = {
         id = USE_develop_garkogorod
-        x = 2
+        x = 1
         y = 1
         cost = 5
         icon = GFX_goal_no_image

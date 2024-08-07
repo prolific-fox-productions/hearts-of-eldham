@@ -10,9 +10,87 @@ focus_tree = {
     }
 
     focus = {
-        id = ELY_placeholder
+        id = ELY_recover_from_first_war
+        x = 10
+        y = 0
+        cost = 5
+        icon = GFX_goal_no_image
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = ELY_xray_resources
+        x = -1
+        y = 1
+        cost = 10
+        icon = GFX_goal_no_image
+        relative_position_id = ELY_recover_from_first_war
+        prerequisite = { focus = ELY_recover_from_first_war }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = ELY_subjugate_tribes
         x = 1
         y = 1
-        cost = 1
+        cost = 10
+        icon = GFX_goal_no_image
+        relative_position_id = ELY_recover_from_first_war
+        prerequisite = { focus = ELY_recover_from_first_war }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = ELY_hack_some
+        x = 0
+        y = 1
+        cost = 5
+        icon = GFX_goal_no_image
+        relative_position_id = ELY_xray_resources
+        prerequisite = { focus = ELY_xray_resources }
+        prerequisite = { focus = ELY_subjugate_tribes }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = ELY_bigotry
+        x = 0
+        y = 1
+        cost = 5
+        icon = GFX_goal_no_image
+        relative_position_id = ELY_subjugate_tribes
+        prerequisite = { focus = ELY_xray_resources }
+        prerequisite = { focus = ELY_subjugate_tribes }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = ELY_unsign_treaty
+        x = 1
+        y = 1
+        cost = 5
+        icon = GFX_goal_no_image
+        relative_position_id = ELY_hack_some
+        prerequisite = { focus = ELY_hack_some }
+        prerequisite = { focus = ELY_bigotry }
+
+        completion_reward = {
+
+        }
     }
 }

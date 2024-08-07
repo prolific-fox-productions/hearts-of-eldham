@@ -10,9 +10,57 @@ focus_tree = {
     }
 
     focus = {
-        id = FAR_placeholder
+        id = FAR_take_stock
+        x = 10
+        y = 0
+        cost = 10
+        icon = GFX_goal_no_image
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = FAR_develop_military
+        x = -1
+        y = 1
+        cost = 10
+        icon = GFX_goal_no_image
+        relative_position_id = FAR_take_stock
+        prerequisite = { focus = FAR_take_stock }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = FAR_develop_infra
         x = 1
         y = 1
-        cost = 1
+        cost = 10
+        icon = GFX_goal_no_image
+        relative_position_id = FAR_take_stock
+        prerequisite = { focus = FAR_take_stock }
+
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = FAR_antagonise_ellysia
+        x = 1
+        y = 1
+        cost = 10
+        icon = GFX_goal_no_image
+        relative_position_id = FAR_develop_military
+        prerequisite = { focus = FAR_develop_military }
+        prerequisite = { focus = FAR_develop_infra }
+
+        completion_reward = {
+
+        }
     }
 }

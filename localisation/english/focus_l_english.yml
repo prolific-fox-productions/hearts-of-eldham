@@ -52,6 +52,31 @@
  BRK_pick_ellysia_desc:0 "Even if the accusations of the Syndicate ring true, why should that justify any sort of violence? This should have been done peacefully, but the violence of the Syndicate pushes our hand into defending the Empire."
  BRK_elizabeth_lean:0 "Turn to Elizabeth"
  BRK_elizabeth_lean_desc:0 "Zacata will turn to Amora for aid in running the nation, shaping Brenra up to being more hierarchical, more nationalist in nature and design."
+ 
+ #Ellysian Focus Tree
+ 
+ ELY_recover_from_first_war:0 "Recover From the First War"
+ ELY_recover_from_first_war_desc:0 "We have recently fought against a coalition of nations before, so we should do our best to recover from that great event, and consolidate what we have now."
+ ELY_xray_resources:0 "Use Dark Magic"
+ ELY_xray_resources_desc:0 "Though this sort of magic would get us banished from the planes by whichever God exists, as long as we keep it secret, no-one should find out. :3"
+ ELY_subjugate_tribes:0 "There are tribes of squatters within our claimed land, as we must be able to protect our borders, they must go or join us under our banner."
+ ELY_hack_some:0 "More Dark Magic"
+ ELY_hack_some_desc:0 "We have used it once before, we should be able to use it once again."
+ ELY_bigotry:0 "Become a Bigot"
+ ELY_bigotry_desc:0 "We are the grandest empire on Eldham, we should be able to say what we like, and our freedom of speech (which doesn't protect from private businesses, doesn't canonically exist on Eldham nor protects hate speech) protects it."
+ ELY_unsign_treaty:0 "Unsign the Treaty"
+ ELY_unsign_treaty_desc:0 "They have forced upon us another treaty, this time more explicitly to dissolve our nation and government. Though we have signed it once, we have decided that it is unjust, that they have broken it, we shall unsign it!"
+ 
+ #Farencia-Bellum Focus Tree
+ 
+ FAR_take_stock:0 "Take Stock"
+ FAR_take_stock_desc:0 "We have been surrounded by the Ellysian Empire, and so we must take stock of our situation before deciding what next to do, most likely prepare for the imperialistic desires of our surrounding neighbours."
+ FAR_develop_military:0 "Develop the Military"
+ FAR_develop_military_desc:0 "We must develop our military in this tense times in order to see to it that Ellysia cannot just 'roll' over us in a potential war."
+ FAR_develop_infra:0 "Develop Infrastructure"
+ FAR_develop_infra_desc:0 "We must develop our infrastructure not just to aid our civilians but in order to make sure that our military can be supplied adequately."
+ FAR_antagonise_ellysia:0 "Antagonise Ellysia"
+ FAR_antagonise_ellysia_desc:0 "We can wait no more! Already there are people leading a coaltion to fight the Ellysian Empire. In joining it we shall gain land from the bigoted land, land that will allow us access to the sea."
 
  #Razuni Focus Tree
 
