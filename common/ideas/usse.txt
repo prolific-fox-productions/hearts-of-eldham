@@ -1,0 +1,23 @@
+ideas = {
+    country = {
+        USE_revolution_home = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			#picture = 
+
+			modifier = {
+                war_support_factor = 0.3
+                stability_factor = 0.2
+            }
+		}
+    }
+}

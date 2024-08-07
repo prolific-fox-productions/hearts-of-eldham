@@ -35,6 +35,8 @@ add_ideas = protest_not_fascom
 add_ideas = party_banned
 add_ideas = press_free
 
+add_ideas = USE_revolution_home
+
 recruit_character = USE_leo_belgicus
 recruit_character = USE_egor_tsukanov
 recruit_character = USE_henrich_pierre

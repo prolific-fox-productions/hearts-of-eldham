@@ -23,10 +23,10 @@ bookmarks = {
 			history = "USE_COMING_WAR_DESC"
 			ideology = socialism
 			ideas = {
-				
+				USE_revolution_home
 			}
 			focuses = {
-				
+				USE_open_diplo
 			}
 		}
 
@@ -37,10 +37,12 @@ bookmarks = {
 			ideology = monarchism
 			minor = yes
 			ideas = {
-				
+				BRK_isolated
 			}
 			focuses = {
-				
+				BRK_amora_lean
+				BRK_no_lean
+				BRK_elizabeth_lean
 			}
 		}
 		"FAR"={
@@ -59,10 +61,12 @@ bookmarks = {
 			ideology = monarchism
 			minor = yes
 			ideas = {
-				
+				RAZ_isolated
 			}
 			focuses = {
-				
+				RAZ_join_coalition
+				RAZ_stay_neutral
+				RAZ_join_ellysia
 			}
 		}
 		"XEK"={

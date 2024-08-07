@@ -22,6 +22,8 @@ add_ideas = limited_exports
 add_ideas = tax_vlow
 add_ideas = press_no
 
+add_ideas = RAZ_isolated
+
 recruit_character = RAZ_bashar_razud
 recruit_character = RAZ_alaina_arianhrod
 recruit_character = RAZ_kahuna_bacardi
