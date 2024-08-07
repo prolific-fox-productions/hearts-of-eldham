@@ -23,6 +23,8 @@ add_ideas = religion_floristanism
 add_ideas = culture_hermonian
 add_ideas = poverty_communal
 
+add_ideas = BRK_isolated
+
 #Starting Tech
 set_technology = {
 

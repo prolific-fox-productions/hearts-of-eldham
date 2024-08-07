@@ -1,0 +1,14 @@
+difficulty_settings = {
+	difficulty_setting = {
+		key = "custom_diff_strong_ely"
+		modifier = diff_strong_ai_generic
+		countries = { ELY }
+		multiplier = 2.0
+	}
+	difficulty_setting = {
+		key = "custom_diff_strong_usse"
+		modifier = diff_strong_ai_generic
+		countries = { USE }
+		multiplier = 2.0
+	}
+}

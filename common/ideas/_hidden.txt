@@ -1,0 +1,21 @@
+ideas = {
+    hidden_ideas = {
+        HIDDEN_DEF = {
+
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+            rule = {
+                can_create_factions = no
+                can_join_factions = no
+            }
+		}
+    }
+}
