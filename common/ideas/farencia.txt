@@ -1,0 +1,22 @@
+ideas = {
+    country = {
+        FAR_surrounded = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			#picture = 
+
+			modifier = {
+                war_support_factor = 0.4
+            }
+		}
+    }
+}
