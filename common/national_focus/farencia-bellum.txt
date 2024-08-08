@@ -60,7 +60,9 @@ focus_tree = {
         prerequisite = { focus = FAR_develop_infra }
 
         completion_reward = {
-
+            USE = {
+                add_to_faction = FAR
+            }
         }
     }
 }

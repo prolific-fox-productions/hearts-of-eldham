@@ -76,7 +76,13 @@ focus_tree = {
         mutually_exclusive = { focus = RAZ_join_ellysia }
         
         completion_reward = {
-            
+            add_opinion_modifier = {
+                target = ELY
+                modifier = hostile_status
+            }
+            USE = {
+                add_to_faction = RAZ
+            }
         }
     }
 
@@ -93,6 +99,10 @@ focus_tree = {
         
         completion_reward = {
             custom_effect_tooltip = historical_tt
+            add_opinion_modifier = {
+                target = ELY
+                modifier = opinion_bigot
+            }
         }
     }
 

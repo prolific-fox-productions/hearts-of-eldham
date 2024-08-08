@@ -18,7 +18,7 @@ focus_tree = {
         icon = GFX_goal_no_image
         
         completion_reward = {
-
+            remove_ideas = BRK_isolated
         }
     }
 
@@ -82,6 +82,7 @@ focus_tree = {
         
         completion_reward = {
             custom_effect_tooltip = historical_tt
+            add_political_power = 50
         }
     }
 
@@ -95,7 +96,7 @@ focus_tree = {
         prerequisite = { focus = BRK_no_lean }
 
         completion_reward = {
-
+            add_political_power = 10
         }
     }
 
@@ -109,7 +110,7 @@ focus_tree = {
         prerequisite = { focus = BRK_no_lean }
 
         completion_reward = {
-            
+            add_ideas = police_under
         }
     }
 
@@ -124,7 +125,10 @@ focus_tree = {
         prerequisite = { focus = BRK_establish_police }
 
         completion_reward = {
-
+            add_opinion_modifier = {
+                target = RAZ
+                modifier = opinion_friend
+            }
         }
     }
 
@@ -154,7 +158,13 @@ focus_tree = {
         mutually_exclusive = { focus = BRK_pick_ellysia }
 
         completion_reward = {
-            
+            add_opinion_modifier = {
+                target = ELY
+                modifier = hostile_status
+            }
+            USE = {
+                add_to_faction = BRK
+            }
         }
     }
 
@@ -171,6 +181,10 @@ focus_tree = {
 
         completion_reward = {
             custom_effect_tooltip = historical_tt
+            add_opinion_modifier = {
+                target = ELY
+                modifier = opinion_bigot
+            }
         }
     }
 
@@ -186,7 +200,10 @@ focus_tree = {
         mutually_exclusive = { focus = BRK_pick_coalition }
 
         completion_reward = {
-            
+            add_opinion_modifier = {
+                target = ELY
+                modifier = opinion_friend
+            }
         }
     }
 

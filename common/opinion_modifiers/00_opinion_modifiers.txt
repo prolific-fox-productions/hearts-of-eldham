@@ -10,6 +10,18 @@
 
 opinion_modifiers = {
 
+	#HoE
+
+	opinion_friend = {
+		value = 25
+	}
+
+	opinion_bigot = {
+		value = -50
+	}
+
+	#BASE
+
 	cheat_opinion_modifier_good = {
 		value = 200
 	}

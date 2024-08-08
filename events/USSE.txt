@@ -1,0 +1,34 @@
+###########################
+# USSE Events
+###########################
+
+add_namespace = usse
+
+#Treaty of Aurica
+country_event = {
+    id = usse.1
+    title = usse.1.t
+    desc = usse.1.d
+    major = yes
+
+    is_triggered_only = yes
+    option = {
+        name = usse.1.a
+        trigger = {
+            NOT = {
+                tag = ELY
+            }
+        }
+        USE = { 
+            create_faction = SECOND_COALITION
+        }
+    }
+    option = {
+        name = usse.1.b
+        trigger = {
+            tag = ELY
+        }
+
+
+    }
+}

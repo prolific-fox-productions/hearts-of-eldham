@@ -11,15 +11,18 @@
 
  #Farencian Ideas
 
-
+ FAR_surrounded:0 "Surrounded by Ellysia"
+ FAR_surrounded_desc:0 "We are surrounded by a near hostile enemy who has taken land before we could and so they have access to the sea while we are left land-locked."
 
  #Razuni Ideas
 
-
+ RAZ_isolated:0 "Isolated"
+ RAZ_isolated_desc:0 "Since we united, we have been isolated from the world at large save for a few self-serving traders, so we do not trade with others."
 
  #USSE Ideas
 
-
+ USE_revolution_home:0 "Home of the Revolution"
+ USE_revolution_home_desc:0 "We are the first nation on Eldham to adopt the communist movement, to overthrow our leader in favour of a socialist state. Now we stand one of few socialist states, capitalist and feudalist nations surrounding us on all sides."
 
  #HoE Law Categories
  nation_state:1 "State of the Nation"

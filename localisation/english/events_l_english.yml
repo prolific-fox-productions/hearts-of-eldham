@@ -1,0 +1,35 @@
+﻿l_english:
+
+ ##HoE
+
+ #Brenra
+
+ 
+
+ #Ellysia
+
+ 
+
+ #Farencia
+
+ 
+
+ #Razuni
+
+ 
+
+ #USSE
+
+ usse.1.t:0 "The Treaty of Aurica"
+ usse.1.d:0 "It has been shown that the Ellysian Empire is a nation full of bigots and of hackers. A treaty has now been signed to allow for the dissolution of the Empire according to the members of the Second Coalition. Now shall begin the process of de-Ellysianisation, in which all Ellysian culture will be removed."
+ usse.1.a:0 "Death to Ellysia!"
+ usse.1.b:0 "Dear gods above..."
+
+ #Xeka
+
+ 
+
+ #Base Game
+
+ MINIMIZE_EVENT:0 "§GClick§! to Minimize. Event will be placed in the Event Queue under §HEvents and Decisions§!."
+ 
