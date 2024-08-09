@@ -13,6 +13,10 @@
 
  FAR_surrounded:0 "Surrounded by Ellysia"
  FAR_surrounded_desc:0 "We are surrounded by a near hostile enemy who has taken land before we could and so they have access to the sea while we are left land-locked."
+ FAR_military_dev:0 "Rapid Military Development"
+ FAR_military_dev_desc:0 "Currently we are driving military production into overdrive, while we cannot keep this going on forever, this will do in facing Ellysia."
+ FAR_infra_dev:0 "Rapid Infrastructural Development"
+ FAR_infra_dev_desc:0 "Currently we are driving infrastructural development into overdrive, while we cannot keep this going on forever, this will do in facing Ellysia."
 
  #Razuni Ideas
 
