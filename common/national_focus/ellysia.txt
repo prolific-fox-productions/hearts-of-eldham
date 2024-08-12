@@ -17,7 +17,7 @@ focus_tree = {
         icon = GFX_goal_no_image
 
         completion_reward = {
-
+            remove_ideas = ELY_recent_war
         }
     }
 
@@ -31,7 +31,7 @@ focus_tree = {
         prerequisite = { focus = ELY_recover_from_first_war }
 
         completion_reward = {
-
+            add_ideas = ELY_xrayer
         }
     }
 
@@ -45,7 +45,7 @@ focus_tree = {
         prerequisite = { focus = ELY_recover_from_first_war }
 
         completion_reward = {
-
+            add_ideas = ELY_tyrant
         }
     }
 
@@ -60,7 +60,7 @@ focus_tree = {
         prerequisite = { focus = ELY_subjugate_tribes }
 
         completion_reward = {
-
+            add_ideas = ELY_hacker
         }
     }
 
@@ -75,7 +75,7 @@ focus_tree = {
         prerequisite = { focus = ELY_subjugate_tribes }
 
         completion_reward = {
-
+            add_ideas = ELY_bigot
         }
     }
 
@@ -90,7 +90,9 @@ focus_tree = {
         prerequisite = { focus = ELY_bigotry }
 
         completion_reward = {
-
+            USE = {
+                country_event = usse.2
+            }
         }
     }
 }

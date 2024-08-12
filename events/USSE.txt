@@ -5,7 +5,7 @@
 add_namespace = usse
 
 #Treaty of Aurica
-country_event = {
+news_event = {
     id = usse.1
     title = usse.1.t
     desc = usse.1.d
@@ -17,10 +17,8 @@ country_event = {
         trigger = {
             NOT = {
                 tag = ELY
+                tag = USE
             }
-        }
-        USE = { 
-            create_faction = SECOND_COALITION
         }
     }
     option = {
@@ -28,7 +26,65 @@ country_event = {
         trigger = {
             tag = ELY
         }
+    }
+    option = {
+        name = usse.1.c
+        trigger = {
+            tag = USE
+        }
+        create_faction = SECOND_COALITION
+        USE = {
+            set_state_owner = 153
+            set_state_controller = 153
+        }
+    }
+}
 
+#Treaty Unsigned
+country_event = {
+    id = usse.2
+    title = usse.2.t
+    desc = usse.2.d
 
+    is_triggered_only = yes
+    option = {
+        name = usse.2.a
+
+        declare_war_on = {
+            target = ELY
+            type = topple_government
+        }
+        FAR = {
+            add_to_war = {
+                targeted_alliance = PREV
+                enemy = ELY
+                hostility_reason = asked_to_join
+            }
+        }
+        BRK = {
+            if = {
+                limit = {
+                    has_country_flag = BRK_join_second_coalition
+                }
+                add_to_war = {
+                    targeted_alliance = PREV
+                    enemy = ELY
+                    hostility_reason = asked_to_join
+                }
+            }
+        }
+        RAZ = {
+            if = {
+                limit = {
+                    has_country_flag = RAZ_join_second_coalition
+                }
+                add_to_war = {
+                    targeted_alliance = PREV
+                    enemy = ELY
+                    hostility_reason = asked_to_join
+                }
+            }
+        }
+        set_global_flag = second_coalition_ellysia_war
     }
 }

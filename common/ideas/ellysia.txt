@@ -1,0 +1,106 @@
+ideas = {
+    country = {
+        ELY_recent_war = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			#picture = 
+
+			modifier = {
+                war_support_factor = -0.2
+            }
+		}
+        ELY_xrayer = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			#picture = 
+
+			modifier = {
+                stability_factor = -0.05
+                local_resources_factor = 0.3
+            }
+		}
+        ELY_tyrant = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			#picture = 
+
+			modifier = {
+                stability_factor = -0.1
+                no_compliance_gain = 1
+                resistance_activity = 0.2
+            }
+		}
+        ELY_hacker = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			#picture = 
+
+			modifier = {
+                stability_factor = -0.05
+                local_resources_factor = 0.1
+            }
+		}
+        ELY_bigot = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			#picture = 
+
+			modifier = {
+                nationalism_ideo_drift = 0.01
+                hidden_modifier =  {
+                    nationalism_ideo_acceptance = 20
+                    capitalism_acceptance = -10
+                    monarchism_acceptance = -20
+                    socialism_acceptance = -50
+                    theocratic_acceptance = -20
+                }
+                custom_modifier_tooltip = ELY_bigot_tt
+            }
+		}
+    }
+}

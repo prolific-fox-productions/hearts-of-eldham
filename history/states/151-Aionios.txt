@@ -6,6 +6,9 @@ state={
 	history={
 		owner = ELY
 		add_core_of = ELY
+		victory_points = { 3094 5 }
+		victory_points = { 3099 5 }
+		victory_points = { 3108 5 }
 		buildings = {
 			industrial_complex = 1
 		}

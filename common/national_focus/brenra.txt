@@ -165,6 +165,8 @@ focus_tree = {
             USE = {
                 add_to_faction = BRK
             }
+            set_country_flag = BRK_join_second_coalition
+            set_country_flag = second_coalition_in
         }
     }
 

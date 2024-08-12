@@ -1,3 +1,13 @@
+#HoE
+
+decision_cat_ellysia_war = {
+	#icon
+	visible = {
+		has_country_flag = ellysia_war
+	}
+}
+
+#Base Game
 debug_decisions = {
 	icon = generic_research
 	visible = {

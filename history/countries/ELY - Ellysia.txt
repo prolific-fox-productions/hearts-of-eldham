@@ -4,6 +4,13 @@ capital = 150
 set_stability = 0.5
 set_war_support = 0.2
 #Starting Tech
+
+#Ideas
+
+add_ideas = sex_men_limited
+
+add_ideas = ELY_recent_war
+
 set_technology = {
 
 }

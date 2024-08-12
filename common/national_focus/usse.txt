@@ -143,7 +143,11 @@ focus_tree = {
         prerequisite = { focus = USE_develop_crosotex }
 
         completion_reward = {
-
+            add_opinion_modifier = {
+                target = ELY
+                modifier = hostile_status
+            }
+            set_country_flag = second_coalition_in
         }
     }
 }

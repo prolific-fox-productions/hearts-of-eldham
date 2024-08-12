@@ -7,7 +7,13 @@
 
  #Ellysian Ideas
 
-
+ ELY_recent_war:0 "Recovering From the Recent War"
+ ELY_recent_war_desc:0 "Although the First Coalition-Ellysian War was years ago, we still are recovering from it both societally and materially."
+ ELY_xrayer:0 "Filled with Xrayers"
+ ELY_tyrant:0 "Tyrannical Subjugation"
+ ELY_tyrant_desc:0 "Tribes are being subjugated with no consideration of their wishes."
+ ELY_hacker:0 "Filled with Hackers"
+ ELY_bigot:0 "A Bigotted Nation"
 
  #Farencian Ideas
 
