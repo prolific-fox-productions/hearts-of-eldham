@@ -8,6 +8,11 @@ spriteTypes = {
 		texturefile = "gfx/leaders/BRK/GFX_large_zacata_felis.dds"
 	}
 
+	spriteType = {
+		name = "GFX_portrait_BRK_mileana_faena_large"
+		texturefile = "gfx/leaders/BRK/GFX_large_mileana_faena.dds"
+	}
+
 	### ELY
 	## ELY Leaders
 

@@ -16,6 +16,23 @@ characters={
         }
     }
 
+    BRK_mileana_faena={
+        name=BRK_mileana_faena
+        gender = female
+        portraits={
+            civilian={
+                large="GFX_portrait_BRK_mileana_faena_large"
+            }
+        }
+        country_leader={
+            ideology=environmental_capitalism
+            expire=330.1.1.1
+            id=-1
+            #desc=BRK_mileana_faena_desc
+            traits = { trait_floristanism }
+        }
+    }
+
     BRK_proph_zacata_felis={
         name=BRK_zacata_felis
         gender = male

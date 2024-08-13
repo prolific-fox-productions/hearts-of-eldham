@@ -32,6 +32,7 @@ set_technology = {
 
 recruit_character = BRK_zacata_felis
 recruit_character = BRK_proph_zacata_felis
+recruit_character = BRK_mileana_faena
 
 set_politics ={
     ruling_party = monarchism
