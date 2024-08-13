@@ -52,6 +52,8 @@
  BRK_pick_ellysia_desc:0 "Even if the accusations of the Syndicate ring true, why should that justify any sort of violence? This should have been done peacefully, but the violence of the Syndicate pushes our hand into defending the Empire."
  BRK_elizabeth_lean:0 "Turn to Elizabeth"
  BRK_elizabeth_lean_desc:0 "Zacata will turn to Amora for aid in running the nation, shaping Brenra up to being more hierarchical, more nationalist in nature and design."
+ BRK_religious_lean:0 "Turn to the Gods"
+ BRK_religious_lean_desc:0 "Zacata will turn to not a person, but the Gods for aid in running the nation, shaping Brenra up to being more religous, more divine in nature and design."
  
  #Ellysian Focus Tree
  

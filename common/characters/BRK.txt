@@ -25,7 +25,7 @@ characters={
             }
         }
         country_leader={
-            ideology=environmental_capitalism
+            ideology=social_democracy
             expire=330.1.1.1
             id=-1
             #desc=BRK_mileana_faena_desc
