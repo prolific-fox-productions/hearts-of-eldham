@@ -33,6 +33,23 @@ characters={
         }
     }
 
+    BRK_amora_hermona={
+        name=BRK_amora_hermona
+        gender = female
+        portraits={
+            civilian={
+                large="GFX_portrait_BRK_amora_hermona_large"
+            }
+        }
+        country_leader={
+            ideology=floristo-socialism
+            expire=330.1.1.1
+            id=-1
+            #desc=BRK_amora_hermona_desc
+            traits = { trait_floristanism }
+        }
+    }
+
     BRK_proph_zacata_felis={
         name=BRK_zacata_felis
         gender = male

@@ -10,7 +10,10 @@ state={
 
 	history = {
 		owner = ELY
-		#victory_points = { 1 2 }
+		victory_points = { 2488 20 }
+		victory_points = { 2492 5 }
+		victory_points = { 2564 5 }
+		victory_points = { 2594 5 }
 		buildings = {
 			industrial_complex = 1
 		}

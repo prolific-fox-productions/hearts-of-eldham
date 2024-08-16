@@ -33,6 +33,7 @@ set_technology = {
 recruit_character = BRK_zacata_felis
 recruit_character = BRK_proph_zacata_felis
 recruit_character = BRK_mileana_faena
+recruit_character = BRK_amora_hermona
 
 set_politics ={
     ruling_party = monarchism
@@ -44,7 +45,7 @@ set_politics ={
 set_popularities = {
 	capitalism = 10
 	nationalism_ideo = 10
-	socialism = 20
-	theocratic = 20
+	socialism = 10
+	theocratic = 30
     monarchism = 40
 }
