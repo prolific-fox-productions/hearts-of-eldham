@@ -1,4 +1,5 @@
 ﻿l_english:
  future_update_tt:0 "§RThis will be available in a future update.§!"
  historical_tt:0 "§CThis is a Historical Choice.§!"
+ need_event_tt:0 "§RThis can only be completed via an event.§!"
  ELY_bigot_tt:0 "Other nations may not be as willing to do diplomacy with you."

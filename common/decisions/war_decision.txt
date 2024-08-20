@@ -1,0 +1,85 @@
+decision_cat_ellysia_war = {
+	
+	USE_war_ellysia = {
+		#icon =
+		
+		allowed = {
+			tag = USE
+		}
+
+        days_mission_timeout = 49
+        is_good = no
+
+		available = {
+            OR = {
+				controls_province = 2851
+				any_allied_country = {
+					controls_province = 2851
+				}
+			}
+		}
+		complete_effect = {
+			#country_event = ellysia.1
+		}
+		timeout_effect = {
+			#country_event = ellysia.2
+        }
+
+		fire_only_once = yes
+	}
+
+    gen_war_ellysia = {
+		#icon =
+		
+		allowed = {
+			tag = FAR
+			tag = BRK
+			tag = RAZ
+		}
+
+        days_mission_timeout = 49
+        is_good = no
+
+		available = {
+            OR = {
+				controls_province = 2851
+				any_allied_country = {
+					controls_province = 2851
+				}
+			}
+		}
+		complete_effect = {
+			
+		}
+		timeout_effect = {
+
+        }
+
+		fire_only_once = yes
+	}
+
+	ELY_war_ellysia = {
+		#icon =
+		
+		allowed = {
+			tag = ELY
+		}
+
+        days_mission_timeout = 49
+        is_good = yes
+
+		available = {
+            NOT = {
+				controls_province = 2851
+			}
+		}
+		complete_effect = {
+			
+		}
+		timeout_effect = {
+
+        }
+
+		fire_only_once = yes
+	}
+}

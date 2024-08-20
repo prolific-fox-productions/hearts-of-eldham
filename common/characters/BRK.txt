@@ -50,6 +50,23 @@ characters={
         }
     }
 
+    BRK_elisa_mapica={
+        name=BRK_elisa_mapica
+        gender = female
+        portraits={
+            civilian={
+                large="GFX_portrait_BRK_elisa_mapica_large"
+            }
+        }
+        country_leader={
+            ideology=feminine_nationalism
+            expire=330.1.1.1
+            id=-1
+            #desc=BRK_elisa_mapica_desc
+            traits = { trait_floristanism }
+        }
+    }
+
     BRK_proph_zacata_felis={
         name=BRK_zacata_felis
         gender = male

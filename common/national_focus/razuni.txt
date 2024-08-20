@@ -23,7 +23,7 @@ focus_tree = {
 
     focus = {
         id = RAZ_establish_titles
-        x = -1
+        x = -2
         y = 1
         cost = 10
         icon = GFX_goal_no_image
@@ -36,10 +36,24 @@ focus_tree = {
     }
 
     focus = {
-        id = RAZ_establish_salranism
-        x = 1
+        id = RAZ_brenra_vassal
+        x = 0
         y = 1
         cost = 10
+        icon = GFX_goal_no_image
+        relative_position_id = RAZ_look_outward
+        prerequisite = { focus = RAZ_look_outward }
+        
+        completion_reward = {
+            puppet = BRK
+        }
+    }
+
+    focus = {
+        id = RAZ_establish_salranism
+        x = 2
+        y = 1
+        cost = 5
         icon = GFX_goal_no_image
         relative_position_id = RAZ_look_outward
         prerequisite = { focus = RAZ_look_outward }
@@ -51,14 +65,16 @@ focus_tree = {
 
     focus = {
         id = RAZ_see_ellysia_tension
-        x = 1
+        x = 2
         y = 1
-        cost = 10
+        cost = 5
         icon = GFX_goal_no_image
         relative_position_id = RAZ_establish_titles
         prerequisite = { focus = RAZ_establish_titles }
         prerequisite = { focus = RAZ_establish_salranism }
-        
+        prerequisite = { focus = RAZ_brenra_vassal }
+
+
         completion_reward = {
             
         }
@@ -66,9 +82,9 @@ focus_tree = {
 
     focus = {
         id = RAZ_join_coalition
-        x = -2
+        x = -3
         y = 1
-        cost = 5
+        cost = 4
         icon = GFX_goal_no_image
         relative_position_id = RAZ_see_ellysia_tension
         prerequisite = { focus = RAZ_see_ellysia_tension }
@@ -92,7 +108,7 @@ focus_tree = {
         id = RAZ_stay_neutral
         x = 0
         y = 1
-        cost = 5
+        cost = 4
         icon = GFX_goal_no_image
         relative_position_id = RAZ_see_ellysia_tension
         prerequisite = { focus = RAZ_see_ellysia_tension }
@@ -109,10 +125,24 @@ focus_tree = {
     }
 
     focus = {
-        id = RAZ_join_ellysia
-        x = 2
+        id = RAZ_denounce_ellysia
+        x = 0
         y = 1
-        cost = 5
+        cost = 8
+        icon = GFX_goal_no_image
+        relative_position_id = RAZ_stay_neutral
+        prerequisite = { focus = RAZ_stay_neutral }
+
+        completion_reward = {
+            
+        }
+    }
+
+    focus = {
+        id = RAZ_join_ellysia
+        x = 3
+        y = 1
+        cost = 4
         icon = GFX_goal_no_image
         relative_position_id = RAZ_see_ellysia_tension
         prerequisite = { focus = RAZ_see_ellysia_tension }
@@ -120,7 +150,47 @@ focus_tree = {
         mutually_exclusive = { focus = RAZ_join_coalition }
         
         completion_reward = {
-            
+            set_country_flag = RAZ_join_ellysia
+        }
+    }
+
+    focus = {
+        id = RAZ_none_coalition_won
+        x = -2
+        y = 1
+        cost = 4
+        icon = GFX_goal_no_image
+        available = {
+            custom_trigger_tooltip = {
+				tooltip = need_event_tt
+				always = no
+			}
+        }
+        relative_position_id = RAZ_denounce_ellysia
+        prerequisite = { focus = RAZ_denounce_ellysia }
+        
+        completion_reward = {
+            set_country_flag = RAZ_join_ellysia
+        }
+    }
+
+    focus = {
+        id = RAZ_none_ellysia_won
+        x = 2
+        y = 1
+        cost = 4
+        available = {
+            custom_trigger_tooltip = {
+				tooltip = need_event_tt
+				always = no
+			}
+        }
+        icon = GFX_goal_no_image
+        relative_position_id = RAZ_denounce_ellysia
+        prerequisite = { focus = RAZ_denounce_ellysia }
+        
+        completion_reward = {
+            set_country_flag = RAZ_join_ellysia
         }
     }
 }

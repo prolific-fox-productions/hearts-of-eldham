@@ -147,7 +147,63 @@ focus_tree = {
                 target = ELY
                 modifier = hostile_status
             }
-            set_country_flag = second_coalition_in
+            set_country_flag = USE_second_coalition_in
+        }
+    }
+
+    focus = {
+        id = USE_ellysian_propaganda
+        x = 0
+        y = 1
+        cost = 5
+        icon = GFX_goal_no_image
+        relative_position_id = USE_antagonise_ellysia
+        prerequisite = { focus = USE_antagonise_ellysia }
+
+        completion_reward = {
+            
+        }
+    }
+
+    focus = {
+        id = USE_coalition_win
+        x = -2
+        y = 1
+        cost = 5
+        icon = GFX_goal_no_image
+        available = {
+            custom_trigger_tooltip = {
+				tooltip = need_event_tt
+				always = no
+			}
+        }
+        relative_position_id = USE_ellysian_propaganda
+        prerequisite = { focus = USE_ellysian_propaganda }
+        mutually_exclusive = { focus = USE_coalition_lose }
+
+        completion_reward = {
+            
+        }
+    }
+
+    focus = {
+        id = USE_coalition_lose
+        x = 2
+        y = 1
+        cost = 5
+        icon = GFX_goal_no_image
+        available = {
+            custom_trigger_tooltip = {
+				tooltip = need_event_tt
+				always = no
+			}
+        }
+        relative_position_id = USE_ellysian_propaganda
+        prerequisite = { focus = USE_ellysian_propaganda }
+        mutually_exclusive = { focus = USE_coalition_win }
+
+        completion_reward = {
+            
         }
     }
 }

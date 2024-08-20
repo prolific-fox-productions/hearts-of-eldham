@@ -54,12 +54,16 @@ country_event = {
             target = ELY
             type = topple_government
         }
+        set_country_flag = ellysia_war
+        activate_mission = USE_war_ellysia
         FAR = {
             add_to_war = {
                 targeted_alliance = PREV
                 enemy = ELY
                 hostility_reason = asked_to_join
             }
+            set_country_flag = ellysia_war
+            activate_mission = gen_war_ellysia
         }
         BRK = {
             if = {
@@ -71,6 +75,8 @@ country_event = {
                     enemy = ELY
                     hostility_reason = asked_to_join
                 }
+                set_country_flag = ellysia_war
+                activate_mission = gen_war_ellysia
             }
         }
         RAZ = {
@@ -83,7 +89,12 @@ country_event = {
                     enemy = ELY
                     hostility_reason = asked_to_join
                 }
+                set_country_flag = ellysia_war
+                activate_mission = gen_war_ellysia
             }
+        }
+        ELY = {
+            activate_mission = ELY_war_ellysia
         }
         set_global_flag = second_coalition_ellysia_war
     }

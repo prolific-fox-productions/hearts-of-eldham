@@ -34,6 +34,7 @@ recruit_character = BRK_zacata_felis
 recruit_character = BRK_proph_zacata_felis
 recruit_character = BRK_mileana_faena
 recruit_character = BRK_amora_hermona
+recruit_character = BRK_elisa_mapica
 
 set_politics ={
     ruling_party = monarchism

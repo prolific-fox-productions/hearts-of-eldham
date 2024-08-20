@@ -95,4 +95,44 @@ focus_tree = {
             }
         }
     }
+
+    focus = {
+        id = ELY_ellysia_lose
+        x = -2
+        y = 1
+        cost = 5
+        icon = GFX_goal_no_image
+        relative_position_id = ELY_unsign_treaty
+        prerequisite = { focus = ELY_unsign_treaty }
+        available = {
+            custom_trigger_tooltip = {
+				tooltip = need_event_tt
+				always = no
+			}
+        }
+
+        completion_reward = {
+            
+        }
+    }
+
+    focus = {
+        id = ELY_ellysia_win
+        x = 2
+        y = 1
+        cost = 5
+        icon = GFX_goal_no_image
+        relative_position_id = ELY_unsign_treaty
+        prerequisite = { focus = ELY_unsign_treaty }
+        available = {
+            custom_trigger_tooltip = {
+				tooltip = need_event_tt
+				always = no
+			}
+        }
+
+        completion_reward = {
+            
+        }
+    }
 }

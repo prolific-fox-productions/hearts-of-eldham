@@ -9,6 +9,7 @@ focus_tree = {
         }
     }
     initial_show_position = { focus = BRK_start_outward }
+    continuous_focus_position = { x = 0 y = 3000 }
 
     focus = {
         id = BRK_start_outward
@@ -32,7 +33,7 @@ focus_tree = {
         prerequisite = { focus = BRK_start_outward }
         mutually_exclusive = { focus = BRK_no_lean }
         mutually_exclusive = { focus = BRK_mileana_lean }
-        mutually_exclusive = { focus = BRK_elizabeth_lean }
+        mutually_exclusive = { focus = BRK_elisa_lean }
         mutually_exclusive = { focus = BRK_religious_lean }
         
         available = {
@@ -57,7 +58,7 @@ focus_tree = {
         prerequisite = { focus = BRK_start_outward }
         mutually_exclusive = { focus = BRK_amora_lean }
         mutually_exclusive = { focus = BRK_no_lean }
-        mutually_exclusive = { focus = BRK_elizabeth_lean }
+        mutually_exclusive = { focus = BRK_elisa_lean }
         mutually_exclusive = { focus = BRK_religious_lean }
         
         available = {
@@ -82,7 +83,7 @@ focus_tree = {
         prerequisite = { focus = BRK_start_outward }
         mutually_exclusive = { focus = BRK_amora_lean }
         mutually_exclusive = { focus = BRK_mileana_lean }
-        mutually_exclusive = { focus = BRK_elizabeth_lean }
+        mutually_exclusive = { focus = BRK_elisa_lean }
         mutually_exclusive = { focus = BRK_religious_lean }
         
         completion_reward = {
@@ -153,7 +154,7 @@ focus_tree = {
 
     focus = {
         id = BRK_pick_coalition
-        x = -2
+        x = -3
         y = 1
         cost = 10
         icon = GFX_goal_no_image
@@ -167,11 +168,23 @@ focus_tree = {
                 target = ELY
                 modifier = hostile_status
             }
-            USE = {
-                add_to_faction = BRK
-            }
             set_country_flag = BRK_join_second_coalition
             set_country_flag = second_coalition_in
+            if = {
+                limit = {
+                    RAZ = {
+                        has_country_flag = RAZ_join_ellysia
+                    }
+                }
+                RAZ = {
+                    end_puppet = BRK
+                }
+                add_opinion_modifier = {
+                    target = RAZ
+                    modifier = opinion_bigot
+                }
+                #country_event = brenra.1
+            }
         }
     }
 
@@ -192,14 +205,39 @@ focus_tree = {
                 target = ELY
                 modifier = opinion_bigot
             }
+            if = {
+                limit = {
+                    RAZ = {
+                        has_country_flag = RAZ_join_ellysia
+                    }
+                }
+                add_opinion_modifier = {
+                    target = RAZ
+                    modifier = unstable_alliance
+                }
+            }
+        }
+    }
+
+    focus = {
+        id = BRK_denounce_ellysia
+        x = 0
+        y = 1
+        cost = 7
+        icon = GFX_goal_no_image
+        relative_position_id = BRK_pick_none
+        prerequisite = { focus = BRK_pick_none }
+
+        completion_reward = {
+            
         }
     }
 
     focus = {
         id = BRK_pick_ellysia
-        x = 2
+        x = 3
         y = 1
-        cost = 10
+        cost = 1
         icon = GFX_goal_no_image
         relative_position_id = BRK_see_tension_ellysia
         prerequisite = { focus = BRK_see_tension_ellysia }
@@ -211,11 +249,72 @@ focus_tree = {
                 target = ELY
                 modifier = opinion_friend
             }
+            if = {
+                limit = {
+                    RAZ = {
+                        has_country_flag = RAZ_join_coalition
+                    }
+                }
+                RAZ = {
+                    end_puppet = BRK
+                    add_opinion_modifier = {
+                        target = BRK
+                        modifier = opinion_bigot
+                    }
+                }
+                add_opinion_modifier = {
+                    target = RAZ
+                    modifier = pact_against_us
+                }
+                #country_event = brenra.2
+            }
         }
     }
 
     focus = {
-        id = BRK_elizabeth_lean
+        id = BRK_none_coalition_won
+        x = -2
+        y = 1
+        cost = 1
+        icon = GFX_goal_no_image
+        available = {
+            custom_trigger_tooltip = {
+				tooltip = need_event_tt
+				always = no
+			}
+        }
+        relative_position_id = BRK_denounce_ellysia
+        prerequisite = { focus = BRK_denounce_ellysia }
+        mutually_exclusive = { focus = BRK_none_ellysia_won }
+
+        completion_reward = {
+            
+        }
+    }
+
+    focus = {
+        id = BRK_none_ellysia_won
+        x = 2
+        y = 1
+        cost = 10
+        icon = GFX_goal_no_image
+        available = {
+            custom_trigger_tooltip = {
+				tooltip = need_event_tt
+				always = no
+			}
+        }
+        relative_position_id = BRK_denounce_ellysia
+        prerequisite = { focus = BRK_denounce_ellysia }
+        mutually_exclusive = { focus = BRK_none_coalition_won }
+
+        completion_reward = {
+            
+        }
+    }
+
+    focus = {
+        id = BRK_elisa_lean
         x = 4
         y = 1
         cost = 1
@@ -249,7 +348,7 @@ focus_tree = {
         mutually_exclusive = { focus = BRK_amora_lean }
         mutually_exclusive = { focus = BRK_mileana_lean }
         mutually_exclusive = { focus = BRK_no_lean }
-        mutually_exclusive = { focus = BRK_elizabeth_lean }
+        mutually_exclusive = { focus = BRK_elisa_lean }
         available = {
 			custom_trigger_tooltip = {
 				tooltip = future_update_tt

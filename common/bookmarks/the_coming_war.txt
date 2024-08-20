@@ -42,7 +42,7 @@ bookmarks = {
 			focuses = {
 				BRK_amora_lean
 				BRK_no_lean
-				BRK_elizabeth_lean
+				BRK_elisa_lean
 			}
 		}
 		"FAR"={

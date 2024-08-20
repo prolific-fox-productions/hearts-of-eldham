@@ -48,10 +48,16 @@
  BRK_pick_coalition_desc:0 "Ellysia has picked its own doom by having bigoted opinions, and it is the duty of all good-standing members to at any cost oppose the sort of opinions they hold.\n\nFOR THE COALITION!"
  BRK_pick_none:0 "Stay Neutral"
  BRK_pick_none_desc:0 "We are yet an under-developed nation, it is not best to join damaging conflicts like this one."
+ BRK_denounce_ellysia:0 "Denounce Ellysia"
+ BRK_denounce_ellysia_desc:0 "Though we have chosen to remain neutral, we must still if to remain in just light denounce the bigotry of Ellysia. Ellysia must stand without any claims of solidarity to hold."
  BRK_pick_ellysia:0 "Pick the Empire"
  BRK_pick_ellysia_desc:0 "Even if the accusations of the Syndicate ring true, why should that justify any sort of violence? This should have been done peacefully, but the violence of the Syndicate pushes our hand into defending the Empire."
- BRK_elizabeth_lean:0 "Turn to Elizabeth"
- BRK_elizabeth_lean_desc:0 "Zacata will turn to Amora for aid in running the nation, shaping Brenra up to being more hierarchical, more nationalist in nature and design."
+ BRK_none_coalition_won:0 "Coalition Wins"
+ BRK_none_coalition_won_desc:0 "The Coalition has won the Second Coalition-Ellysian War!\n\nCitizens celebrate this within the streets, however, though Ellysia is gone, there lies a new power more benevolent but still imperialistic in action. Must we see them as good or a necessary evil?"
+ BRK_none_ellysia_won:0 "Ellysia Wins"
+ BRK_none_ellysia_won_desc:0 "Despair fills the world!\n\nDespite the best efforts, the Second Coalition lays defeated by the Ellysian Empire. However this victory seems more a strain on the nation than a simple loss."
+ BRK_elisa_lean:0 "Turn to Elisa"
+ BRK_elisa_lean_desc:0 "Zacata will turn to Elisa for aid in running the nation, shaping Brenra up to being more hierarchical, more nationalist in nature and design."
  BRK_religious_lean:0 "Turn to the Gods"
  BRK_religious_lean_desc:0 "Zacata will turn to not a person, but the Gods for aid in running the nation, shaping Brenra up to being more religous, more divine in nature and design."
  
@@ -69,6 +75,10 @@
  ELY_bigotry_desc:0 "We are the grandest empire on Eldham, we should be able to say what we like, and our freedom of speech (which doesn't protect from private businesses, doesn't canonically exist on Eldham nor protects hate speech) protects it."
  ELY_unsign_treaty:0 "Unsign the Treaty"
  ELY_unsign_treaty_desc:0 "They have forced upon us another treaty, this time more explicitly to dissolve our nation and government. Though we have signed it once, we have decided that it is unjust, that they have broken it, we shall unsign it!"
+ ELY_ellysia_lose:0 "Ellysia Loses"
+ ELY_ellysia_lose_desc:0 "*dies*"
+ ELY_ellysia_win:0 "Ellysia Wins"
+ ELY_ellysia_win_desc:0 "The Empire has won! And so be it that the aggressors are given no fortune!\n\n...however, we have suffered too in this peace, and we may fall apart without their hand in it..."
  
  #Farencia-Bellum Focus Tree
  
@@ -80,6 +90,10 @@
  FAR_develop_infra_desc:0 "We must develop our infrastructure not just to aid our civilians but in order to make sure that our military can be supplied adequately."
  FAR_antagonise_ellysia:0 "Antagonise Ellysia"
  FAR_antagonise_ellysia_desc:0 "We can wait no more! Already there are people leading a coaltion to fight the Ellysian Empire. In joining it we shall gain land from the bigoted land, land that will allow us access to the sea."
+ FAR_coalition_win:0 "The Coalition Wins"
+ FAR_coalition_win_desc:0 "We have won!\n\nThe Empire of Ellysia lays dead, with its partition in the hands of us and the rest of the Second Coalition!"
+ FAR_coalition_lose:0 "The Coalition Loses"
+ FAR_coalition_lose_desc:0 "Ellysia has won!\n\nAll this effort, the lives lost, the time spent, all for naught, we still remain as we have, and though Ellysia suffers, so do we..."
 
  #Razuni Focus Tree
 
@@ -87,6 +101,8 @@
  RAZ_look_outward_desc:0 "Though it is still recent that Razuni had unified, it is still important that we remain out of isolation."
  RAZ_establish_titles:0 "Establish Emirs and Sayidis"
  RAZ_establish_titles_desc:0 "In addition to the Sultan, we must have those under him to make sure the country is managed well."
+ RAZ_brenra_vassal:0 "Vassalise Brenra"
+ RAZ_brenra_vassal_desc:0 "As Brenra is near to us, we have decided to ask them to join us, though they were reluctant, offering vassalship should work."
  RAZ_establish_salranism:0 "Establish Salranism"
  RAZ_establish_salranism_desc:0 "As it used to be practiced in this area, now revived by Saya-Orin Kollisyaid, we shall establish it as a prominent religion."
  RAZ_see_ellysia_tension:0 "See the Second Tension"
