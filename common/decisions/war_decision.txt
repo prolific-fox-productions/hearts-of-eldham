@@ -19,7 +19,7 @@ decision_cat_ellysia_war = {
 			}
 		}
 		complete_effect = {
-			#country_event = ellysia.1
+			country_event = ellysia.1
 		}
 		timeout_effect = {
 			#country_event = ellysia.2

@@ -4,4 +4,40 @@
 
 add_namespace = ellysia
 
-#
+#Ellysia Surrenders
+country_event = {
+    id = ellysia.1
+    title = ellysia.1.t
+    desc = ellysia.1.d
+
+    is_triggered_only = yes
+    option = {
+        name = ellysia.1.a
+
+        AIO = {
+            add_state_core = 295
+            add_state_core = 151
+            add_state_core = 294
+            add_state_core = 156
+            add_state_core = 155
+            add_state_core = 154
+            add_state_core = 157
+            transfer_state = 295
+            transfer_state = 151
+            transfer_state = 294
+            transfer_state = 156
+            transfer_state = 155
+            transfer_state = 154
+            transfer_state = 157
+        }
+        ERE = {
+            add_state_core = 124
+            transfer_state = 124
+        }
+        FAR = {
+            add_state_core = 144
+            transfer_state = 144
+        }
+        news_event = news.1
+    }
+}

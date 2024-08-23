@@ -9,6 +9,11 @@ ELY = {
 	color_ui = rgb { 102 0 102 }
 }
 
+ERE = {
+	color = rgb { 226 204 213 }
+	color_ui = rgb { 226 204 213 }
+}
+
 FAR = {
 	color = rgb { 255 102 255 }
 	color_ui = rgb { 255 102 255 }

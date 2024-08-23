@@ -1,0 +1,23 @@
+capital = 124
+
+#oob =
+set_stability = 0.7
+set_war_support = 0.3
+set_cosmetic_tag = ERE_ZONE
+#Starting Tech
+set_technology = {
+
+}
+
+#recruit_character = ERE
+
+set_politics ={
+    ruling_party = monarchism
+	last_election = "30.1.1"
+	election_frequency = 36
+	elections_allowed = no
+}
+
+set_popularities = {
+    monarchism = 100
+}
