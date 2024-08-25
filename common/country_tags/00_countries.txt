@@ -1,5 +1,6 @@
 AIO = "countries/Aionios Impervia.txt"
 BRK = "countries/Brenra.txt"
+COG = "countries/Cognia.txt"
 ELY = "countries/Ellysia.txt"
 ERE = "countries/Erebor.txt"
 FAR = "countries/Farencia-Bellum.txt"

@@ -7,6 +7,10 @@
  BRK_RAZ_subject:0 "State of Hermonia"
  BRK_RAZ_subject_DEF:0 "the State of Hermonia"
  BRK_RAZ_subject_ADJ:0 "Hermonian"
+
+ COG_ZONE:0 "Zone 3"
+ COG_ZONE_DEF:0 "Zone 3"
+ COG_ZONE_ADJ:0 "Zone 3"
  
  ERE_ZONE:0 "Zone 1"
  ERE_ZONE_DEF:0 "Zone 1"

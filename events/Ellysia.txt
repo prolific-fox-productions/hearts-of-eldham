@@ -30,6 +30,22 @@ country_event = {
             transfer_state = 154
             transfer_state = 157
         }
+        COG = {
+            add_state_core = 152
+            add_state_core = 143
+            add_state_core = 153
+            add_state_core = 142
+            add_state_core = 138
+            add_state_core = 158
+            add_state_core = 302
+            transfer_state = 152
+            transfer_state = 143
+            transfer_state = 153
+            transfer_state = 142
+            transfer_state = 138
+            transfer_state = 158
+            transfer_state = 302
+        }
         ERE = {
             add_state_core = 124
             transfer_state = 124
@@ -37,6 +53,9 @@ country_event = {
         FAR = {
             add_state_core = 144
             transfer_state = 144
+        }
+        USE = {
+            puppet = COG
         }
         news_event = news.1
     }

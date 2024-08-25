@@ -1,0 +1,19 @@
+state={
+	id=302
+	name="STATE_302"
+	provinces={
+		1952 1953 1954 1955 1956 1959 1960 1961 1964 1965 
+	}
+	manpower=100000
+	state_category=rural
+	buildings_max_level_factor=1.000
+
+	history = {
+		owner = ELY
+		buildings = {
+			industrial_complex = 1
+		}
+		add_core_of = ELY
+	}
+	local_supplies=0.000
+}

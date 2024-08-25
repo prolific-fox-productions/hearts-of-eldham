@@ -45,6 +45,27 @@
  BRK:0 "Brenra"
  BRK_DEF:0 "Brenra"
  BRK_ADJ:0 "Brenran"
+
+ #Cognia
+
+ COG_nationalism_ideo:0 "Cognian Empire"
+ COG_nationalism_ideo_DEF:0 "the Cognian Empire"
+ COG_nationalism_ideo_ADJ:0 "Cognian"
+ COG_capitalism:0 "Federal Republic of Cognia"
+ COG_capitalism_DEF:0 "the Federal Republic of Cognia"
+ COG_capitalism_ADJ:0 "Cognian"
+ COG_monarchism:0 "Kingdom of Cognia"
+ COG_monarchism_DEF:0 "the Kingdom of Cognia"
+ COG_monarchism_ADJ:0 "Cognian"
+ COG_socialism:0 "Federal Republic of Cognia"
+ COG_socialism_DEF:0 "the Federal Republic of Cognia"
+ COG_socialism_ADJ:0 "Cognian"
+ #COG_theocratic:0 ""
+ #COG_theocratic_DEF:0 ""
+ #COG_theocratic_ADJ:0 ""
+ COG:0 "Cognia"
+ COG_DEF:0 "Cognia"
+ COG_ADJ:0 "Cognian"
  
  #Ellysian
  
