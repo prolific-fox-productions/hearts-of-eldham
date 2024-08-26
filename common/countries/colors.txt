@@ -48,6 +48,11 @@ XEK = {
 	color_ui = rgb { 153 102 255 }
 }
 
+YUV = { 
+	color = rgb { 226 173 129 }
+	color_ui = rgb { 226 173 129 }
+}
+
 TST = {
 	color = rgb { 0 0 0 }
 	color_ui = rgb { 0 0 0 }

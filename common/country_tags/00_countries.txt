@@ -9,6 +9,7 @@ RAZ = "countries/Razuni.txt"
 USE = "countries/USSE.txt"
 WIV = "countries/Wivamovia.txt"
 XEK = "countries/Xeka.txt"
+YUV = "countries/Yuvaria.txt"
 
 TST = "countries/Test.txt"
 

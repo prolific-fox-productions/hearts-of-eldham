@@ -1,0 +1,19 @@
+state={
+	id=303
+	name="STATE_303"
+	provinces={
+		2142 2143 2144 2145 2146 2147 2148 2149 2150 2151 2152 2153 2154 2155 2156 2157 2158 2159 2160 
+	}
+	manpower=100000
+	state_category=rural
+	buildings_max_level_factor=1.000
+
+	history = {
+		owner = ELY
+		buildings = {
+			industrial_complex = 1
+		}
+		add_core_of = ELY
+	}
+	local_supplies=0.000
+}

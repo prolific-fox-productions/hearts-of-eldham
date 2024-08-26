@@ -15,3 +15,7 @@
  ERE_ZONE:0 "Zone 1"
  ERE_ZONE_DEF:0 "Zone 1"
  ERE_ZONE_ADJ:0 "Zone 1"
+
+ YUV_ZONE:0 "Zone 4"
+ YUV_ZONE_DEF:0 "Zone 4"
+ YUV_ZONE_ADJ:0 "Zone 4"

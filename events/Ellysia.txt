@@ -54,6 +54,16 @@ country_event = {
             add_state_core = 144
             transfer_state = 144
         }
+        YUV = {
+            add_state_core = 146
+            add_state_core = 147
+            add_state_core = 303
+            add_state_core = 304
+            transfer_state = 146
+            transfer_state = 147
+            transfer_state = 303
+            transfer_state = 304
+        }
         USE = {
             puppet = COG
         }
