@@ -18,6 +18,9 @@ decision_cat_ellysia_war = {
 				}
 			}
 		}
+		activation = {
+			always = no
+		}
 		complete_effect = {
 			country_event = ellysia.1
 		}
@@ -48,6 +51,9 @@ decision_cat_ellysia_war = {
 				}
 			}
 		}
+		activation = {
+			always = no
+		}
 		complete_effect = {
 			
 		}
@@ -72,6 +78,9 @@ decision_cat_ellysia_war = {
             NOT = {
 				controls_province = 2851
 			}
+		}
+		activation = {
+			always = no
 		}
 		complete_effect = {
 			

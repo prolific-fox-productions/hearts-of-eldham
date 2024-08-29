@@ -99,40 +99,10 @@ country_event = {
                 puppet = COG
             }
             ELY = {
-                remove_state_core = 295
-                remove_state_core = 151
-                remove_state_core = 294
-                remove_state_core = 156
-                remove_state_core = 155
-                remove_state_core = 154
-                remove_state_core = 157
-                remove_state_core = 152
-                remove_state_core = 143
-                remove_state_core = 153
-                remove_state_core = 142
-                remove_state_core = 138
-                remove_state_core = 158
-                remove_state_core = 302
-                remove_state_core = 124
-                remove_state_core = 144
-                remove_state_core = 305
-                remove_state_core = 149
-                remove_state_core = 148
-                remove_state_core = 150
-                remove_state_core = 136
-                remove_state_core = 135
-                remove_state_core = 137
-                remove_state_core = 139
-                remove_state_core = 296
-                remove_state_core = 146
-                remove_state_core = 147
-                remove_state_core = 303
-                remove_state_core = 304
-                remove_state_core = 300
-                remove_state_core = 301
-                remove_state_core = 298
-                remove_state_core = 299
-                remove_state_core = 297
+                every_core_state = {
+                    limit = { NOT = { is_owned_by = PREV } }
+                    remove_core_of = PREV
+                }
             }
         }
         news_event = news.1
