@@ -4,8 +4,8 @@
  AIO_ZONE_DEF:0 "Zone 2"
  AIO_ZONE_ADJ:0 "Zone 2"
 
- BRK_RAZ_subject:0 "State of Hermonia"
- BRK_RAZ_subject_DEF:0 "the State of Hermonia"
+ BRK_RAZ_subject:0 "United State of Hermonia"
+ BRK_RAZ_subject_DEF:0 "the United State of Hermonia"
  BRK_RAZ_subject_ADJ:0 "Hermonian"
 
  COG_ZONE:0 "Zone 3"
@@ -15,6 +15,10 @@
  ERE_ZONE:0 "Zone 1"
  ERE_ZONE_DEF:0 "Zone 1"
  ERE_ZONE_ADJ:0 "Zone 1"
+
+ POL_ZONE:0 "Zone 5"
+ POL_ZONE_DEF:0 "Zone 5"
+ POL_ZONE_ADJ:0 "Zone 5"
 
  YUV_ZONE:0 "Zone 4"
  YUV_ZONE_DEF:0 "Zone 4"

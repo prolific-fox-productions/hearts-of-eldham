@@ -1,0 +1,19 @@
+state={
+	id=305
+	name="STATE_305"
+	provinces={
+		2233 2234 2235 2236 2237 
+	}
+	manpower=100000
+	state_category=rural
+	buildings_max_level_factor=1.000
+
+	history = {
+		owner = ELY
+		buildings = {
+			industrial_complex = 1
+		}
+		add_core_of = ELY
+	}
+	local_supplies=0.000
+}

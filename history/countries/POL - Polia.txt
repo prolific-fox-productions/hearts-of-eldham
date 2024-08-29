@@ -1,15 +1,15 @@
-capital = 146
+capital = 139
 
 #oob =
 set_stability = 0.7
 set_war_support = 0.3
-set_cosmetic_tag = YUV_ZONE
+set_cosmetic_tag = POL_ZONE
 #Starting Tech
 set_technology = {
 
 }
 
-#recruit_character = YUV
+#recruit_character = POL
 
 set_politics ={
     ruling_party = monarchism

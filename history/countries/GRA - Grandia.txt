@@ -1,15 +1,19 @@
-capital = 146
+capital = 148
 
 #oob =
 set_stability = 0.7
 set_war_support = 0.3
-set_cosmetic_tag = YUV_ZONE
+
+#Ideas
+
+
+
 #Starting Tech
 set_technology = {
 
 }
 
-#recruit_character = YUV
+
 
 set_politics ={
     ruling_party = monarchism
@@ -19,5 +23,5 @@ set_politics ={
 }
 
 set_popularities = {
-    monarchism = 100
+    socialism = 100
 }

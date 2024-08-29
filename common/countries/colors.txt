@@ -23,6 +23,16 @@ FAR = {
 	color_ui = rgb { 255 102 255 }
 }
 
+GRA = {
+	color = rgb { 242 227 169 }
+	color_ui = rgb { 242 227 169 }
+}
+
+POL = {
+	color = rgb { 128 9 183 }
+	color_ui = rgb { 128 9 183 }
+}
+
 RAV = {
 	color = rgb { 51 153 51 }
 	color_ui = rgb { 51 153 51 }

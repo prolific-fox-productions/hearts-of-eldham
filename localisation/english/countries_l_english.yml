@@ -129,6 +129,48 @@
  FAR:0 "Farencia-Bellum"
  FAR_DEF:0 "Farencia-Bellum"
  FAR_ADJ:0 "Farencian"
+
+ #Farencia-Bellum
+ 
+ GRA_nationalism_ideo:0 "Imperial Grandia"
+ GRA_nationalism_ideo_DEF:0 "Imperial Grandia"
+ GRA_nationalism_ideo_ADJ:0 "Grandian"
+ GRA_capitalism:0 "Republic of Grandia"
+ GRA_capitalism_DEF:0 "the Republic of Grandia"
+ GRA_capitalism_ADJ:0 "Grandian"
+ GRA_monarchism:0 "Archduchy of Grandia"
+ GRA_monarchism_DEF:0 "the Archduchy of Grandia"
+ GRA_monarchism_ADJ:0 "Grandian"
+ GRA_socialism:0 "Grandian Commune"
+ GRA_socialism_DEF:0 "the Grandian Commune"
+ GRA_socialism_ADJ:0 "Grandian"
+ #GRA_theocratic:0 ""
+ #GRA_theocratic_DEF:0 ""
+ #GRA_theocratic_ADJ:0 ""
+ GRA:0 "Grandia"
+ GRA_DEF:0 "Grandia"
+ GRA_ADJ:0 "Grandian"
+
+ #Polia
+ 
+ POL_nationalism_ideo:0 "Polian State"
+ POL_nationalism_ideo_DEF:0 "the Polian State"
+ POL_nationalism_ideo_ADJ:0 "Polian"
+ POL_capitalism:0 "Republic of Polia"
+ POL_capitalism_DEF:0 "the Republic of Polia"
+ POL_capitalism_ADJ:0 "Polian"
+ POL_monarchism:0 "Kingdom of Polia"
+ POL_monarchism_DEF:0 "the Kingdom of Polia"
+ POL_monarchism_ADJ:0 "Polian"
+ POL_socialism:0 "Soviet of Polia"
+ POL_socialism_DEF:0 "the Soviet of Polia"
+ POL_socialism_ADJ:0 "Polian"
+ #POL_theocratic:0 ""
+ #POL_theocratic_DEF:0 ""
+ #POL_theocratic_ADJ:0 ""
+ POL:0 "Polia"
+ POL_DEF:0 "Polia"
+ POL_ADJ:0 "Polian"
  
  #Ravnica
  
