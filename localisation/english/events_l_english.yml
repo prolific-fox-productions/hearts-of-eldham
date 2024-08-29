@@ -31,7 +31,13 @@
  #Xeka
 
  
+ 
+ #News Events
 
+ news.1.t:0 "The End of the Second Coalition-Ellysian War!"
+ news.1.d:0 "It has been announced, the Ellysian Empire has surrendered, and so the Second Coalition are the victors of the war!\n\nThe Coalition now as they had planned from the Treaty of Aurica and the Drakaes' Edict have dismantled and erased all that is Ellysian. Among the Coalition there have been zones carved out from the rotted corpse of the Empire, each under the control of a nation within the Coalition for a certain amount of time before release."
+ news.1.a:0 "And so the week starts..."
+ 
  #Base Game
 
  MINIMIZE_EVENT:0 "§GClick§! to Minimize. Event will be placed in the Event Queue under §HEvents and Decisions§!."
