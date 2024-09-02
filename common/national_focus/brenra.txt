@@ -293,6 +293,91 @@ focus_tree = {
     }
 
     focus = {
+        id = BRK_cheer_victory
+        x = -1
+        y = 1
+        cost = 11
+        icon = GFX_goal_no_image
+        relative_position_id = BRK_none_coalition_won
+        prerequisite = { focus = BRK_none_coalition_won }
+
+        completion_reward = {
+            
+        }
+    }
+
+    focus = {
+        id = BRK_self_dev
+        x = 0
+        y = 1
+        cost = 11
+        icon = GFX_goal_no_image
+        relative_position_id = BRK_cheer_victory
+        prerequisite = { focus = BRK_cheer_victory }
+
+        completion_reward = {
+            
+        }
+    }
+
+    focus = {
+        id = BRK_counter_coup_co
+        x = 1
+        y = 1
+        cost = 11
+        icon = GFX_goal_no_image
+        relative_position_id = BRK_none_coalition_won
+        prerequisite = { focus = BRK_none_coalition_won }
+
+        completion_reward = {
+            
+        }
+    }
+
+    focus = {
+        id = BRK_invite_impervia
+        x = 0
+        y = 1
+        cost = 11
+        icon = GFX_goal_no_image
+        relative_position_id = BRK_counter_coup_co
+        prerequisite = { focus = BRK_counter_coup_co }
+
+        completion_reward = {
+            
+        }
+    }
+
+    focus = {
+        id = BRK_write_scripture
+        x = 1
+        y = 1
+        cost = 11
+        icon = GFX_goal_no_image
+        relative_position_id = BRK_self_dev
+        prerequisite = { focus = BRK_self_dev }
+        prerequisite = { focus = BRK_invite_impervia }
+
+        completion_reward = {
+            
+        }
+    }
+
+    focus = {
+        id = BRK_uncertain_future
+        x = 0
+        y = 1
+        cost = 11
+        icon = GFX_goal_no_image
+        relative_position_id = BRK_write_scripture
+        prerequisite = { focus = BRK_write_scripture }
+
+        completion_reward = {
+            
+        }
+    }
+
+    focus = {
         id = BRK_none_ellysia_won
         x = 2
         y = 1

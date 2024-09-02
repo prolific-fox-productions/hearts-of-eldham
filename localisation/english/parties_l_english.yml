@@ -127,19 +127,19 @@
 
  ELY_nationalism_ideo_party:0 "RE"
  ELY_nationalism_ideo_party_long:0 "Radical Ellysians"
- ELY_socialism_party:0 ""
- ELY_socialism_party_long:0 ""
- ELY_capitalism_party:0 ""
- ELY_capitalism_party_long:0 ""
+ #ELY_socialism_party:0 ""
+ #ELY_socialism_party_long:0 ""
+ #ELY_capitalism_party:0 ""
+ #ELY_capitalism_party_long:0 ""
  ELY_monarchism_party:0 "Ellas"
  ELY_monarchism_party_long:0 "House Ellas"
- ELY_theocratic_party:0 ""
- ELY_theocratic_party_long:0 ""
+ #ELY_theocratic_party:0 ""
+ #ELY_theocratic_party_long:0 ""
  
  #Razuni
  
- RAZ_nationalism_ideo_party:0 "?ON"
- RAZ_nationalism_ideo_party_long:0 "?'s One Nation Party"
+ RAZ_nationalism_ideo_party:0 "Guard"
+ RAZ_nationalism_ideo_party_long:0 "Razuni Guard"
  RAZ_socialism_party:0 "ASPR"
  RAZ_socialism_party_long:0 "Alaina's Socialist Party of Razuni"
  RAZ_capitalism_party:0 "BKB"
@@ -150,16 +150,16 @@
  RAZ_theocratic_party_long:0 "Court of the Marked"
  
  #USSE
- USE_nationalism_ideo_party:0 ""
- USE_nationalism_ideo_party_long:0 ""
+ #USE_nationalism_ideo_party:0 ""
+ #USE_nationalism_ideo_party_long:0 ""
  USE_socialism_party:0 "CPUSSE"
  USE_socialism_party_long:0 "Communist Party of the United Socialist States of Eldham"
- USE_capitalism_party:0 ""
- USE_capitalism_party_long:0 ""
- USE_monarchism_party:0 ""
- USE_monarchism_party_long:0 ""
- USE_theocratic_party:0 ""
- USE_theocratic_party_long:0 ""
+ #USE_capitalism_party:0 ""
+ #USE_capitalism_party_long:0 ""
+ #USE_monarchism_party:0 ""
+ #USE_monarchism_party_long:0 ""
+ #USE_theocratic_party:0 ""
+ #USE_theocratic_party_long:0 ""
  
  #Xeka
  #XEK_nationalism_ideo_party:0 ""
