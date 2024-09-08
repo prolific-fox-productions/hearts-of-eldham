@@ -125,6 +125,20 @@
  RAZ_stay_neutral_desc:0 "We are yet an undeveloped nation, we shouldn't get into any wars prematurely."
  RAZ_join_ellysia:0 "Join Ellysia"
  RAZ_join_ellysia_desc:0 "The Second Coalition has formed not for any justice but solely for the genocide of a people, that which we will not tolerate, even if those people are bigoted in opinion."
+ RAZ_none_coalition_win:0 "Coalition Wins"
+ RAZ_none_coalition_win_desc:0 "The Coalition has won the war!"
+ RAZ_cheer_victory:0 "Cheer Victory"
+ RAZ_cheer_victory_desc:0 "We must celebrate the victory of the Second Coalition in the Second Coalition-Ellysian War!"
+ RAZ_diplo_sgb:0 "Listen to a Proposal"
+ RAZ_diplo_sgb_desc:0 "Recently, there has been proposed a certain action to be taken between us, the USSE and two other nations. An agreement of military guarantee, we shall listen to such a proposal."
+ RAZ_join_sgb:0 "The Southern Guard Bloc"
+ RAZ_join_sgb_desc:0 "We have decided to join this new agreement, the Southern Guard Bloc. Alongside us and Brenra is the United Socialist States of Eldham, the sole Xeroist state asides from that which was part of the Ellysian Empire."
+ RAZ_setup_postal:0 "Setup a Postal System"
+ RAZ_setup_postal_desc:0 "In developing our towns this much, it has become apparent that we need a postal system."
+ RAZ_address_system:0 "An Address System"
+ RAZ_address_system_desc:0 "As we have setup a postal system, we should also setup a system of home addresses and street names."
+ RAZ_uncertain_future:0 "A Future Uncertain"
+ RAZ_uncertain_future_desc:0 "With our founding, the ascension of Bashar, the Second Coalition-Ellysian War, and all in between, we have survived all. We do not know however if that will remain, or if someone or something will cause our downfall."
  
  #USSE Focus Tree
  

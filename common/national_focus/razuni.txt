@@ -8,6 +8,8 @@ focus_tree = {
             original_tag = RAZ
         }
     }
+    initial_show_position = { focus = RAZ_look_outward }
+    continuous_focus_position = { x = 0 y = 3000 }
 
     focus = {
         id = RAZ_look_outward
@@ -171,6 +173,91 @@ focus_tree = {
         
         completion_reward = {
             set_country_flag = RAZ_join_ellysia
+        }
+    }
+
+    focus = {
+        id = RAZ_cheer_victory
+        x = 0
+        y = 1
+        cost = 11
+        icon = GFX_goal_no_image
+        relative_position_id = RAZ_none_coalition_won
+        prerequisite = { focus = RAZ_none_coalition_won }
+        
+        completion_reward = {
+            
+        }
+    }
+
+    focus = {
+        id = RAZ_diplo_sgb
+        x = -1
+        y = 1
+        cost = 11
+        icon = GFX_goal_no_image
+        relative_position_id = RAZ_cheer_victory
+        prerequisite = { focus = RAZ_cheer_victory }
+        
+        completion_reward = {
+            
+        }
+    }
+
+    focus = {
+        id = RAZ_join_sgb
+        x = 0
+        y = 1
+        cost = 11
+        icon = GFX_goal_no_image
+        relative_position_id = RAZ_diplo_sgb
+        prerequisite = { focus = RAZ_diplo_sgb }
+        
+        completion_reward = {
+            
+        }
+    }
+
+    focus = {
+        id = RAZ_setup_postal
+        x = 1
+        y = 1
+        cost = 11
+        icon = GFX_goal_no_image
+        relative_position_id = RAZ_cheer_victory
+        prerequisite = { focus = RAZ_cheer_victory }
+        
+        completion_reward = {
+            
+        }
+    }
+
+    focus = {
+        id = RAZ_address_system
+        x = 0
+        y = 1
+        cost = 11
+        icon = GFX_goal_no_image
+        relative_position_id = RAZ_setup_postal
+        prerequisite = { focus = RAZ_setup_postal }
+        
+        completion_reward = {
+            
+        }
+    }
+
+    focus = {
+        id = RAZ_uncertain_future
+        x = 1
+        y = 1
+        cost = 11
+        icon = GFX_goal_no_image
+        relative_position_id = RAZ_join_sgb
+        prerequisite = { focus = RAZ_join_sgb }
+        prerequisite = { focus = RAZ_address_system }
+        
+        completion_reward = {
+            
         }
     }
 
