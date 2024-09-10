@@ -87,4 +87,12 @@ spriteTypes = {
 		name = "GFX_portrait_XEK_diamond_nugget_large"
 		texturefile = "gfx/leaders/XEK/GFX_large_diamond_nugget.dds"
 	}
+
+	###Zones
+	##Zone 3
+
+	spriteType = {
+		name = "GFX_portrait_COG_xeroise_large"
+		texturefile = "gfx/leaders/COG/GFX_large_xeroise.dds"
+	}
 }

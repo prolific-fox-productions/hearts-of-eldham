@@ -98,6 +98,11 @@ country_event = {
             USE = {
                 puppet = COG
             }
+            COG = {
+                set_popularities = {
+                    socialism = 100
+                }
+            }
             ELY = {
                 every_core_state = {
                     limit = { NOT = { is_owned_by = PREV } }

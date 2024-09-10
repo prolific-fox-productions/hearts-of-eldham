@@ -14,10 +14,10 @@ set_technology = {
 
 }
 
-
+recruit_character = COG_xeroise
 
 set_politics ={
-    ruling_party = monarchism
+    ruling_party = socialism
 	last_election = "30.1.1"
 	election_frequency = 36
 	elections_allowed = no

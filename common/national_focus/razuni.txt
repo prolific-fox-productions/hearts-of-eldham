@@ -48,6 +48,15 @@ focus_tree = {
         
         completion_reward = {
             puppet = BRK
+            BRK = {
+                set_popularities = {
+                    capitalism = 10
+                    nationalism_ideo = 10
+                    socialism = 10
+                    theocratic = 30
+                    monarchism = 40
+                }
+            }
         }
     }
 

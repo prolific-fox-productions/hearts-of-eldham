@@ -1,0 +1,18 @@
+characters={
+    COG_xeroise={
+        name=COG_xeroise
+        gender = female
+        portraits={
+            civilian={
+                large="GFX_portrait_COG_xeroise_large"
+            }
+        }
+        country_leader={
+            ideology=xeroism
+            expire=330.1.1.1
+            id=-1
+            #desc=COG_xeroise_desc
+            traits = {  }
+        }
+    }
+}
