@@ -11,6 +11,11 @@ state={
 		buildings = {
 			industrial_complex = 1
 		}
+
+		33.8.1 = {
+			owner = POL
+			add_core_of = POL
+		}
 	}
 
 	provinces={

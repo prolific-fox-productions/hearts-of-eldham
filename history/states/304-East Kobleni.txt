@@ -14,6 +14,11 @@ state={
 			industrial_complex = 1
 		}
 		add_core_of = ELY
+
+		33.8.1 = {
+			owner = YUV
+			add_core_of = YUV
+		}
 	}
 	local_supplies=0.000
 }

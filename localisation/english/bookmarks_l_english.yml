@@ -18,6 +18,13 @@
  ##Other
  OTHER_COMING_WAR_DESC:0 "Other nations seek to expand their power, gain money, or otherwise survive in the world that is Eldham, how they may do so will depend on their location, culture, religion and people."
 
+ #End of Ellysia
+ ELLYSIA_END_NAME:0 "End of Ellysia"
+ ELLYSIA_END_DESC:0 "The corpse of Ellysia lies rotted and partitioned between the powers of and around the Second Coalition. While some 'Neo-Ellysian' seperatist groups lay within the land, they bear no legitimacy to the control of its former territories in the eyes of the prior victors. Now comes a period of rest in which those five administrative zones will be split further into fully independent nations..."
+
+ ##Other
+ OTHER_ELLYSIA_END_DESC:0 "Other nations seek to expand their power, gain money, or otherwise survive in the world that is Eldham, how they may do so will depend on their location, culture, religion and people."
+
  #Prototype
  PROTO_NAME:0 "To Be Implemented"
  PROTO_DESC:0 "To Be Implemented"

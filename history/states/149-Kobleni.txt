@@ -23,6 +23,10 @@ state={
 
 		}
 
+		33.8.1 = {
+			owner = GRA
+			add_core_of = GRA
+		}
 	}
 
 	provinces={

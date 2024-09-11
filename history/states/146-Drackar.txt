@@ -17,6 +17,10 @@ state={
 
 		}
 
+		33.8.1 = {
+			owner = YUV
+			add_core_of = YUV
+		}
 	}
 
 	provinces={

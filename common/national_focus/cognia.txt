@@ -1,0 +1,25 @@
+focus_tree = {
+    id = cognia_focus
+
+    country = {
+        factor = 0
+        modifier = {
+            add = 20
+            original_tag = COG
+        }
+    }
+    #initial_show_position = { focus = COG_ }
+    continuous_focus_position = { x = 0 y = 3000}
+
+    focus = {
+        id = COG_first_focus
+        x = 10
+        y = 0
+        cost = 1
+        icon = GFX_goal_no_image
+
+        completion_reward = {
+            
+        }
+    }
+}
