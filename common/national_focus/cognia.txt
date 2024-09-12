@@ -12,11 +12,83 @@ focus_tree = {
     continuous_focus_position = { x = 0 y = 3000}
 
     focus = {
-        id = COG_first_focus
-        x = 10
+        id = COG_de-ellysianise
+        x = 5
         y = 0
+        cost = 10
+        icon = GFX_goal_no_image
+
+        completion_reward = {
+            
+        }
+    }
+
+    focus = {
+        id = COG_develop_garxeto
+        x = 0
+        y = 1
+        cost = 5
+        icon = GFX_goal_no_image
+        relative_position_id = COG_de-ellysianise
+        prerequisite = { focus = COG_de-ellysianise }
+
+        completion_reward = {
+            
+        }
+    }
+
+    focus = {
+        id = COG_develop_cognia
+        x = -2
+        y = 1
+        cost = 5
+        icon = GFX_goal_no_image
+        relative_position_id = COG_develop_garxeto
+        prerequisite = { focus = COG_develop_garxeto }
+
+        completion_reward = {
+            
+        }
+    }
+
+    focus = {
+        id = COG_split_garxijos
+        x = 0
+        y = 1
+        cost = 5
+        icon = GFX_goal_no_image
+        relative_position_id = COG_develop_garxeto
+        prerequisite = { focus = COG_develop_garxeto }
+
+        completion_reward = {
+            
+        }
+    }
+
+    focus = {
+        id = COG_develop_coac
+        x = 2
+        y = 1
+        cost = 5
+        icon = GFX_goal_no_image
+        relative_position_id = COG_develop_garxeto
+        prerequisite = { focus = COG_develop_garxeto }
+
+        completion_reward = {
+            
+        }
+    }
+
+    focus = {
+        id = COG_split_rest
+        x = 0
+        y = 1
         cost = 1
         icon = GFX_goal_no_image
+        relative_position_id = COG_split_garxijos
+        prerequisite = { focus = COG_develop_cognia }
+        prerequisite = { focus = COG_split_garxijos }
+        prerequisite = { focus = COG_develop_coac }
 
         completion_reward = {
             

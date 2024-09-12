@@ -72,6 +72,21 @@
  BRK_elisa_lean_desc:0 "Zacata will turn to Elisa for aid in running the nation, shaping Brenra up to being more hierarchical, more nationalist in nature and design."
  BRK_religious_lean:0 "Turn to the Gods"
  BRK_religious_lean_desc:0 "Zacata will turn to not a person, but the Gods for aid in running the nation, shaping Brenra up to being more religous, more divine in nature and design."
+
+ #Cognian Focus Tree
+
+ COG_de-ellysianise:0 "De-Ellysianise"
+ COG_de-ellysianise_desc:0 "Now that we have been carved out from Ellysia, we in turn shall wipe out all that may be called Ellysian. It shall now remain solely in memory."
+ COG_develop_garxeto:0 "Develop Garxeto"
+ COG_develop_garxeto_desc:0 "Garxeto was originally built as a fort to invade the Ellysian Empire from. Now that Ellysia is gone, Garxeto shall now be a town or even a city."
+ COG_develop_cognia:0 "Develop Cognia"
+ COG_develop_cognia_desc:0 "We shall as part of the development of this zone build services within what is to be called Cognia."
+ COG_split_garxijos:0 "Garxi Split"
+ COG_split_garxijos_desc:0 "Garxijos Yawos has decided to split from the Third Administrative Zone, as they should, and as the rest of the land shall do in the near future."
+ COG_develop_coac:0 "Develop Akarechia"
+ COG_develop_coac_desc:0 "We shall as part of the development of this zone build services within what is to be called Akarechia."
+ COG_split_rest:0 "Dissolve the Zone"
+ COG_split_rest_desc:0 "The time has now come for the Third Administrative Zone to be dissolved into the nations of Cognia, Heli and the Confederation of Anarchist Communes."
  
  #Ellysian Focus Tree
  
