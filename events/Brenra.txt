@@ -1,0 +1,16 @@
+###########################
+# Brenran Events
+###########################
+
+add_namespace = brenra
+
+#Thank you for playing 0.1 Hist
+country_event = {
+    id = brenra.1
+    title = brenra.1.t
+    desc = brenra.1.d
+
+    option = {
+        name = brenra.1.a
+    }
+}

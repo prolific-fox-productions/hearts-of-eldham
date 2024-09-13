@@ -1,0 +1,16 @@
+###########################
+# Razuni Events
+###########################
+
+add_namespace = razunu
+
+#Thank you for playing 0.1 Hist
+country_event = {
+    id = razuni.1
+    title = razuni.1.t
+    desc = razuni.1.d
+
+    option = {
+        name = razuni.1.a
+    }
+}

@@ -195,7 +195,7 @@ focus_tree = {
         prerequisite = { focus = RAZ_none_coalition_won }
         
         completion_reward = {
-            
+            add_political_power = 10
         }
     }
 
@@ -209,7 +209,16 @@ focus_tree = {
         prerequisite = { focus = RAZ_cheer_victory }
         
         completion_reward = {
-            
+            add_opinion_modifier = {
+                target = USE
+                modifier = opinion_friend
+            }
+            USE = {
+                add_opinion_modifier = {
+                    target = RAZ
+                    modifier = opinion_friend
+                }
+            }
         }
     }
 
@@ -223,7 +232,10 @@ focus_tree = {
         prerequisite = { focus = RAZ_diplo_sgb }
         
         completion_reward = {
-            
+            give_guarantee = USE
+            USE = {
+                give_guarantee = RAZ
+            }
         }
     }
 
@@ -237,7 +249,7 @@ focus_tree = {
         prerequisite = { focus = RAZ_cheer_victory }
         
         completion_reward = {
-            
+            add_political_power = 10
         }
     }
 
@@ -251,7 +263,7 @@ focus_tree = {
         prerequisite = { focus = RAZ_setup_postal }
         
         completion_reward = {
-            
+            add_political_power = 10
         }
     }
 

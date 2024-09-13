@@ -4,7 +4,9 @@
 
  #Brenra
 
- 
+ brenra.1.t:0 "Thank you for Playing"
+ brenra.1.d:0 "This is the end of the current historical path for the Kingdom of Brenra.\n\nThough this isn't really much of a focus tree, I do hope that it will grow much larger, and account for the entire timespan of Eldham.\n\nGodspeed!"
+ brenra.1.a:0 "Godspeed!"
 
  #Ellysia
 
@@ -18,7 +20,9 @@
 
  #Razuni
 
- 
+ razuni.1.t:0 "Thank you for Playing"
+ razuni.1.d:0 "This is the end of the current historical path for the Razuni Sultanate.\n\nThough this isn't really much of a focus tree, I do hope that it will grow much larger, and account for the entire timespan of Eldham.\n\nGodspeed!"
+ razuni.1.a:0 "Godspeed!"
 
  #USSE
 

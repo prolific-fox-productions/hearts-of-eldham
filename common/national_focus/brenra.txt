@@ -302,7 +302,7 @@ focus_tree = {
         prerequisite = { focus = BRK_none_coalition_won }
 
         completion_reward = {
-            
+            add_political_power = 10
         }
     }
 
@@ -316,7 +316,11 @@ focus_tree = {
         prerequisite = { focus = BRK_cheer_victory }
 
         completion_reward = {
-            
+            add_building_construction = {
+                type = infrastructure
+                level = 1
+                instant_build = yes
+            }
         }
     }
 
@@ -330,7 +334,8 @@ focus_tree = {
         prerequisite = { focus = BRK_none_coalition_won }
 
         completion_reward = {
-            
+            create_faction = COUNTER_COUP_CO
+            BRK = { add_to_faction = RAZ }
         }
     }
 
@@ -344,7 +349,7 @@ focus_tree = {
         prerequisite = { focus = BRK_counter_coup_co }
 
         completion_reward = {
-            
+            BRK = { add_to_faction = RAZ }
         }
     }
 
@@ -359,7 +364,7 @@ focus_tree = {
         prerequisite = { focus = BRK_invite_impervia }
 
         completion_reward = {
-            
+            add_ideas = literacy_poor
         }
     }
 
@@ -373,7 +378,7 @@ focus_tree = {
         prerequisite = { focus = BRK_write_scripture }
 
         completion_reward = {
-            
+            country_event = brenra.1
         }
     }
 
