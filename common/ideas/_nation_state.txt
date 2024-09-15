@@ -439,7 +439,14 @@ ideas = {
 			#modifier = {}
 			
 			visible = {
-				tag = ELY
+				OR = {
+					tag = COG
+					tag = GRA
+					tag = POL
+					tag = AIO
+					tag = ERE
+					tag = ELY
+				}
 			}
 			cancel_if_invalid = no
 			allowed_to_remove = {

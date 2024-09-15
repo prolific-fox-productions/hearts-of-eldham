@@ -8,6 +8,7 @@ set_war_support = 0.2
 #Ideas
 
 add_ideas = sex_men_limited
+add_ideas = culture_ellysian
 
 add_ideas = ELY_recent_war
 

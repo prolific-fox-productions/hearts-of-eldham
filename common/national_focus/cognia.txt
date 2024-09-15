@@ -47,7 +47,13 @@ focus_tree = {
         prerequisite = { focus = COG_develop_garxeto }
 
         completion_reward = {
-            
+            142 = {
+                add_building_construction = {
+                    type = infrastructure
+                    level = 1
+                    instant_build = yes
+                }
+            }
         }
     }
 

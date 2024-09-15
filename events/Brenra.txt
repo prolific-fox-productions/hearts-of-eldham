@@ -10,6 +10,7 @@ country_event = {
     title = brenra.1.t
     desc = brenra.1.d
 
+    is_triggered_only = yes
     option = {
         name = brenra.1.a
     }
