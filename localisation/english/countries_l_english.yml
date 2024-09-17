@@ -130,7 +130,28 @@
  FAR_DEF:0 "Farencia-Bellum"
  FAR_ADJ:0 "Farencian"
 
- #Farencia-Bellum
+ #Garxijos Yawos
+
+ #GAR_nationalism_ideo:0 ""
+ #GAR_nationalism_ideo_DEF:0 ""
+ #GAR_nationalism_ideo_ADJ:0 ""
+ #GAR_capitalism:0 ""
+ #GAR_capitalism_DEF:0 ""
+ #GAR_capitalism_ADJ:0 ""
+ #GAR_monarchism:0 ""
+ #GAR_monarchism_DEF:0 ""
+ #GAR_monarchism_ADJ:0 ""
+ GAR_socialism:0 "Garxijos Yawos"
+ GAR_socialism_DEF:0 "Garxijos Yawos"
+ GAR_socialism_ADJ:0 "Garxi"
+ #GAR_theocratic:0 ""
+ #GAR_theocratic_DEF:0 ""
+ #GAR_theocratic_ADJ:0 ""
+ GAR:0 "Garxijos Yawos"
+ GAR_DEF:0 "Garxijos Yawos"
+ GAR_ADJ:0 "Garxi"
+
+ #Grandia
  
  GRA_nationalism_ideo:0 "Imperial Grandia"
  GRA_nationalism_ideo_DEF:0 "Imperial Grandia"
