@@ -19,7 +19,7 @@ focus_tree = {
         icon = GFX_goal_no_image
 
         completion_reward = {
-            
+            add_political_power = -50
         }
     }
 
@@ -33,7 +33,13 @@ focus_tree = {
         prerequisite = { focus = COG_de-ellysianise }
 
         completion_reward = {
-            
+            153 = {
+                add_building_construction = {
+                    type = infrastructure
+                    level = 1
+                    instant_build = yes
+                }
+            }
         }
     }
 
@@ -67,7 +73,19 @@ focus_tree = {
         prerequisite = { focus = COG_develop_garxeto }
 
         completion_reward = {
-            
+            GAR = {
+                add_state_core = 143
+                add_state_core = 152
+                add_state_core = 153
+                transfer_state = 143
+                transfer_state = 152
+                transfer_state = 153
+            }
+            COG = {
+                remove_state_core = 143
+                remove_state_core = 152
+                remove_state_core = 153
+            }
         }
     }
 
@@ -81,7 +99,13 @@ focus_tree = {
         prerequisite = { focus = COG_develop_garxeto }
 
         completion_reward = {
-            
+            158 = {
+                add_building_construction = {
+                    type = infrastructure
+                    level = 1
+                    instant_build = yes
+                }
+            }
         }
     }
 
@@ -97,7 +121,39 @@ focus_tree = {
         prerequisite = { focus = COG_develop_coac }
 
         completion_reward = {
-            
+            CAC = {
+                add_state_core = 138
+                add_state_core = 158
+                add_state_core = 302
+                transfer_state = 138
+                transfer_state = 158
+                transfer_state = 302
+            }
+            COG = {
+                remove_state_core = 138
+                remove_state_core = 158
+                remove_state_core = 302
+                drop_cosmetic_tag = yes
+                set_politics = {
+                    ruling_party = capitalism
+                }
+                set_popularities = {
+                    capitalism = 100
+                }
+                add_country_leader_role = {
+                    character = COG_casual_walnut
+                    promote_leader = yes
+                    country_leader = {
+                        ideology = liberalism
+                        expire = "333.1.1.1"
+                        traits = {  }
+                    }
+                }
+                remove_country_leader_role = {
+                    character = COG_xeroise
+                    ideology = xeroism
+                }
+            }
         }
     }
 }

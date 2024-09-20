@@ -10,6 +10,16 @@
  #BRK_amora_hermona_desc:0 ""
  BRK_elisa_mapica:0 "Elisa Mápíca"
  #BRK_elisa_mapica_desc:0
+ 
+ #Confederation of Anarchist Communes
+ 
+ CAC_commune:0 "Anarchist Communes"
+ #CAC_commune_desc:0 ""
+ 
+ #Cognia
+ 
+ COG_casual_walnut:0 "ACasualWalnut"
+ #COG_casual_walnut_desc:0 ""
 
  #Ellysia 
 
@@ -20,6 +30,11 @@
  
  FAR_tatsumi:0 "Tatsumi"
  #FAR_tatsumi_desc:0 ""
+ 
+ #Garxijos
+ 
+ GAR_henrich_pierre:0 "Henrich B Pierre"
+ #USE_henrich_pierre_desc:0 ""
  
  #Razuni
  

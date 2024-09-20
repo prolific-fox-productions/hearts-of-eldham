@@ -440,11 +440,6 @@ ideas = {
 			
 			visible = {
 				OR = {
-					tag = COG
-					tag = GRA
-					tag = POL
-					tag = AIO
-					tag = ERE
 					tag = ELY
 				}
 			}

@@ -46,6 +46,27 @@
  BRK_DEF:0 "Brenra"
  BRK_ADJ:0 "Brenran"
 
+ #Confederation of Anarchist Communes
+
+ #CAC_nationalism_ideo:0 ""
+ #CAC_nationalism_ideo_DEF:0 ""
+ #CAC_nationalism_ideo_ADJ:0 ""
+ #CAC_capitalism:0 ""
+ #CAC_capitalism_DEF:0 ""
+ #CAC_capitalism_ADJ:0 ""
+ #CAC_monarchism:0 ""
+ #CAC_monarchism_DEF:0 ""
+ #CAC_monarchism_ADJ:0 ""
+ CAC_socialism:0 "Confederation of Anarchist Communes"
+ CAC_socialism_DEF:0 "the Confederation of Anarchist Communes"
+ CAC_socialism_ADJ:0 "Akarechian"
+ #CAC_theocratic:0 ""
+ #CAC_theocratic_DEF:0 ""
+ #CAC_theocratic_ADJ:0 ""
+ CAC:0 "Akarechi"
+ CAC_DEF:0 "Akarechi"
+ CAC_ADJ:0 "Akarechian"
+
  #Cognia
 
  COG_nationalism_ideo:0 "Cognian Empire"

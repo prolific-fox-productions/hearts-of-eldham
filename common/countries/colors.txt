@@ -3,6 +3,11 @@ BRK = {
 	color_ui = rgb { 0 140 6 }
 }
 
+CAC = {
+	color = rgb { 255 131 117 }
+	color_ui = rgb { 255 131 117 }
+}
+
 COG = {
 	color = rgb { 161 155 247 }
 	color_ui = rgb { 161 155 247 }

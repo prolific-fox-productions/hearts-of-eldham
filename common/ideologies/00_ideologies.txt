@@ -125,6 +125,9 @@ ideologies = {
 			green_anarchism = {
 			}
 
+			anarcho-communism = {
+			}
+
 			syndicalism = {
 			}
 		}

@@ -15,4 +15,14 @@ characters={
             traits = {  }
         }
     }
+
+    COG_casual_walnut={
+        name=COG_casual_walnut
+        gender = male
+        portraits={
+            civilian={
+                large="GFX_portrait_COG_casual_walnut_large"
+            }
+        }
+    }
 }

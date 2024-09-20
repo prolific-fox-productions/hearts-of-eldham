@@ -15,6 +15,7 @@ set_technology = {
 }
 
 recruit_character = COG_xeroise
+recruit_character = COG_casual_walnut
 
 set_politics ={
     ruling_party = socialism

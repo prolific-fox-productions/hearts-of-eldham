@@ -1,0 +1,17 @@
+characters={
+    CAC_commune={
+        name=CAC_commune
+        portraits={
+            civilian={
+                large="GFX_portrait_CAC_commune_large"
+            }
+        }
+        country_leader={
+            ideology=anarcho-communism
+            expire=330.1.1.1
+            id=-1
+            #desc=CAC_commune_desc
+            traits = {  }
+        }
+    }
+}

@@ -1,23 +1,27 @@
-capital = 153
+capital = 158
 
 #oob =
 set_stability = 0.7
 set_war_support = 0.3
+
+#Ideas
+
+
+
 #Starting Tech
 set_technology = {
 
 }
 
-recruit_character = GAR_henrich_pierre
-
+recruit_character = CAC_commune
 
 set_politics ={
     ruling_party = socialism
-	last_election = "30.6.1"
-	election_frequency = 126
+	last_election = "30.1.1"
+	election_frequency = 36
 	elections_allowed = no
 }
 
 set_popularities = {
-	socialism = 100
+    socialism = 100
 }

@@ -23,6 +23,14 @@ spriteTypes = {
 		texturefile = "gfx/leaders/BRK/GFX_large_elisa_mapica.dds"
 	}
 
+	### CAC
+	## CAC Leaders
+
+	spriteType = {
+		name = "GFX_portrait_CAC_commune_large"
+		texturefile = "gfx/leaders/CAC/GFX_large_CAC_commune.dds"
+	}
+
 	### ELY
 	## ELY Leaders
 
@@ -31,7 +39,7 @@ spriteTypes = {
 		texturefile = "gfx/leaders/ELY/GFX_large_thas_ellas.dds"
 	}
 
-	###FAR
+	### FAR
 	## FAR Leaders
 
 	spriteType = {
@@ -39,7 +47,7 @@ spriteTypes = {
 		texturefile = "gfx/leaders/FAR/GFX_large_tatsumi.dds"
 	}
 
-	###RAZ
+	### RAZ
 	## RAZ Leaders
 
 	spriteType = {
@@ -88,8 +96,9 @@ spriteTypes = {
 		texturefile = "gfx/leaders/XEK/GFX_large_diamond_nugget.dds"
 	}
 
-	###Zones
-	##Zone 3
+	### Zones
+	## Zone 3
+	# Zone 3 Leaders
 
 	spriteType = {
 		name = "GFX_portrait_COG_xeroise_large"
