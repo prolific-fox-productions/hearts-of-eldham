@@ -1,0 +1,25 @@
+focus_tree = {
+    id = erebor_focus
+
+    country = {
+        factor = 0
+        modifier = {
+            add = 20
+            original_tag = ERE
+        }
+    }
+    initial_show_position = { focus = ERE_ }
+    continuous_focus_position = { x = 0 y = 3000 }
+
+    focus = {
+        id = ERE_give_to_erebor
+        x = 10
+        y = 0
+        cost = 5
+        icon = GFX_goal_no_image
+        
+        completion_reward = {
+            
+        }
+    }
+}
