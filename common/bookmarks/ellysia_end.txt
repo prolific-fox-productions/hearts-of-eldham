@@ -6,8 +6,127 @@ bookmarks = {
 		picture = "GFX_select_date_1936"
 		default_country = "---"
 		
+		"USE"={
+			history = "USE_COMING_WAR_DESC"
+			ideology = socialism
+			ideas = {
+				USE_revolution_home
+			}
+			focuses = {
+				USE_open_diplo
+			}
+		}
+
+		#Minors
+
+		"AIO"={
+			#history = "_COMING_WAR_DESC"
+			ideology = monarchism
+			minor = yes
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		"BRK"={
+			history = "BRK_COMING_WAR_DESC"
+			ideology = monarchism
+			minor = yes
+			ideas = {
+				
+			}
+			focuses = {
+				BRK_amora_lean
+				BRK_no_lean
+				BRK_elisa_lean
+			}
+		}
+		"COG"={
+			#history = "_COMING_WAR_DESC"
+			ideology = socialism
+			minor = yes
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		"ERE"={
+			#history = "_COMING_WAR_DESC"
+			ideology = monarchism
+			minor = yes
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		"FAR"={
+			history = "FAR_COMING_WAR_DESC"
+			ideology = monarchism
+			minor = yes
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		"POL"={
+			#history = "_COMING_WAR_DESC"
+			ideology = monarchism
+			minor = yes
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		"RAZ"={
+			history = "RAZ_COMING_WAR_DESC"
+			ideology = monarchism
+			minor = yes
+			ideas = {
+				
+			}
+			focuses = {
+				RAZ_join_coalition
+				RAZ_stay_neutral
+				RAZ_join_ellysia
+			}
+		}
+		"XEK"={
+			history = "XEK_COMING_WAR_DESC"
+			ideology = monarchism
+			minor = yes
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		"YUV"={
+			#history = "_COMING_WAR_DESC"
+			ideology = monarchism
+			minor = yes
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+
+		#Other
+
 		"---"={
-			history = "OTHER_ELLYSIA_END_DESC"
+			history = "OTHER_COMING_WAR_DESC"
 		}
 		
 		effect = {

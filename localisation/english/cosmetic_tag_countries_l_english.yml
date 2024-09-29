@@ -20,6 +20,9 @@
  POL_ZONE_DEF:0 "Zone 5"
  POL_ZONE_ADJ:0 "Zone 5"
 
+ XEK_COLONY:0 "Grand Colony of Xeka"
+ XEK_COLONY_DEF:0 "the Grand Colony of Xeka"
+
  YUV_ZONE:0 "Zone 4"
  YUV_ZONE_DEF:0 "Zone 4"
  YUV_ZONE_ADJ:0 "Zone 4"

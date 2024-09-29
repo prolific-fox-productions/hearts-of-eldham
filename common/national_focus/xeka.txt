@@ -10,10 +10,14 @@ focus_tree = {
     }
 
     focus = {
-        id = XEK_placeholder
+        id = XEK_organise_colony
         x = 1
         y = 1
         cost = 1
         icon = GFX_goal_no_image
+
+        completion_reward = {
+            
+        }
     }
 }

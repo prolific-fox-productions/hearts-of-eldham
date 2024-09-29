@@ -3,6 +3,7 @@ capital = 79
 #oob =
 set_stability = 0.7
 set_war_support = 0.3
+set_cosmetic_tag = XEK_COLONY
 #Starting Tech
 set_technology = {
 
