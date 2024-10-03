@@ -11,10 +11,179 @@ focus_tree = {
 
     focus = {
         id = XEK_organise_colony
+        x = 10
+        y = 0
+        cost = 9
+        icon = GFX_goal_no_image
+
+        completion_reward = {
+            
+        }
+    }
+
+    focus = {
+        id = XEK_solid_dictatorship
+        x = 0
+        y = 1
+        cost = 8
+        icon = GFX_goal_no_image
+        relative_position_id = XEK_organise_colony
+        prerequisite = { focus = XEK_organise_colony }
+
+        completion_reward = {
+            
+        }
+    }
+
+    focus = {
+        id = XEK_nordstad_house
+        x = -1
+        y = 1
+        cost = 8
+        icon = GFX_goal_no_image
+        relative_position_id = XEK_solid_dictatorship
+        prerequisite = { focus = XEK_solid_dictatorship }
+
+        completion_reward = {
+            
+        }
+    }
+
+    focus = {
+        id = XEK_nordstad_fort
+        x = 0
+        y = 1
+        cost = 8
+        icon = GFX_goal_no_image
+        relative_position_id = XEK_nordstad_house
+        prerequisite = { focus = XEK_nordstad_house }
+
+        completion_reward = {
+            
+        }
+    }
+
+    focus = {
+        id = XEK_narzek_house
         x = 1
         y = 1
-        cost = 1
+        cost = 8
         icon = GFX_goal_no_image
+        relative_position_id = XEK_solid_dictatorship
+        prerequisite = { focus = XEK_solid_dictatorship }
+
+        completion_reward = {
+            
+        }
+    }
+
+    focus = {
+        id = XEK_narzek_bank
+        x = 0
+        y = 1
+        cost = 8
+        icon = GFX_goal_no_image
+        relative_position_id = XEK_narzek_house
+        prerequisite = { focus = XEK_narzek_house }
+
+        completion_reward = {
+            
+        }
+    }
+
+    focus = {
+        id = XEK_sorgliste_join
+        x = -1
+        y = 1
+        cost = 9
+        icon = GFX_goal_no_image
+        relative_position_id = XEK_narzek_bank
+        prerequisite = { focus = XEK_nordstad_fort focus = XEK_narzek_bank }
+
+        completion_reward = {
+            
+        }
+    }
+
+    focus = {
+        id = XEK_sorgliste_no
+        x = -1
+        y = 1
+        cost = 29.5
+        icon = GFX_goal_no_image
+        relative_position_id = XEK_sorgliste_join
+        prerequisite = { focus = XEK_sorgliste_join }
+
+        completion_reward = {
+            
+        }
+    }
+
+    focus = {
+        id = XEK_narzek_cheese
+        x = -1
+        y = 1
+        cost = 29.5
+        icon = GFX_goal_no_image
+        relative_position_id = XEK_sorgliste_no
+        prerequisite = { focus = XEK_sorgliste_no }
+
+        completion_reward = {
+            
+        }
+    }
+
+    focus = {
+        id = XEK_narzek_port
+        x = 0
+        y = 1
+        cost = 29.5
+        icon = GFX_goal_no_image
+        relative_position_id = XEK_narzek_cheese
+        prerequisite = { focus = XEK_narzek_cheese }
+
+        completion_reward = {
+            
+        }
+    }
+
+    focus = {
+        id = XEK_ice_highway
+        x = 1
+        y = 1
+        cost = 29.5
+        icon = GFX_goal_no_image
+        relative_position_id = XEK_sorgliste_no
+        prerequisite = { focus = XEK_sorgliste_no }
+
+        completion_reward = {
+            
+        }
+    }
+
+    focus = {
+        id = XEK_land_reclamation
+        x = 0
+        y = 1
+        cost = 29.5
+        icon = GFX_goal_no_image
+        relative_position_id = XEK_ice_highway
+        prerequisite = { focus = XEK_ice_highway }
+
+        completion_reward = {
+            
+        }
+    }
+
+    focus = {
+        id = XEK_end
+        x = 1
+        y = 1
+        cost = 29.5
+        icon = GFX_goal_no_image
+        relative_position_id = XEK_narzek_port
+        prerequisite = { focus = XEK_narzek_port }
+        prerequisite = { focus = XEK_land_reclamation }
 
         completion_reward = {
             
