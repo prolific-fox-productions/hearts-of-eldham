@@ -173,6 +173,35 @@
  USE_develop_crosotex_desc:0 "Crosotex must be developed alongside other pieces of land that exist within out liberating union."
  USE_antagonise_ellysia:0 "Antagonise Ellysia"
  USE_antagonise_ellysia_desc:0 "These tensing times between us and Ellyisa have come to a head with the discovery of the bigotry within the latter. And now Ellysia must die!"
+
+ #Xekan Focus Tree
+
+ XEK_organise_colony:0 "Colonial Organisation"
+ XEK_organise_colony_desc:0 "We must give ourselves a flag that is distinct from that of Sorgliste."
+ XEK_solid_dictatorship:0 "Solidified Dictatorship"
+ XEK_solid_dictatorship_desc:0 "Diamond Sylveri is now to be made solidly the leader of the Grand Colony of Xeka. Though he held all the power before, now he will be officially given all supreme power."
+ XEK_nordstad_house:0 "Expand Nordstad Houses"
+ XEK_nordstad_house_desc:0 "We are to expand the housing district in Nordstad so to better house the ever growing population."
+ XEK_nordstad_fort:0 "Nordstad's Fort"
+ XEK_nordstad_fort_desc:0 "We are to in order to improve our defenses build a fort within Nordstad."
+ XEK_narzek_house:0 "Build Houses in Narzek"
+ XEK_narzek_house_desc:0 "We are to expand the housing within Narzek to make sure that there are enough houses for the ever growing population of Narzek."
+ XEK_narzek_bank:0 "Bank in Narzek"
+ XEK_narzek_bank_desc:0 "To help with the maintenance of monetary funds, there is to be a bank built in Narzek."
+ XEK_sorgliste_join:0 "Join Sorgliste?"
+ XEK_sorgliste_join_desc:0 "We will apply to join Sorgliste as an official state, hopefully they say yes, as the vote to make it has been passed via a majority within Xeka."
+ XEK_sorgliste_no:0 "No Response"
+ XEK_sorgliste_no_desc:0 "We've not gotten a response from Sorgliste, so we have not joined."
+ XEK_narzek_cheese:0 "Narzekan Cheese"
+ XEK_narzek_cheese_desc:0 "We will build a cheese industry within Narzek to make cheese."
+ XEK_narzek_port:0 "Narzekan Port"
+ XEK_narzek_port_desc:0 "Narzek needs a port, and thus we will build one!"
+ XEK_ice_highway:0 "Nordstad-Narzek Highway"
+ XEK_ice_highway_desc:0 "We will build an ice highway between the towns of Narzek and Nordstad so that transportation between them is quick and easy."
+ XEK_land_reclamation:0 "Reclaimation of Land"
+ XEK_land_reclamation_desc:0 "We have lost some land around Narzek to the elements, we will now reclaim that land so to expand Narzek better."
+ XEK_end:0 "The Future"
+ XEK_end_desc:0 "With the establishment of the Grand Colony of Xeka, a future has become possible for the Xekan people, and it is up to us to make the best of it."
  
  #Imporant Basegame stuff
  
