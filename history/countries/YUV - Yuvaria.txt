@@ -4,6 +4,11 @@ capital = 146
 set_stability = 0.7
 set_war_support = 0.3
 set_cosmetic_tag = YUV_ZONE
+
+#Ideas
+
+
+
 #Starting Tech
 set_technology = {
 
