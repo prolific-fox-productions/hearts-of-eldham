@@ -37,7 +37,15 @@
 
  #Xeka
 
- 
+ xeka.1.t:0 "Petitioning Sorgliste"
+ xeka.1.d:0 "As we have developed on Eldham, members within us have petitoned to join Sorgliste as an official state. This petition has been supported by the government, and so now it is up to us to ask our overlord to finalise it."
+ xeka.1.a:0 "Hopefully they don't ignore them. :)"
+ xeka.2.t:0 "No Answer"
+ xeka.2.d:0 "They didn't answer us."
+ xeka.2.a:0 ":("
+ xeka.3.t:0 "Thank you for Playing"
+ xeka.3.d:0 "This is the end of the current historical path for the Grand Colony of Xeka.\n\nThough this isn't really much of a focus tree, I do hope that it will grow much larger, and account for the entire timespan of Eldham.\n\nGodspeed!"
+ xeka.3.a:0 "Godspeed!"
  
  #News Events
 

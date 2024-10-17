@@ -1,0 +1,53 @@
+###########################
+# Xekan Events
+###########################
+
+add_namespace = xeka
+
+#Let's Join Sorgliste
+country_event = {
+    id = xeka.1
+    title = xeka.1.t
+    desc = xeka.1.d
+
+    is_triggered_only = yes
+    option = {
+        name = xeka.1.a
+    }
+}
+
+#Sorgliste Ignored Us
+country_event = {
+    id = xeka.2
+    title = xeka.2.t
+    desc = xeka.2.d
+
+    is_triggered_only = yes
+    option = {
+        name = xeka.2.a
+    }
+}
+
+#Land Reclamation
+country_event = {
+    id = xeka.3
+    title = xeka.3.t
+    desc = xeka.3.d
+
+    is_triggered_only = yes
+    option = {
+        name = xeka.3.a
+    }
+}
+
+#Thank you for playing 0.1 Hist
+country_event = {
+    id = xeka.4
+    title = xeka.4.t
+    desc = xeka.4.d
+
+    is_triggered_only = yes
+    option = {
+        name = xeka.4.a
+    }
+}

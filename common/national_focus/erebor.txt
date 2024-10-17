@@ -8,7 +8,7 @@ focus_tree = {
             original_tag = ERE
         }
     }
-    initial_show_position = { focus = ERE_ }
+    initial_show_position = { focus = ERE_give_to_erebor }
     continuous_focus_position = { x = 0 y = 3000 }
 
     focus = {
