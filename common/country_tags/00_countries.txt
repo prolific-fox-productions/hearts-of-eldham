@@ -1,4 +1,6 @@
+ABB = "countries/Abbylonia.txt"
 AIO = "countries/Aionios Impervia.txt"
+BOG = "countries/Bogatyr.txt"
 BRK = "countries/Brenra.txt"
 CAC = "countries/CoAC.txt"
 COG = "countries/Cognia.txt"

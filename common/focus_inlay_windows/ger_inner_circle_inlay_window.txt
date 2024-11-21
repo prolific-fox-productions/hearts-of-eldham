@@ -1,0 +1,3 @@
+ger_inner_circle_inlay_window = {
+    
+}

@@ -173,6 +173,12 @@
  USE_develop_crosotex_desc:0 "Crosotex must be developed alongside other pieces of land that exist within out liberating union."
  USE_antagonise_ellysia:0 "Antagonise Ellysia"
  USE_antagonise_ellysia_desc:0 "These tensing times between us and Ellyisa have come to a head with the discovery of the bigotry within the latter. And now Ellysia must die!"
+ USE_ellysian_propaganda:0 "Make Propaganda"
+ USE_ellysian_propaganda_desc:0 "We must in fighting this war produce propaganda against the Ellysian Empire to inspire our people to see the Empire as it really is, an evil force in the north of Eldham."
+ USE_coalition_win:0 "The Coalition Wins!"
+ USE_coalition_win_desc:0 "Long Live the Second Coalition! Death to the Ellysian Empire!\n\nWe have won the war, and so begins the de-Ellysianisation of the northern lands."
+ USE_coalition_lose:0 "The Coalition Loses!"
+ USE_coalition_lose_desc:0 "We have lost the war!\n\nA great evil lays now undefeated, what will our people think of the lose?"
 
  #Xekan Focus Tree
 

@@ -1,3 +1,18 @@
+ABB = {
+	color = rgb { 82 130 206 }
+	color_ui = rgb { 82 130 206 }
+}
+
+AIO = {
+	color = rgb { 42 168 92 }
+	color_ui = rgb { 42 168 92 }
+}
+
+BOG = {
+	color = rgb { 119 37 60 }
+	color_ui = rgb { 119 37 60 }
+}
+
 BRK = {
 	color = rgb { 0 140 6 }
 	color_ui = rgb { 0 140 6 }

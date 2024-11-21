@@ -13,11 +13,12 @@ sub_units = {
 			artillery
 		}
 		
-		group = armor
+		group = armor_combat_support
 
 		categories = {
 			category_all_armor
 			category_army
+			category_self_propelled_artillery
 		}		
 
 		combat_width = 3
@@ -78,11 +79,12 @@ sub_units = {
 			artillery
 		}
 		
-		group = armor
+		group = armor_combat_support
 
 		categories = {
 			category_all_armor
 			category_army
+			category_self_propelled_artillery
 		}		
 		combat_width = 3
 
@@ -146,11 +148,12 @@ sub_units = {
 			artillery
 		}
 		
-		group = armor
+		group = armor_combat_support
 		
 		categories = {
 			category_all_armor
 			category_army
+			category_self_propelled_artillery
 		}
 
 		combat_width = 3
@@ -209,22 +212,24 @@ sub_units = {
 		active = yes
 		
 		type = {
+			support
 			armor
 			artillery
 		}
 		
-		group = armor
+		group = support
 		
 		categories = {
 			category_all_armor
 			category_army
+			category_self_propelled_artillery
 		}
 		
 
-		combat_width = 3
+		combat_width = 0
 
 		need = {
-			super_heavy_tank_artillery_chassis = 40
+			super_heavy_tank_artillery_chassis = 20
 		}
 		manpower = 500
 		max_organisation = 0
@@ -282,11 +287,12 @@ sub_units = {
 			artillery
 		}
 		
-		group = armor
+		group = armor_combat_support
 		
 		categories = {
 			category_all_armor
 			category_army
+			category_self_propelled_artillery
 		}
 
 		combat_width = 3
@@ -351,7 +357,7 @@ sub_units = {
 	#		artillery
 	#	}
 	#	
-	#	group = armor
+	#	group = armor_combat_support
 #
 #	#	categories = {
 #	#		category_all_armor
@@ -413,7 +419,7 @@ sub_units = {
 #	#		artillery
 #	#	}
 #	#	
-#	#	group = armor
+#	#	group = armor_combat_support
 #
 #	#	categories = {
 #	#		category_all_armor
@@ -478,7 +484,7 @@ sub_units = {
 #			artillery
 #		}
 #		
-#		group = armor
+#		group = armor_combat_support
 #		
 #		categories = {
 #			category_all_armor

@@ -4,6 +4,12 @@
  TST_DEF:0 ""
  TST_ADJ:0 ""
 
+ #Abbylonia
+
+ ABB:0 "Abbylonia"
+ ABB_DEF:0 "Abbylonia"
+ ABB_ADJ:0 "Abbylonian"
+
  #Aionios Impervia
 
  AIO_nationalism_ideo:0 "Aionios State"
@@ -24,6 +30,27 @@
  AIO:0 "Aionios Impervia"
  AIO_DEF:0 "the Aionios Impervia"
  AIO_ADJ:0 "Aionish"
+
+ #Brenra
+ 
+ BOG_nationalism_ideo:0 "Bogatyrian Junta"
+ BOG_nationalism_ideo_DEF:0 "the Bogatyrian Junta"
+ BOG_nationalism_ideo_ADJ:0 "Bogatyrian"
+ BOG_capitalism:0 "Republic of Bogatyr"
+ BOG_capitalism_DEF:0 "the Republic Bogatyr"
+ BOG_capitalism_ADJ:0 "Bogatyrian"
+ BOG_monarchism:0 "Grand Duchy of Bogatyr"
+ BOG_monarchism_DEF:0 "the Grand Duchy of Bogatyr"
+ BOG_monarchism_ADJ:0 "Bogatyrian"
+ BOG_socialism:0 "Commune of Bogatyr"
+ BOG_socialism_DEF:0 "the Commune of Bogatyr"
+ BOG_socialism_ADJ:0 "Bogatyrian"
+ #BOG_theocratic:0 ""
+ #BOG_theocratic_DEF:0 ""
+ #BOG_theocratic_ADJ:0 "Bogatyrian"
+ BOG:0 "Bogatyr"
+ BOG_DEF:0 "Bogatyr"
+ BOG_ADJ:0 "Bogatyrian"
  
  #Brenra
  

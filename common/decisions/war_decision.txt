@@ -25,7 +25,7 @@ decision_cat_ellysia_war = {
 			country_event = ellysia.1
 		}
 		timeout_effect = {
-			#country_event = ellysia.2
+			white_peace = ELY
         }
 
 		fire_only_once = yes
